@@ -61,7 +61,7 @@ Tương tự như RPG Maker XP/VX/VX Ace, thậm chí là bạn gần như sẽ 
 
 Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằng tệp `Game.exe` gốc) và **MKXP** (mkxp-z, một lớp tương thích cho RPG Maker XP/VX/VX Ace).
 
-* Bạn bắt buộc phải dùng Wine (Kegworks hoặc CrossOver) để có thể chơi các game này bằng tệp `Game.exe` gốc. Tuy nhiên thì RGSS Player sử dụng DirectX 9 (chứ không phải DirectX 10 hay 11), nên game sẽ chạy rất chậm do DXVK không thể hoạt động được trên DirectX 9 và phải dùng WineD3D để thay thế.<br>CrossOver có thể cải thiện được tình trạng giật lag này, nhưng vẫn sẽ không hoàn toàn ổn định.
+* Bạn bắt buộc phải dùng Wine (Kegworks hoặc CrossOver) để có thể chơi các game này bằng tệp `Game.exe` gốc. Tuy nhiên thì RGSS Player sử dụng DirectX 9 (chứ không phải DirectX 10 hay 11), nên game sẽ chạy rất chậm do DXVK không thể hoạt động được trên DirectX 9 và phải dùng WineD3D để thay thế.<br>Ngay cả CrossOver cũng không cứu được trường hợp này.
 
 * Một số máy sẽ không thể phát được nhạc MIDI nếu chơi thông qua Wine.
 
