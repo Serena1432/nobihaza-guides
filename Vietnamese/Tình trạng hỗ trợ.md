@@ -8,7 +8,7 @@ Theo như mình xem xét thì tính đến ngày 29/4/2025, khả năng chơi c�
 
 ### RPG Maker 2000/2003
 
-**TL;DR:** Tất cả game đều sẽ hỗ trợ, tuy nhiên cần cài đặt một số thư viện và chỉnh sửa một số cài đặt.
+> Tất cả game đều sẽ hỗ trợ, tuy nhiên cần cài đặt một số thư viện và chỉnh sửa một số cài đặt.
 
 Đa số các game đều sẽ yêu cầu bạn cài đặt gói khởi chạy (RTP) và chuyển đổi vùng của thiết bị thành tiếng Nhật trước khi chơi. Hãy đọc mục **Điều kiện cơ bản** cho hệ điều hành của bạn để biết thêm chi tiết.
 
@@ -33,7 +33,7 @@ Tuy nhiên, có một số game lại yêu cầu chơi bằng tệp tin `RPG_RT.
 
 ### RPG Maker XP/VX/VX Ace
 
-**TL;DR:** Tất cả game đều sẽ hỗ trợ, tuy nhiên cần cài đặt một số thư viện.
+> Tất cả game đều sẽ hỗ trợ, tuy nhiên cần cài đặt một số thư viện.
 
 Tất cả các game Nobihaza được làm bằng các phần mềm này đều sẽ hỗ trợ Windows, bất kể là game đó dùng RGSS Player hoặc là dùng MKXP để chạy game.
 
@@ -41,7 +41,7 @@ Tuy nhiên thì bạn nên cài đặt cả RTP của game (đã có ở phần 
 
 ### RPG Maker MV/MZ
 
-**TL;DR:** Tất cả game đều sẽ hỗ trợ.
+> Tất cả game đều sẽ hỗ trợ.
 
 Tương tự như RPG Maker XP/VX/VX Ace, thậm chí là bạn gần như sẽ không phải cài đặt thêm bất kì thư viện nào. Tuy nhiên thì các game RPG Maker MV sẽ yêu cầu cấu hình khá cao, hãy chắc chắn máy bạn có đủ cấu hình khi chơi.
 
@@ -49,7 +49,7 @@ Tương tự như RPG Maker XP/VX/VX Ace, thậm chí là bạn gần như sẽ 
 
 ### RPG Maker 2000/2003
 
-**TL;DR:** 90% game đều sẽ có thể chơi được ổn định thông qua các công cụ hỗ trợ.
+> 90% game đều sẽ có thể chơi được ổn định thông qua các công cụ hỗ trợ.
 
 * Khuyên dùng EasyRPG để có trải nghiệm game tốt nhất, vì EasyRPG hỗ trợ chính thức trên macOS. Tuy nhiên vẫn có một số game sẽ không chạy được, hoặc chạy không ổn định như mình đã đề cập ở mục Windows.
 
@@ -57,7 +57,7 @@ Tương tự như RPG Maker XP/VX/VX Ace, thậm chí là bạn gần như sẽ 
 
 ### RPG Maker XP/VX/VX Ace
 
-**TL;DR:** Gần như không có game nào có thể chạy được ổn định, kể cả khi có công cụ hỗ trợ.
+> Gần như không có game nào có thể chạy được ổn định, kể cả khi có công cụ hỗ trợ.
 
 Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằng tệp `Game.exe` gốc) và **MKXP** (mkxp-z, một lớp tương thích cho RPG Maker XP/VX/VX Ace).
 
@@ -69,7 +69,7 @@ Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằ
 
 ### RPG Maker MV/MZ
 
-**TL;DR:** Đa số game đều có thể chơi được ổn định thông qua các công cụ hỗ trợ. Rất may mắn.
+> Đa số game đều có thể chơi được ổn định thông qua các công cụ hỗ trợ. Rất may mắn.
 
 Bản chất của các game này là dựa trên NW.js (Node.js + HTML5), và NW.js hỗ trợ cho cả macOS; nên về cơ bản thì bạn có thể chạy các game này trên cả macOS mà không thông qua Wine hay bất kì giả lập/lớp tương thích nào. Vì thế nên trải nghiệm chơi game sẽ không khác gì các hệ điều hành khác.
 
@@ -84,7 +84,7 @@ Rất may mắn là đa số game đều có thể chạy được trên Linux, 
 
 ### RPG Maker 2000/2003
 
-**TL;DR:** Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ.
+> Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ.
 
 * Khuyên dùng EasyRPG để có trải nghiệm game tốt nhất, vì EasyRPG hỗ trợ chính thức trên Linux. Tuy nhiên vẫn có một số game sẽ không chạy được, hoặc chạy không ổn định như mình đã đề cập ở mục Windows.
 
@@ -92,7 +92,7 @@ Rất may mắn là đa số game đều có thể chạy được trên Linux, 
 
 ### RPG Maker XP/VX/VX Ace
 
-**TL;DR:** Đa số game đều có thể chạy ổn định thông qua các công cụ hỗ trợ.
+> Đa số game đều có thể chạy ổn định thông qua các công cụ hỗ trợ.
 
 Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằng tệp `Game.exe` gốc) và **MKXP** (mkxp-z, một lớp tương thích cho RPG Maker XP/VX/VX Ace).
 
@@ -102,7 +102,7 @@ Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằ
 
 ### RPG Maker MV/MZ
 
-**TL;DR:** Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
+> Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
 
 Không khác gì so với macOS.
 
@@ -112,7 +112,7 @@ Rất may mắn khi Android có một công cụ tên là JoiPlay, và nó đã 
 
 ### RPG Maker 2000/2003
 
-**TL;DR:** Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
+> Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
 
 * Bạn bắt buộc phải chơi bằng EasyRPG cho tất cả các game. Khả năng hỗ trợ thì mình đã nói ở mục Windows, đối với các hệ điều hành khác cũng sẽ tương tự như vậy.
 
@@ -120,7 +120,7 @@ Rất may mắn khi Android có một công cụ tên là JoiPlay, và nó đã 
 
 ### RPG Maker XP/VX/VX Ace
 
-**TL;DR:** Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
+> Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
 
 * JoiPlay đã port MKXP cho Android cực kì tốt nên đa số game đều đã có thể chơi được thông qua MKXP trên JoiPlay, với độ ổn định còn hơn cả MKXP trên macOS với Linux.
 
@@ -128,7 +128,7 @@ Rất may mắn khi Android có một công cụ tên là JoiPlay, và nó đã 
 
 ### RPG Maker MV/MZ
 
-**TL;DR:** Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
+> Đa số game đều sẽ có thể chạy ổn định thông qua các công cụ hỗ trợ. Một số game sẽ hoàn toàn không thể chạy được.
 
 * JoiPlay đã port một phần của NW.js vào Android, nên bạn đã có thể chơi hầu hết các game dạng này trên Android; nhưng độ ổn định sẽ không bằng trên máy tính do NW.js không thể port hoàn toàn lên thiết bị di động được.
 
@@ -142,7 +142,7 @@ Giống như các ứng dụng iOS bên thứ 3 khác, bạn cần có máy tín
 
 ### RPG Maker 2000/2003
 
-**TL;DR:** Đa số game đều sẽ có thể chạy được thông qua các công cụ hỗ trợ, tuy nhiên sẽ không được ổn định như các hệ điều hành khác, và một số game sẽ hoàn toàn không thể chạy được.
+> Đa số game đều sẽ có thể chạy được thông qua các công cụ hỗ trợ, tuy nhiên sẽ không được ổn định như các hệ điều hành khác, và một số game sẽ hoàn toàn không thể chạy được.
 
 * Vào ngày 11/1/2024, mình đã tải lên một bản thử nghiệm của EasyRPG dành cho iOS (thậm chí còn trước cả đội ngũ phát triển EasyRPG!), và từ đó đã có nhiều game Nobihaza cũ có thể chạy được trên iOS; mặc dù có một số lưu ý so với các hệ điều hành khác:
     * EasyRPG sẽ được chạy thông qua RetroArch chứ không có ứng dụng riêng, vì thế nên có một số thứ sẽ phụ thuộc vào RetroArch. Bạn nên đọc cả hướng dẫn sử dụng của RetroArch nữa.
@@ -153,13 +153,13 @@ Giống như các ứng dụng iOS bên thứ 3 khác, bạn cần có máy tín
 
 ### RPG Maker XP/VX/VX Ace
 
-**Không có game nào chạy được trên iOS cả.** Một lần nữa, cảm ơn Apple rất nhiều.
+> **Không có game nào chạy được trên iOS cả.** Một lần nữa, cảm ơn Apple rất nhiều.
 
 Mình đang nghiên cứu để phát triển một bản MKXP dành cho iOS, nhưng mình sẽ không biết bao giờ nó mới hoàn thành được vì nó yêu cầu rất nhiều thời gian và công sức.
 
 ### RPG Maker MV/MZ
 
-**Có thể chạy được, nhưng cần phải có MacBook, iPhone/iPad và am hiểu về phát triển ứng dụng cho iOS.**
+> **Có thể chạy được, nhưng cần phải có MacBook, iPhone/iPad và am hiểu về phát triển ứng dụng cho iOS.**
 
 Bản chất các game này được làm bằng JavaScript, nên bạn vẫn có thể port game sang iOS giống như cách mà [**Doraemon: Nobita's Resident Evil 2 (Việt Hoá)**](https://nobi2.s1432.org) đã làm, bằng cách cho game vào một trình duyệt nhúng (embedded browser, có thể là WKWebView hoặc UIWebView). Tuy nhiên cách này yêu cầu bạn cần phải có một chiếc MacBook, một chiếc iPhone/iPad và một chút am hiểu về phát triển ứng dụng cho iOS/JavaScript để có thể sửa lỗi trong quá trình port.
 
