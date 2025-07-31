@@ -365,3 +365,13 @@ Thay `/path/to/apk.apk` thành đường dẫn tới tệp tin APK.
 
 > [!IMPORTANT]
 > Một số điện thoại (nhất là của Xiaomi đang chạy MIUI/HyperOS) sẽ yêu cầu bạn phải bật tùy chọn **Cài đặt ứng dụng bằng USB** trong phần Tùy chọn nhà phát triển.
+
+### Đóng gói APK dành cho Android
+
+Nếu bạn không muốn sử dụng phần mềm hỗ trợ và muốn tự đóng gói game thành một tệp APK, bạn có thể đọc các hướng dẫn bên ngoài bằng tiếng Anh:
+
+* [Dành cho RPG Maker MV/MZ, bởi BenSD trên cộng đồng RPG Maker](https://forums.rpgmakerweb.com/index.php?threads/from-mv-mz-to-native-android-app-with-windows-and-cordova-updated-july-23.148385/).
+
+Các phần mềm làm game khác thì mình vẫn chưa tìm được.
+
+Sau này khi mình đã bắt đầu xây dựng ứng dụng cho Android, mình sẽ có thể viết hướng dẫn bằng tiếng Việt trên trang này trong tương lai.
