@@ -64,7 +64,7 @@ Một hệ điều hành độc quyền và mã nguồn đóng được phát tr
 
 ### Linux
 
-Bản thân Linux là chỉ là một nhân được các hệ điều hành khác sử dụng. Nó là một nhân miễn phí mã nguồn mở được phát triển ban đầu bởi Linus Torvalds, và sau này là cả cộng đồng Linux Foundation cùng với những người đóng góp khác.
+Bản thân Linux chỉ là một nhân được các hệ điều hành khác sử dụng. Nó là một nhân miễn phí mã nguồn mở được phát triển ban đầu bởi Linus Torvalds, và sau này là cả cộng đồng Linux Foundation cùng với những người đóng góp khác.
 
 Do tính chất mở của Linux, nhân này yêu cầu các hệ điều hành dựa trên nó cũng phải mã nguồn mở, và chúng ta gọi chung các hệ điều hành này là "Linux distro".
 
