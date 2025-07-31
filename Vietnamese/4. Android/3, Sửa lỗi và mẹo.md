@@ -285,7 +285,9 @@ Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 
 * Nhấn liên tục 7 lần vào mục **Số hiệu bản tạo** đó, cho đến khi có thông báo **Đã bật chế độ nhà phát triển**. Một số máy có thể sẽ yêu cầu nhập mật khẩu điện thoại ở bước này.
 
-* Vào phần **Tùy chọn nhà phát triển** (một số máy sẽ hiển thị luôn ở phần Cài đặt, còn một số máy sẽ nằm trong mục Hệ thống). Kéo xuống bên dưới và bật tùy chọn **Gỡ lỗi qua USB**.
+* Vào phần **Tùy chọn nhà phát triển** (một số máy sẽ hiển thị luôn ở phần Cài đặt, còn một số máy sẽ nằm trong mục Hệ thống). Tìm tùy chọn **Gỡ lỗi qua USB** và bật tùy chọn đó lên.
+
+![](images/tempFileForShare_20250801-004128.png)
 
 #### Cài đặt ADB
 
