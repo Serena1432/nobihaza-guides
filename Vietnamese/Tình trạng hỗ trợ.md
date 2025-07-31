@@ -14,9 +14,9 @@ Theo như mình xem xét thì tính đến ngày 29/4/2025, khả năng chơi c�
 
 #### Tiếng Nhật/Tiếng Anh
 
-Trừ **Nobita no Senki ACE** (do game này có sử dụng một số script phức tạp nên có thể sẽ không ổn định), thì toàn bộ các game tiếng Nhật và tiếng Anh đều có thể chơi trên công cụ giả lập **EasyRPG** mà không phải qua bất kì chỉnh sửa nào, với trải nghiệm không khác gì `RPG_RT.exe` gốc.
+Trừ **Nobita no Senki ACE** (do game này có sử dụng một số script phức tạp nên có thể sẽ không ổn định), thì toàn bộ các game tiếng Nhật và tiếng Anh đều có thể chơi trên lớp tương thích **EasyRPG** mà không phải qua bất kì chỉnh sửa nào, với trải nghiệm không khác gì `RPG_RT.exe` gốc.
 
-Nếu bạn muốn trải nghiệm gốc mà thông qua phần mềm giả lập, bạn cũng có thể chuyển vùng của thiết bị sang Nhật Bản và chơi game bằng tệp `RPG_RT.exe` gốc.
+Nếu bạn muốn trải nghiệm gốc mà thông qua phần mềm nào, bạn cũng có thể chuyển vùng của thiết bị sang Nhật Bản và chơi game bằng tệp `RPG_RT.exe` gốc.
 
 #### Tiếng Việt
 
@@ -71,7 +71,7 @@ Các game này sẽ được chia ra làm 2 loại: **RGSS Player** (chạy bằ
 
 > Đa số game đều có thể chơi được ổn định thông qua các công cụ hỗ trợ. Rất may mắn.
 
-Bản chất của các game này là dựa trên NW.js (Node.js + HTML5), và NW.js hỗ trợ cho cả macOS; nên về cơ bản thì bạn có thể chạy các game này trên cả macOS mà không thông qua Wine hay bất kì giả lập/lớp tương thích nào. Vì thế nên trải nghiệm chơi game sẽ không khác gì các hệ điều hành khác.
+Bản chất của các game này là dựa trên NW.js (Node.js + HTML5), và NW.js hỗ trợ cho cả macOS; nên về cơ bản thì bạn có thể chạy các game này trên cả macOS mà không thông qua Wine hay bất kì lớp tương thích nào. Vì thế nên trải nghiệm chơi game sẽ không khác gì các hệ điều hành khác.
 
 Tuy nhiên, vẫn có một số game sử dụng thư viện dành riêng cho Windows và sẽ không thể chơi được nếu không chỉnh sửa lại dữ liệu của game, tiêu biểu là các game dưới đây:
 

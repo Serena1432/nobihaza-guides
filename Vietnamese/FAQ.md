@@ -100,8 +100,6 @@ Ngoại trừ EasyRPG ra thì macOS không tối ưu hoá tốt cho các engine 
 
 Nói chung tất cả vấn đề đều là do macOS không được tối ưu hóa tốt cho game.
 
-
-
 ## Tôi có thể chơi Nobihaza trên máy chơi game (console) được không?
 
 Đáng tiếc là chỉ có EasyRPG (chạy game RPG Maker 2000/2003) là có thể chơi được trên các máy chơi game.
