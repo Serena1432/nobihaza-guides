@@ -2,7 +2,7 @@
 
 Ở phần này, mình sẽ giải nghĩa của các thuật ngữ và các tên riêng bạn sẽ gặp trong hướng dẫn này, và cả trong khi đang chơi game Nobihaza.
 
-## Về Nobihaza
+## Về Nobihaza và RPG Maker
 
 ### Nobihaza
 
