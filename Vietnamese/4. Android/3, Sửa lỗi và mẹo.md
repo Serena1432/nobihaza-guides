@@ -320,7 +320,7 @@ Thay `/path/to/adb` thành đường dẫn của `adb`.
 
 ![](images/image-23.png)
 
-### Chuyển dữ liệu sang điện thoại
+#### Chuyển dữ liệu sang điện thoại
 
 Sử dụng lệnh sau để sao chép một thư mục từ máy tính qua điện thoại:
 
@@ -353,7 +353,7 @@ adb push -a "/home/hyacine/Nobihaza/Nobihaza 2" "/sdcard/Download"
 >
 > * Thay `/sdcard` trong đường dẫn thành `/storage/CF22-9997` (thay `CF22-9997` thành ID bạn vừa tìm được).
 
-### Cài đặt APK trực tiếp từ máy tính
+#### Cài đặt APK trực tiếp từ máy tính
 
 Đa số điện thoại sẽ cho phép cài đặt tệp tin APK trực tiếp từ máy tính mà không cần chuyển tệp sang điện thoại bằng lệnh:
 
