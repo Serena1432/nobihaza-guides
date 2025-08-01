@@ -240,7 +240,7 @@ Cả EasyRPG và JoiPlay đều sẽ hỗ trợ thay đổi bố cục của cá
 
 * Sau đó lưu lại cài đặt.
 
-## Chuyển game từ điện thoại qua máy tính
+### Chuyển game từ điện thoại qua máy tính
 
 Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 
@@ -250,7 +250,7 @@ Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 > [!IMPORTANT]
 > Trước khi bắt đầu, hãy cài đặt driver của điện thoại nếu bạn đang sử dụng Windows.
 
-### Thông qua MTP
+#### Thông qua MTP
 
 > [!IMPORTANT]
 > Đối với Windows và Linux thì mặc định sẽ nhận luôn điện thoại khi mới cắm vào USB. Tuy nhiên với macOS, bạn cần cài đặt **OpenMTP** và sử dụng MTP ở chính ứng dụng đó.
@@ -275,9 +275,9 @@ Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 
 * Tiến hành copy game vào thư mục bạn muốn giống như bạn thường làm với ổ cứng của máy tính.
 
-### Thông qua ADB
+#### Thông qua ADB
 
-#### Bật gỡ lỗi qua USB trên điện thoại
+##### Bật gỡ lỗi qua USB trên điện thoại
 
 * Vào mục **Cài đặt** của điện thoại và nhấn vào phần **Thông tin điện thoại** (một số máy sẽ ghi là **Giới thiệu về điện thoại**). Tìm đến phần **Số hiệu bản tạo** (một số máy sẽ nằm ở phần Thông tin phần mềm).
 
@@ -289,7 +289,7 @@ Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 
 ![](images/tempFileForShare_20250801-004128.png)
 
-#### Cài đặt ADB
+##### Cài đặt ADB
 
 Trước tiên, bạn cần cài đặt ADB trên máy tính.
 
@@ -299,7 +299,7 @@ Trước tiên, bạn cần cài đặt ADB trên máy tính.
 
 * Giải nén tệp tin `.zip` vừa tải xuống vào một thư mục bất kì.
 
-#### Kết nối điện thoại
+##### Kết nối điện thoại
 
 > [!IMPORTANT]
 > Đối với macOS và Linux, hãy thêm `./` vào trước từ `adb` trong mọi câu lệnh bên dưới thông báo này, ví dụ như `./adb devices` thay vì `adb devices`.
@@ -320,7 +320,7 @@ Thay `/path/to/adb` thành đường dẫn của `adb`.
 
 ![](images/image-23.png)
 
-#### Chuyển dữ liệu sang điện thoại
+##### Chuyển dữ liệu sang điện thoại
 
 Sử dụng lệnh sau để sao chép một thư mục từ máy tính qua điện thoại:
 
@@ -353,7 +353,7 @@ adb push -a "/home/hyacine/Nobihaza/Nobihaza 2" "/sdcard/Download"
 >
 > * Thay `/sdcard` trong đường dẫn thành `/storage/CF22-9997` (thay `CF22-9997` thành ID bạn vừa tìm được).
 
-#### Cài đặt APK trực tiếp từ máy tính
+##### Cài đặt APK trực tiếp từ máy tính
 
 Đa số điện thoại sẽ cho phép cài đặt tệp tin APK trực tiếp từ máy tính mà không cần chuyển tệp sang điện thoại bằng lệnh:
 
