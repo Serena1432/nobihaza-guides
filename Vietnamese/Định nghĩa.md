@@ -240,3 +240,24 @@ Một phần mềm tổng hợp lại các công cụ giả lập và lớp tư�
 
 EasyRPG cũng sẽ hỗ trợ RetroArch, và RetroArch là một phương thức bắt buộc để sử dụng EasyRPG trên iOS trước khi có ứng dụng chính thức.
 
+## Dành cho nhà phát triển
+
+### APK
+
+Định dạng của tệp tin cài đặt ứng dụng trên Android.
+
+### IPA
+
+Định dạng của tệp tin cài đặt ứng dụng bên thứ ba trên iOS.
+
+### Keystore
+
+Một tệp tin khóa dùng để xác thực và ký các tệp APK.
+
+### Key Pair
+
+Một khóa chứa thông tin chứng chỉ và mật khẩu dùng để ký các tệp APK. Một keystore có thẻ có nhiều keypair.
+
+### Sign (ký)
+
+Các ứng dụng (kể cả trên máy tính hay điện thoại) cần phải được ký để tránh bị coi là ứng dụng không an toàn. Có một số hệ điều hành sẽ cho phép ký miễn phí, nhưng cũng có một số hệ điều hành yêu cầu phải trả phí để có thể ký ứng dụng.
