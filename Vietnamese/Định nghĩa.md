@@ -250,6 +250,10 @@ EasyRPG cũng sẽ hỗ trợ RetroArch, và RetroArch là một phương thức
 
 Định dạng của tệp tin cài đặt ứng dụng bên thứ ba trên iOS.
 
+### Sideload
+
+Một phương thức để cài ứng dụng bên thứ ba trên điện thoại mà không qua cửa hàng ứng dụng.
+
 ### Keystore
 
 Một tệp tin khóa dùng để xác thực và ký các tệp APK.
