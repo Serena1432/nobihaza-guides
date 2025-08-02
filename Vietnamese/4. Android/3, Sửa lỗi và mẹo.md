@@ -139,6 +139,8 @@ Xem tại mục [EasyRPG](../EasyRPG.md).
 
 ![](images/image-12.png)
 
+Có một số người nói rằng lỗi này thường xảy ra ở các máy điện thoại Xiaomi, nhưng mình chưa biết sửa triệt để lỗi này như thế nào.
+
 Hãy thử giải nén lại game và thử lại. Nếu vẫn không được thì có thể bản game bạn đang chơi không tương thích với JoiPlay, hãy thử với một bản game khác.
 
 ### `No game scripts specified (missing Game.ini?)
