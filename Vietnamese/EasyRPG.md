@@ -77,8 +77,10 @@ Bạn cũng có thể tự sửa các tệp tin `.po` đang bị lỗi, nhưng y
 
 ![](images/image-14.png)
 
-Nếu là game được dịch ra tiếng Việt, có thể là game đang sử dụng kiểu dịch cũ (thay đổi phông chữ và chạy trực tiếp bằng RPG_RT), nên nó sẽ không hỗ trợ chơi trên EasyRPG do khác phông chữ. Bạn cần chơi trực tiếp bằng tệp tin `RPG_RT.exe`
+Nếu là game được dịch ra tiếng Việt, có thể là game đang sử dụng kiểu dịch cũ (thay đổi phông chữ và chạy trực tiếp bằng RPG_RT), nên nó sẽ không hỗ trợ chơi trên EasyRPG do khác phông chữ. Bạn cần chơi trực tiếp bằng tệp tin `RPG_RT.exe`.
 
 ## Error loading `RPG_RT.ldb` / Game crash trong khi khởi động ở RetroArch
+
+![](images/image-21.png)
 
 Hai lỗi này thực chất là một, do bạn đang chơi bằng tệp tin nén có đặt mật khẩu. Hãy giải nén game ra trước sau đó thử lại.
