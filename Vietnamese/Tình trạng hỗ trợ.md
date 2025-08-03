@@ -16,7 +16,7 @@ Theo như mình xem xét thì tính đến ngày 29/4/2025, khả năng chơi c�
 
 Trừ **Nobita no Senki ACE** (do game này có sử dụng một số script phức tạp nên có thể sẽ không ổn định), thì toàn bộ các game tiếng Nhật và tiếng Anh đều có thể chơi trên lớp tương thích **EasyRPG** mà không phải qua bất kì chỉnh sửa nào, với trải nghiệm không khác gì `RPG_RT.exe` gốc.
 
-Nếu bạn muốn trải nghiệm gốc mà thông qua phần mềm nào, bạn cũng có thể chuyển vùng của thiết bị sang Nhật Bản và chơi game bằng tệp `RPG_RT.exe` gốc.
+Nếu bạn muốn trải nghiệm gốc mà không thông qua phần mềm nào, bạn cũng có thể chuyển vùng của thiết bị sang Nhật Bản và chơi game bằng tệp `RPG_RT.exe` gốc.
 
 #### Tiếng Việt
 
@@ -132,7 +132,7 @@ Rất may mắn khi Android có một công cụ tên là JoiPlay, và nó đã 
 
 * JoiPlay đã port một phần của NW.js vào Android, nên bạn đã có thể chơi hầu hết các game dạng này trên Android; nhưng độ ổn định sẽ không bằng trên máy tính do NW.js không thể port hoàn toàn lên thiết bị di động được.
 
-* Đối với các game sử dụng thư viện dành riêng cho Windows thì sẽ hoàn toàn không thể chạy được, và bạn bắt buộc phải sửa game hoặc có máy tính
+* Đối với các game sử dụng thư viện dành riêng cho Windows thì sẽ hoàn toàn không thể chạy được, và bạn bắt buộc phải sửa game hoặc có máy tính.
 
 ## iOS
 
