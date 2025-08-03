@@ -20,7 +20,7 @@ Nếu bạn muốn trải nghiệm gốc mà không thông qua phần mềm nào
 
 #### Tiếng Việt
 
-Đa số các bản dịch tiếng Việt đều sử dụng EasyRPG, nên bạn **bắt buộc** chơi bằng [bản EasyRPG đã chỉnh sửa của cộng đồng](https://nbhzvn.one/tools/EasyRPG%20Ti%E1%BA%BFng%20Vi%E1%BB%87t%20%280.8%29) để hỗ trợ tốt ngôn ngữ tiếng Việt.<br>Sau đó bạn chỉ cần thay đổi ngôn ngữ của game ở menu thành Tiếng Việt (Vietnamese) là được.
+Đa số các bản dịch tiếng Việt đều sử dụng EasyRPG, nên bạn **bắt buộc** chơi bằng [bản EasyRPG đã chỉnh sửa của cộng đồng](https://github.com/The-Firefly-Project/EasyRPGPlayer-Vietnamese/releases/tag/0.8.1.1) để hỗ trợ tốt ngôn ngữ tiếng Việt.<br>Sau đó bạn chỉ cần thay đổi ngôn ngữ của game ở menu thành Tiếng Việt (Vietnamese) là được.
 
 Tuy nhiên, có một số game lại yêu cầu chơi bằng tệp tin `RPG_RT.exe` và không thể chơi được bằng EasyRPG (nếu cố gắng chơi thì sẽ bị lỗi), tiêu biểu là các bản dịch dưới đây:
 
