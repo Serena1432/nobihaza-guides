@@ -128,6 +128,10 @@ Hoàn toàn được, miễn sao các game đó được phát triển bằng RP
 
 Google sẽ là một người bạn đáng tin cậy của bạn. Mình không có kinh nghiệm với bất kì phần mềm làm game nào ngoài RPG Maker MV, nên mình nghĩ mình không thể làm hướng dẫn được.
 
+## Tôi có nên sử dụng Scarlet giống như hướng dẫn trước của bạn thay vì ESign không?
+
+**KHÔNG!** Mình đã không còn chịu nổi với một đống quảng cáo của cái web đó nữa. Thậm chí trong lúc mình đang làm hướng dẫn này và đến phần cài đặt Scarlet, mình đã không thể tắt nổi quảng cáo của website đó, kể cả khi đã (vô tình) nhấn vào quảng cáo.
+
 ## Tại sao có rất ít game Nobihaza (và RPG Maker nói chung) chạy được trên iOS?
 
 Riêng cái này thì mình sẽ nói rất là nhiều:
