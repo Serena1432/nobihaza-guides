@@ -76,6 +76,12 @@ Riêng 2 engine này hoạt động trên nền tảng web chứ không phải n
 
 Đối với cộng đồng Việt Nam thì mình khuyên dùng [Nobihaza Vietnam Community Collection](https://nbhzvn.one). Không phải tự quảng bá đâu mà ngoài nó ra thì gần như không còn một trang web nào khác.
 
+## Tôi nên chơi bản Nobihaza nào trước?
+
+Bạn nên chơi bản **Nobihaza 1** gốc của aaa-sensei hoặc **Nobihaza Zeta** của Bồ Câu Đen, sau đó là chơi **Nobihaza 2** cũng của aaa-sensei hoặc là **Nobihaza 2 MV Remake** (có tên tiếng Việt là **Doraemon: Nobita's Resident Evil 2 (Việt Hóa)**); vì hai bản này là hai bản đầu tiên giúp bạn làm quen được với cốt truyện của Nobihaza.
+
+Sau đó, bạn có thể chơi bất kì bản Nobihaza nào, vì các bản còn lại gần như không liên quan đến nhau.
+
 ## Tôi không biết cài game Nobihaza như thế nào.
 
 Hãy chọn hệ điều hành bạn đang sử dụng rồi đọc kĩ hướng dẫn cho hệ điều hành đó.
