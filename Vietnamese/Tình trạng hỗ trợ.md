@@ -164,3 +164,5 @@ Mình đang nghiên cứu để phát triển một bản MKXP dành cho iOS, nh
 Bản chất các game này được làm bằng JavaScript, nên bạn vẫn có thể port game sang iOS giống như cách mà [**Doraemon: Nobita's Resident Evil 2 (Việt Hoá)**](https://nobi2.s1432.org) đã làm, bằng cách cho game vào một trình duyệt nhúng (embedded browser, có thể là WKWebView hoặc UIWebView). Tuy nhiên cách này yêu cầu bạn cần phải có một chiếc MacBook, một chiếc iPhone/iPad và một chút am hiểu về phát triển ứng dụng cho iOS/JavaScript để có thể sửa lỗi trong quá trình port.
 
 Mình sẽ không hướng dẫn về cái này. Nếu bạn tò mò thì bạn có thể tìm hiểu hướng dẫn ở trên Internet.
+
+Mình cũng sẽ có dự định làm một launcher cho iOS về sau này. Bạn có thể đọc thêm tại [FAQ](FAQ.md#có-cách-nào-để-chơi-game-rpg-maker-mvmz-trên-ios-mà-không-cần-phải-tự-build-không).
