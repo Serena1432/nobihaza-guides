@@ -265,3 +265,21 @@ Một khóa chứa thông tin chứng chỉ và mật khẩu dùng để ký cá
 ### Sign (ký)
 
 Các ứng dụng (kể cả trên máy tính hay điện thoại) cần phải được ký để tránh bị coi là ứng dụng không an toàn. Có một số hệ điều hành sẽ cho phép ký miễn phí, nhưng cũng có một số hệ điều hành yêu cầu phải trả phí để có thể ký ứng dụng.
+
+### Root / Jailbreak
+
+Là các phương thức (Root dành cho Android và Jailbreak dành cho iOS) để vượt qua hàng rào bảo mật của hệ điều hành trên điện thoại và cho phép chúng ta làm gì cũng được.
+
+Đối với Android thì có thể là gỡ bỏ các ứng dụng hệ thống, chỉnh sửa kernel thành một phiên bản khác, thay đổi cài đặt hiệu năng máy, v.v. còn đối với iOS thì có thể mở rộng tuỳ biến, sửa đổi những ứng dụng khác hoặc là một phương thức để **cài đặt ứng dụng từ bên thứ ba**.
+
+Root / Jailbreak thường sẽ có rất nhiều rủi ro, vì vậy chỉ nên sử dụng khi bạn có thể chấp nhận nó và không còn cách nào khác.
+
+### Package Manager
+
+Có thể xuất hiện ở bất kì hệ điều hành nào, kể cả trên máy tính hay điện thoại. Tuy nhiên đối với các hệ điều hành đóng, các Package Manager thường là các ứng dụng từ bên thứ ba:
+
+* **Windows:** Chocolatey, winget
+* **macOS:** Homebrew, MacPorts
+* **Linux:** dpkg, apt, pacman, v.v.
+* **Android:** Thường được quy định bởi Terminal Emulator bạn đang sử dụng
+* **iOS:** Sileo, Zebra, Cydia (có giao diện người dùng), dpkg (dòng lệnh)
