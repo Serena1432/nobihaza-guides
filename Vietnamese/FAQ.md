@@ -120,6 +120,10 @@ Hiện tại đã có nhiều người chuyển qua, hoặc có ý định chuy�
 
 Mặc dù chỉ có một phần nhỏ người sử dụng, nhưng không có nghĩa là không có. Hướng dẫn này sinh ra là để hỗ trợ cả những người đó.
 
+## Tại sao bạn lại không làm hướng dẫn cho cả máy chơi game (console)?
+
+Bởi vì mình không sở hữu máy chơi game nào cả.
+
 ## Tôi có thể dùng hướng dẫn này để chơi các game RPG Maker khác không phải Nobihaza không?
 
 Hoàn toàn được, miễn sao các game đó được phát triển bằng RPG Maker.
