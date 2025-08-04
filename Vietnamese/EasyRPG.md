@@ -84,3 +84,38 @@ Nếu là game được dịch ra tiếng Việt, có thể là game đang sử 
 ![](images/image-21.png)
 
 Hai lỗi này thực chất là một, do bạn đang chơi bằng tệp tin nén có đặt mật khẩu. Hãy giải nén game ra trước sau đó thử lại.
+
+## Cài đặt soundfont tuỳ chỉnh để phát nhạc MIDI
+
+### Tìm soundfont bất kì
+
+Bạn hãy tìm một soundfont bất kì có định dạng là `.sf2`. Ví dụ như mình hay dùng [soundfont của Windows](https://musical-artifacts.com/artifacts/713) để cho EasyRPG có thể phát nhạc với chất âm giống như bên Windows.
+
+### Cài đặt cho từng game
+
+Đổi tệp tin `.sf2` bạn đã tải xuống thành `easyrpg.soundfont` và cho nó vào thư mục game.
+
+![](images/image-22.png)
+
+Khởi động lại game và bạn sẽ thấy chất âm của game khi phát nhạc MIDI thay đổi.
+
+### Game không phát nhạc MIDI hoặc chất lượng âm thanh kém
+
+> [!NOTE]
+> RetroArch sẽ không sử dụng được cách này.
+
+* Trong khi chạy game bằng EasyRPG, nhấn nút **F1** để mở phần cài đặt và qua mục **Âm thanh** -> **Soundfont**.
+
+![](images/image-23.png)
+
+* Nhấn nút **Mở thư mục soundfont**. Một thư mục chứa soundfont sẽ được mở bằng trình quản lý tệp trên máy bạn. Sao chép tệp tin `.sf2` bạn đã tải xuống vào thư mục đó.
+
+![](images/image-24.png)
+
+* Quay trở lại EasyRPG, quay về và chọn lại phần **Soundfont**. Bạn sẽ thấy tệp tin `.sf2` bạn đã sao chép, hãy chọn tệp tin đó và nhấn Enter.
+
+![](images/image-25.png)
+
+* Thoát giao diện cài đặt và nhấn nút **Lưu cài đặt**, sau đó khởi động lại game.
+
+![](images/image-26.png)
