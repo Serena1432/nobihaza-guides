@@ -3,7 +3,7 @@ layout: default
 title: Windows
 permalink: /windows/
 lang: vi
-nav_order: 6
+nav_order: 7
 has_toc: false
 ---
 

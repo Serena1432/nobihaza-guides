@@ -3,7 +3,7 @@ layout: default
 title: Linux
 permalink: /linux/
 lang: vi
-nav_order: 8
+nav_order: 9
 has_toc: false
 ---
 

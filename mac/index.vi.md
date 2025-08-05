@@ -3,7 +3,7 @@ layout: default
 title: macOS
 permalink: /mac/
 lang: vi
-nav_order: 7
+nav_order: 8
 has_toc: false
 ---
 
