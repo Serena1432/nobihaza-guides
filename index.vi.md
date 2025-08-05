@@ -7,6 +7,9 @@ nav_order: 0
 toc: true
 ---
 
+{: .note }
+> Website này vẫn chưa hoàn thiện.
+
 <div style="text-align: center">
     <img src="images/banner.png" style="width: 100%; max-width: 600px; height: auto" />
 </div>
