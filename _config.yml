@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://guides.nbhzvn.one"
 twitter_username: Serena1432
 github_username: Serena1432
-logo: "/images/logo.png"
+logo: "/assets/images/logo.png"
 favicon_ico: "/images/logo.png"
 
 permalink: pretty
@@ -59,6 +59,10 @@ languages_info:
 polyglot:
   default_lang_in_url: true
   relative_links: true
+
+aux_links:
+  "Nobihaza Vietnam Collection":
+    - "https://nbhzvn.one"
 
 aux_links_new_tab: true
 
