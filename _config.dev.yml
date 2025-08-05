@@ -1,0 +1,7 @@
+#
+# SETTINGS FOR LOCAL DEVELOPMENT ONLY
+# This file overrides settings in _config.yml when running the local server.
+#
+
+# Override the production URL to point to the local server address.
+url: "http://127.0.0.1:10018"

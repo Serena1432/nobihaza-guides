@@ -1,0 +1,719 @@
+---
+layout: default
+title: Tự đóng gói tệp APK
+parent: Android
+permalink: /android/package
+lang: vi
+nav_order: 4
+---
+
+# Tự đóng gói tệp APK
+{: .no_toc }
+
+Trang này sẽ hướng dẫn nâng cao cho những người đã am hiểu một chút về RPG Maker, máy tính cũng như Android, để xây dựng một bản `.apk` có thể cài đặt trực tiếp mà không cần phần mềm hỗ trợ.
+
+Hiện tại hướng dẫn này chỉ hỗ trợ RPG Maker MV/MZ. Các engine khác sẽ có thể có trong tương lai.
+
+{: .important }
+> Hãy làm toàn bộ hướng dẫn theo thứ tự.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+## Chuẩn bị ban đầu
+
+{: .note }
+> Bạn sẽ chỉ cần làm các bước này ở lần đầu tiên.
+
+### Cài đặt Java JDK
+
+{: .important }
+> Mình khuyến khích cài đặt OpenJDK thay cho Oracle JDK! Oracle JDK sẽ có những hạn chế nhất định về mặt giấy phép, và có thể làm cho ứng dụng của bạn gặp nhiều rắc rối trong tương lai.
+
+#### Lựa chọn phiên bản
+
+* Vào trang [hướng dẫn Cordova dành cho Android](https://cordova.apache.org/docs/en/12.x-2025.01/guide/platforms/android/index.html#android-api-level-support) để xem danh sách phiên bản `cordova-android`.
+
+* Hãy lựa chọn phiên bản `cordova-android` bạn muốn cài đặt. Mình khuyên dùng bản mới nhất (`13.0.x` tính đến ngày 1/8/2025) nếu bạn không quan tâm đến việc hỗ trợ bản Android thấp, hoặc bản `11.0.x` nếu bạn muốn game hỗ trợ cho cả Android 5.1.
+
+* Sau khi đã chọn phiên bản Android, hãy chuyển qua cột **Library & Tooling Version**. Bạn sẽ thấy phiên bản JDK cần cài đặt cho phiên bản `cordova-android` bạn đã chọn.
+
+![](images/image-25.png)
+
+#### Tải xuống và cài đặt
+
+<details>
+<summary>Windows và macOS</summary>
+
+<ul>
+<li><p>Truy cập vào <a href="https://www.openlogic.com/openjdk-downloads">trang web tải xuống OpenJDK</a>.</p>
+</li>
+<li><p>Chọn phiên bản OpenJDK bạn muốn tải:</p>
+<ul>
+<li>Chọn <strong>Java Version</strong> là phiên bản JDK mà bạn đã chọn ở phần Lựa chọn phiên bản. Đối với <code>cordova-android</code> bản mới nhất, chúng ta sẽ dùng bản 17.</li>
+<li>Chọn <strong>Operating System</strong> là phiên bản hệ điều hành bạn đang sử dụng.</li>
+<li>Chọn <strong>Architecture</strong> là kiến trúc CPU máy tính của bạn (x86 hoặc ARM).</li>
+<li>Chọn <strong>Java Package</strong> là JDK.</li>
+</ul>
+</li>
+</ul>
+<p>Sau khi đã lựa chọn xong, danh sách các phiên bản sẽ giống như thế này:</p>
+<p><img src="images/image-26.png" alt=""></p>
+<ul>
+<li><p>Nhấn vào chữ <code>.msi</code> (hoặc <code>.pkg</code> đối với macOS) đầu tiên trong danh sách (ở ảnh trên sẽ là phiên bản <code>17.0.16+8</code>). Nếu có phiên bản mới hơn trong tương lai thì bạn sẽ chọn phiên bản mới hơn đó.</p>
+</li>
+<li><p>Sau khi tải xong, nhấn đúp vào tệp tin <code>.msi</code> hoặc <code>.pkg</code> đã tải xuống và tiến hành cài đặt.</p>
+</li>
+</ul>
+
+</details>
+
+<details>
+<summary>Linux</summary>
+
+Hãy tham khảo hướng dẫn cài đặt OpenJDK dành riêng cho distro của bạn. Mỗi distro sẽ có cách cài đặt khác nhau.
+</details>
+
+### Cài đặt Android Studio và Android SDK
+
+* Truy cập vào [trang web chính thức của Android Studio](https://developer.android.com/studio). Nhấn vào nút Download ở ngay đầu website, đồng ý điều khoản sử dụng và website sẽ tự động tải xuống phiên bản dành cho hệ điều hành của bạn.
+
+* Sau khi tải xuống, hãy tiến hành cài đặt như bình thường.
+
+* Mở ứng dụng Android Studio lên. Nhấn vào chữ **More Actions** ở giữa cửa sổ và chọn **SDK Manager**.
+
+![](images/image-27.png)
+
+* Ở tab **SDK Platforms**, hãy chọn phiên bản Android SDK theo phiên bản `cordova-android` bạn đã chọn ở mục Lựa chọn phiên bản. Chú ý đến phần **Android API Levels**, đối với phiên bản `cordova-android` mới nhất thì sẽ chọn phiên bản Android SDK từ 24 (Android 7.0) đến 34 (Android 14.0).
+
+![](images/image-28.png)
+
+Ở đây mình sẽ chọn phiên bản Android SDK cao nhất có thể hỗ trợ là **Android 14** (API Level 34).
+
+* Nhấn vào tab **SDK Tools**, và chọn tùy chọn **Show Package Details**. Sau đó ở mục **Android SDK Build Tools**, hãy chọn phiên bản trùng với API Level mà bạn vừa mới chọn.
+
+![](images/image-29.png)
+
+* Ở mục **Android Command Line Tools**, chọn phiên bản mới nhất.
+
+![](images/image-30.png)
+
+* Tích chọn **Android SDK Platform-Tools**.
+
+![](images/image-31.png)
+
+* Nhấn **OK** để tiến hành cài đặt tất cả thư viện đã chọn. Nhấn **OK** lần nữa để xác nhận các thư viện sẽ được cài đặt.
+
+![](images/image-32.png)
+
+* Đợi cho quá trình cài đặt được hoàn tất (hiển thị chữ **Done** và xuất hiện nút **Finish**). Nhấn nút **Finish** để hoàn thành cài đặt.
+
+### Cài đặt Gradle
+
+* Truy cập [trang web tải xuống Gradle](https://gradle.org/releases/).
+
+* Nhấn vào chữ **binary-only** ở phiên bản mới nhất.
+
+![](images/image-33.png)
+
+* Giải nén tệp tin `.zip` vừa tải ra một thư mục bất kì.
+
+### Cài đặt FFmpeg
+
+<details>
+<summary>Windows và macOS</summary>
+
+<ul>
+<li><p>Truy cập <a href="https://ffmpeg.org/download.html">trang web tải xuống ffmpeg</a>.</p>
+</li>
+<li><p>Tải xuống FFmpeg cho hệ điều hành của bạn. Sau đó nhấp đúp vào tệp đã tải xuống để chạy và tiến hành cài đặt.</p>
+</li>
+</ul>
+</details>
+
+<details>
+<summary>Linux</summary>
+
+FFmpeg thường sẽ có sẵn trên kho phần mềm của distro bạn đang dùng. Hãy cài đặt theo hướng đẫn dành riêng cho distro của bạn.
+</details>
+
+### Kiểm tra biến môi trường
+
+#### Lấy thông tin đường dẫn của các thư viện
+
+<details>
+<summary>Android SDK</summary>
+
+<ul>
+<li><p>Vào ứng dụng <strong>Android Studio</strong> chọn <strong>More Actions</strong>, sau đó chọn <strong>SDK Manager</strong>.</p>
+</li>
+<li><p>Đường dẫn của Android SDK sẽ nằm ở ô Android SDK Location. Đối với mình sẽ là <code>/home/murasame/Android/Sdk</code>.</p>
+</li>
+</ul>
+<p><img src="images/image-34.png" alt=""></p>
+</details>
+
+<details>
+<summary>Java JDK</summary>
+
+<ul>
+<li><p>Đối với Windows và macOS, đường dẫn của JDK sẽ được ghi ở trong quá trình cài đặt, ví dụ như <code>C:\Program Files\OpenJDK\17</code>.</p>
+</li>
+<li><p>Đối với Linux, sử dụng lệnh <code>where javac</code>, sau đó lấy đường dẫn không phải <code>/usr/bin</code> (của mình là dòng thứ 2) và bỏ chữ <code>/bin/javac</code> đi. Đối với mình sẽ là <code>/usr/lib/jvm/default</code>.</p>
+</li>
+</ul>
+<p><img src="images/image-35.png" alt=""></p>
+</details>
+
+<details>
+<summary>Gradle</summary>
+
+<p>Nó chính là đường dẫn của thư mục bạn đã giải nén từ tệp <code>gradle-*.zip</code>.</p>
+</details>
+
+#### Cài đặt biến môi trường
+
+<details>
+<summary>Windows</summary>
+
+<ul>
+<li>Nhấn tổ hợp <code>Windows + S</code> để mở công cụ tìm kiếm và tìm <code>environment variables</code>. Nhấn vào mục <strong>Edit the system environment variables</strong> đầu tiên.</li>
+</ul>
+<p><img src="images/image-36.png" alt=""></p>
+<ul>
+<li>Nhấn vào nút <strong>Environment Variables</strong>.</li>
+</ul>
+<p><img src="images/image-37.png" alt=""></p>
+<ul>
+<li>Chọn mục <strong>Path</strong> ở trong phần <strong>User variables</strong> và nhấn nút <strong>Edit</strong>.</li>
+</ul>
+<p><img src="images/image-38.png" alt=""></p>
+<ul>
+<li><p>Thay những từ sau đây trong các đường dẫn bên dưới thành các đường dẫn mà bạn đã tìm được:</p>
+<ul>
+<li><code>sdkPath</code>: Đường dẫn của Android SDK</li>
+<li><code>jdkPath</code>: Đường dẫn của Java JDK</li>
+<li><code>gradlePath</code>: Đường dẫn của thư mục Gradle đã giải nén</li>
+</ul>
+</li>
+<li><p>Nhấn nút <strong>New</strong> và lần lượt thêm các đường dẫn sau (mỗi đường dẫn là 1 nút New):</p>
+<pre><code>  sdkPath<span class="hljs-symbol">\t</span>ools
+  sdkPath<span class="hljs-symbol">\c</span>mdline-tools<span class="hljs-symbol">\l</span>atest<span class="hljs-symbol">\b</span>in
+  sdkPath<span class="hljs-symbol">\p</span>latform-tools
+  sdkPath<span class="hljs-symbol">\e</span>mulator
+  sdkPath<span class="hljs-symbol">\b</span>uild-tools
+  jdkPath<span class="hljs-symbol">\b</span>in
+  gradlePath<span class="hljs-symbol">\b</span>in
+</code></pre><p>  Ví dụ như ảnh bên dưới:</p>
+<p>  <img src="images/image-39.png" alt=""></p>
+</li>
+<li><p>Nhấn <strong>OK</strong> để lưu lại.</p>
+</li>
+<li><p>Nhấn nút <strong>New</strong> bên cạnh trái nút <strong>Edit</strong> vừa nãy.</p>
+</li>
+</ul>
+<p><img src="images/image-40.png" alt=""></p>
+<ul>
+<li>Nhập Variable name là <code>JAVA_HOME</code> và Variable value là đường dẫn của Java JDK.</li>
+</ul>
+<p><img src="images/image-41.png" alt=""></p>
+<ul>
+<li>Nhấn <strong>OK</strong> để lưu lại. Tiếp tục nhấn nút <strong>New</strong> để tạo thêm hai biến mới là <code>ANDROID_HOME</code> và <code>ANDROID_SDK_ROOT</code> với cùng một giá trị là đường dẫn của Android SDK.</li>
+</ul>
+<p><img src="images/image-42.png" alt=""></p>
+<p><img src="images/image-43.png" alt=""></p>
+<ul>
+<li>Cuối cùng nhấn <strong>OK</strong> hai lần để lưu lại cài đặt.</li>
+</ul>
+</details>
+
+<details>
+<summary>macOS và Linux</summary>
+
+<ul>
+<li><p>Mở tệp <code>/Users/$USER/.profile</code> (hoặc <code>/home/$USER/.profile</code> đối với Linux) bằng bất kì trình soạn thảo văn bản nào.</p>
+</li>
+<li><p>Thêm các dòng sau vào cuối tệp tin đó:</p>
+</li>
+</ul>
+<pre><code class="lang-sh"><span class="hljs-built_in">export</span> ANDROID_HOME=<span class="hljs-string">"/home/murasame/Android/Sdk"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Android SDK bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> ANDROID_SDK_ROOT=<span class="hljs-string">"<span class="hljs-variable">$ANDROID_HOME</span>"</span>
+<span class="hljs-built_in">export</span> JAVA_HOME=<span class="hljs-string">"/usr/lib/jvm/default"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Java JDK bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> GRADLE_PATH=<span class="hljs-string">"/home/murasame/gradle"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Gradle bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> PATH=<span class="hljs-string">"<span class="hljs-variable">$ANDROID_HOME</span>/tools:<span class="hljs-variable">$ANDROID_HOME</span>/cmdline-tools/latest/bin:<span class="hljs-variable">$ANDROID_HOME</span>/platform-tools:<span class="hljs-variable">$ANDROID_HOME</span>/emulator:<span class="hljs-variable">$ANDROID_HOME</span>/build-tools:<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$GRADLE_PATH</span>/bin:<span class="hljs-variable">$PATH</span>"</span>
+</code></pre>
+<ul>
+<li>Đăng xuất (logoff) tài khoản của máy tính ra sau đó đăng nhập lại để áp dụng thay đổi.</li>
+</ul>
+</details>
+
+#### Kiểm tra thư viện
+
+Mở cửa sổ dòng lệnh lên và kiểm tra các thư viện bên dưới:
+
+<details>
+<summary>Android SDK</summary>
+
+<pre><code class="lang-sh"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$ANDROID_HOME</span>
+</code></pre>
+<p>Nếu nó in ra đường dẫn bạn đã lấy trước đó thì bạn đã thành công.</p>
+</details>
+
+<details>
+<summary>Java JDK</summary>
+
+<pre><code class="lang-sh">java <span class="hljs-comment">--version</span>
+</code></pre>
+<p>Nếu nó in ra <code>openjdk 17</code> thì bạn đã thành công.</p>
+</details>
+
+<details>
+<summary>Gradle</summary>
+
+<pre><code class="lang-sh">gradle <span class="hljs-comment">--version</span>
+</code></pre>
+<p>Nếu nó in ra câu <strong>Welcome to Gradle</strong> thì bạn đã thành công.</p>
+</details>
+
+Nếu có một thư viện vẫn báo lỗi, hãy thử lại các bước bên trên.
+
+### Cài đặt KeyStore Explorer
+
+Ứng dụng này sẽ được sử dụng để tạo khóa và ký (sign) ứng dụng Android của bạn.
+
+* Truy cập vào [trang web tải xuống của KeyStore Explorer](https://keystore-explorer.org/downloads.html).
+
+* Chọn tệp để tải xuống dựa trên hệ điều hành bạn đang sử dụng, cũng như là đọc kĩ ghi chú ở mục **Details**.
+
+* Nhấn đúp vào tệp tin đã tải xuống để cài đặt KeyStore Explorer.
+
+{: .important }
+> Đối với các Linux distro không hỗ trợ tệp tin `.deb` và `.rpm` (Arch Linux, Gentoo, v.v.), hãy tham khảo hướng dẫn cài đặt dành riêng cho distro của bạn.
+
+## Tạo một keystore mới để ký tệp tin APK
+
+{: .note }
+> Nếu bạn đã từng tạo một keystore trước đây, bạn có thể sử dụng lại nó thay vì tạo một keystore mới.
+
+Để tránh bị Android cảnh báo ứng dụng không an toàn, chúng ta cần ký (sign) tệp tin APK của mình bằng một tệp tin keystore.
+
+* Mở ứng dụng **KeyStore Explorer**.
+
+* Nhấn **File** -> **New** hoặc tổ hợp `Ctrl + N` để tạo một keystore mới. Chọn **PKCS #12** và nhấn **OK**.
+
+![](images/image-51.png)
+
+* Nhấn **Tools** -> **Generate Key Pair** hoặc tổ hợp `Ctrl + G`. Một hộp thoại **Generate Key Pair** sẽ xuất hiện, hãy để mặc định và nhấn **OK**.
+
+![](images/image-52.png)
+
+* Chỉnh **Validity Period** thành số thời gian mà bạn muốn chứng chỉ của bạn tồn tại. Khi chứng chỉ hết hạn, bạn bắt buộc phải tạo lại khóa mới bằng các bước này. Sau đó nhấn nút **Apply**.
+
+![](images/image-53.png)
+
+* Nhấn vào biểu tượng danh bạ bên cạnh phải mục **Name**.
+
+![](images/image-54.png)
+
+* Một bảng nhập tên sẽ xuất hiện, hãy nhập theo mẫu dưới đây:
+
+![](images/image-55.png)
+
+| Thông tin | Mô tả |
+| --- | --- |
+| Common Name (CN) | Tên cá nhân hoặc tổ chức thường gọi của bạn, có thể là tên thật hoặc biệt danh tùy ý |
+| Organization Unit (OU) | Tên tổ chức con, hoặc có thể là một tên khác tùy ý |
+| Organization Name (O) | Tên tổ chức của bạn |
+| Locality Name (L) | Tỉnh/thành phố của tổ chức |
+| State Name (ST) | Tỉnh/thành phố bạn đang sống |
+| Country (C) | Quốc gia của bạn, ghi bằng mã ISO có 2 kí tự (ví dụ như Việt Nam thì sẽ là `VN`) |
+
+Nếu bạn không có tổ chức, bạn có thể ghi thông tin cá nhân (hoặc thông tin bất kì) thay vào tên tổ chức.
+
+* Nhấn **OK** để xác nhận. Xem lại thông tin và nhấn **OK** một lần nữa để tạo chứng chỉ.
+
+![](images/image-56.png)
+
+* Nhập tên gọi cho khóa vừa tạo. Có thể để mặc định và nhấn **OK**.
+
+![](images/image-57.png)
+
+* Nhập mật khẩu bạn muốn cho keystore của bạn, sau đó nhấn **OK**.
+
+![](images/image-58.png)
+
+* Nhấn chuột phải vào tên Key Pair ở trên màn hình **KeyStore Explorer** và chọn **Set Password**. Nhập mật khẩu mới cho Key Pair và nhấn **OK**.<br>Mật khẩu keystore và mật khẩu Key Pair có thể khác nhau.
+
+![](images/image-60.png)
+
+* Cuối cùng là nhấn **File** -> **Save** hoặc tổ hợp `Ctrl + S` để lưu khóa thành một tệp tin có định dạng `.p12`.
+
+![](images/image-59.png)
+
+{: .important }
+> Sau khi đã tạo xong, hãy nhớ:
+>
+> * Đường dẫn của tệp tin khóa vừa tạo
+> * Tên gọi (Alias) của khóa
+> * Mật khẩu của Key Pair và mật khẩu của keystore (hai mật khẩu có thể khác nhau)
+>
+> Bạn sẽ cần sử dụng các thông tin này về sau.
+
+## RPG Maker MV/MZ
+
+### Thử nghiệm game trên web
+
+Do bản `.apk` trên Android sẽ sử dụng Android WebView (một trình duyệt nhúng vào ứng dụng), nên bạn nên thử nghiệm trên trình duyệt để kiểm tra lỗi trước khi tiến hành đóng gói cho điện thoại.
+
+Bạn có thể xem lại mục **Chạy game RPG Maker MV trên trình duyệt** ở phần Sửa lỗi và mẹo trên hướng dẫn này cho hệ điều hành của bạn.
+
+Nếu có lỗi xảy ra khi chơi trên web, bạn cần phải tự sửa cho đến khi chạy được.
+
+### Chuẩn bị
+
+{: .note }
+> Bạn sẽ chỉ cần làm các bước này ở lần đầu tiên.
+
+#### Cài đặt Node.js
+
+<details>
+<summary>Windows và macOS</summary>
+
+<ul>
+<li><p>Truy cập vào <a href="https://nodejs.org/en/download">trang tải xuống của Node.js</a>.</p>
+</li>
+<li><p>Ở mục <strong>Or get a prebuilt Node.js® for</strong>, hãy chọn hệ điều hành và loại hệ điều hành (x86, x64 hay ARM64) mà máy bạn đang sử dụng. Ví dụ như dưới đây sẽ là dành cho Windows 64-bit (x64):</p>
+</li>
+</ul>
+<p><img src="images/image-24.png" alt=""></p>
+<ul>
+<li>Nhấn đúp để chạy tệp tin vừa mới tải xuống (Windows sẽ là <code>.exe</code>, còn macOS sẽ là <code>.pkg</code>). Sau đó tiến hành làm theo hướng dẫn để cài đặt Node.js.</li>
+</ul>
+</details>
+
+<details>
+<summary>Linux</summary>
+
+<ul>
+<li>Đầu tiên là cài đặt <code>nvm</code> (Node Version Manager) cho Linux:</li>
+</ul>
+<pre><code class="lang-sh">curl -<span class="hljs-keyword">o</span>- http<span class="hljs-variable">s:</span>//raw.githubusercontent.<span class="hljs-keyword">com</span>/nvm-<span class="hljs-keyword">sh</span>/nvm/v0.<span class="hljs-number">40.3</span>/install.<span class="hljs-keyword">sh</span> | bash
+</code></pre>
+<p>{: .note }</p>
+<blockquote>
+<p>Nếu sau này nvm có phiên bản mới hơn, bạn hãy thay đổi <code>0.40.3</code> thành phiên bản đó, hoặc bạn có thể đọc hướng dẫn trên <a href="https://github.com/nvm-sh/nvm">trang GitHub chính thức của nvm</a>.</p>
+</blockquote>
+<ul>
+<li>Sau khi cài đặt thành công thì tiếp tục cài đặt Node.js:</li>
+</ul>
+<pre><code class="lang-sh">nvm install <span class="hljs-keyword">node</span><span class="hljs-title"></span>
+</code></pre>
+</details>
+
+#### Cài đặt Git
+
+<details>
+<summary>Windows</summary>
+
+<ul>
+<li><p>Truy cập vào <a href="https://git-scm.com/downloads/win">trang tải Git dành cho Windows</a>.</p>
+</li>
+<li><p>Chọn bản dành cho kiến trúc hệ điều hành của bạn (x64 hoặc ARM64) ở mục Standalone Installer. Ví dụ như nếu bạn đang dùng Windows 64-bit, hãy chọn <strong>Git for Windows/x64 Setup</strong>.</p>
+</li>
+<li><p>Sau khi tải xuống xong, nhấn đúp để chạy tệp tin <code>.exe</code> vừa tải xuống và làm theo hướng dẫn để hoàn tất cài đặt.</p>
+</li>
+</ul>
+</details>
+
+<details>
+<summary>macOS</summary>
+
+<p>Nếu bạn đã cài Xcode thì nó đã kèm sẵn Git theo mặc định. Còn nếu bạn chưa có thì bạn có thể cài Git thông qua MacPorts:</p>
+<pre><code class="lang-sh">sudo port <span class="hljs-keyword">install</span> git
+</code></pre>
+</details>
+
+<details>
+<summary>Linux</summary>
+
+<p>Git có thể được cài đặt trên toàn bộ distro. Hãy cài đặt gói <code>git</code> theo câu lệnh cho Package Manager của bạn, ví dụ như Pacman ở trên Linux thì sẽ là <code>pacman -S git</code>.</p>
+</details>
+
+#### Cài đặt Cordova
+
+* Chạy dòng lệnh sau để cài Cordova:
+
+```sh
+npm install -g cordova
+```
+
+* Sau khi cài đặt xong thì kiểm tra phiên bản Cordova:
+
+```sh
+cordova --version
+```
+
+Nó sẽ ra thông tin phiên bản Cordova (ví dụ như `12.0.0 (cordova-lib@12.0.2)`).
+
+### Tạo dự án Cordova mới
+
+* Mở cửa sổ dòng lệnh và dùng lệnh `cd` để di chuyển tới thư mục bạn cần tạo dự án, ví dụ như:
+
+```sh
+cd /home/$USER/Documents/Output/android
+```
+
+* Dùng lệnh sau để tạo dự án mới:
+
+```sh
+cordova create "folder" "identifier" "name"
+```
+
+| Thay thế | Thành |
+| --- | --- |
+| `folder` | Thư mục của dự án, ví dụ như `IDRemake` |
+| `identifier` | Mã nhận diện gói Android của dự án, thường có dạng `xxxx.xxxx.xxxx`. Ví dụ như `vn.serena1432.idremake` |
+| `name` | Tên dự án, và cũng là tên của ứng dụng; ví dụ như `Nobihaza ID Remake` |
+
+![](images/image-44.png)
+
+* `cd` tới thư mục của dự án bạn vừa tạo:
+
+```sh
+cd "IDRemake" # Thay IDRemake thành thư mục của dự án bạn vừa tạo
+```
+
+* Thêm Android vào danh sách các nền tảng của dự án:
+
+```sh
+cordova platform add android@^13.0.0
+```
+
+{: .note }
+> Nếu bạn chọn phiên bản Cordova cũ hơn (để hỗ trợ cho các phiên bản Android cũ hơn) khi cài đặt các thư viện, hãy thay bằng lệnh `cordova platform add android@^11.0.0` (hoặc thay 11.0.0 thành phiên bản bạn đã chọn).
+
+![](images/image-45.png)
+
+* Sử dụng lệnh `cordova requirements` để kiểm tra lại các thư viện:
+
+```sh
+cordova requirements
+```
+
+Nếu không còn bất kì dòng chữ màu vàng nào như hình bên dưới thì bạn đã có thể tiếp tục. Nếu không, bạn cần phải kiểm tra lại các thư viện ở phần **Cài đặt ban đầu**.
+
+![](images/image-46.png)
+
+### Thêm bàn phím ảo vào game
+
+Mặc định thì bản `.apk` sẽ không hỗ trợ bàn phím ảo, nên bạn cần chủ động thêm bàn phím ảo vào dự án game trước khi đóng gói.
+
+{: .note }
+> Bạn có thể sử dụng bất kì plugin nào có sẵn trên mạng. Tuy nhiên ở hướng dẫn này thì mình sẽ sử dụng plugin `Kiyoko_JoystickHandler` của mình để cài đặt bàn phím ảo.
+>
+> Đây cũng là plugin mình đã sử dụng để tạo bàn phím ảo cho **Doraemon: Nobita's Resident Evil 2 (Việt Hóa)**.
+
+{: .note }
+> Hướng dẫn đầy đủ cho plugin này sẽ có trong tương lai. Tuy nhiên mình vẫn ghi lời giải thích ngắn của mỗi cài đặt trong phần cài đặt của plugin.
+
+* Tải tệp tin plugin [**Kiyoko_JoystickHandler**](https://github.com/Serena1432/Kiyoko_JoystickHandler/blob/main/Kiyoko_JoystickHandler.js).
+
+* Thêm hình ảnh chứa các phím bạn muốn thêm vào trong thư mục `img/JoyStick` với định dạng `.png`. Nếu bạn muốn sử dụng các phím mặc định do mình tạo thay thế vào đó, bạn có thể tải [tệp tin này](https://github.com/Serena1432/Kiyoko_JoystickHandler/raw/refs/heads/main/JoyStick.zip) và giải nén vào thư mục `img/JoyStick`.
+
+* Thêm plugin vừa tải xuống vào thư mục `js/plugins` của dự án, và mở **Plugin Manager** của dự án trên RPG Maker MV/MZ. Thêm plugin **Kiyoko_JoystickHandler** vào danh sách plugin.
+
+* Bên phải plugin (Parameters) sẽ là danh sách các cài đặt. Nhấn đúp vào từng cài đặt để xem thông tin và chỉnh sửa nó.
+
+![](images/image-62.png)
+
+* Cài đặt của từng mục đã được mở, bạn hãy nhấn đúp để chỉnh sửa theo ý của bạn.
+
+![](images/image-63.png)
+
+* Khi đang chỉnh sửa một thông tin, plugin cũng sẽ giải thích sơ qua về cài đặt này ở hộp thoại nhỏ bên dưới.
+
+![](images/image-64.png)
+
+* Bắt đầu chỉnh sửa tất cả cài đặt cho đến khi bạn thấy ổn. Sau đó hãy nhấn **OK** liên tục cho đến khi cửa sổ Plugin Manager được đóng lại, và lưu lại dự án.
+
+{: .tip }
+> Nên tắt tùy chọn **Phone Only** để có thể thử bàn phím ảo khi ở trên máy tính. Sau khi đã thử xong, hãy bật lại tùy chọn này để ẩn bàn phím ảo khi người chơi đang chơi game trên máy tính.
+
+### Thêm dữ liệu game vào dự án
+
+* Truy cập vào thư mục game và sao chép toàn bộ tệp tin trong thư mục `www` của game.
+
+{: .note }
+> Một số game sẽ không có thư mục `www`, lúc này bạn hãy copy các thư mục `audio`, `data`, `fonts`, `icon`, `img`, `js`, `movies` và tệp tin `index.html` trong thư mục game.
+
+* Dán các tệp tin đã sao chép vào thư mục `www` của dự án.
+
+![](images/image-47.png)
+
+### Chuyển đổi âm thanh từ `.ogg` sang `.m4a`
+
+Đối với điện thoại thì game sẽ sử dụng tệp tin âm thanh `.m4a` thay vì `.ogg` như trên máy tính, nên bạn cần chuyển đổi tất cả tệp tin âm thanh:
+
+{: .note }
+> Dòng lệnh này sẽ chuyển đổi tất cả các tệp tin `.ogg` sang `.m4a` trước, sau đó xóa tệp tin `.ogg` gốc đi để tiết kiệm dung lượng.
+
+<details>
+<summary>Windows</summary>
+
+<p>Mở <strong>PowerShell</strong> lên, dùng lệnh <code>cd</code> trỏ tới thư mục <code>www</code> của dự án và dùng lệnh sau:</p>
+<pre><code class="lang-powershell"><span class="hljs-built_in">Get-ChildItem</span> -Recurse -Filter *.ogg | <span class="hljs-built_in">ForEach-Object</span> { ffmpeg -i <span class="hljs-variable">$_</span>.FullName -c:a aac -b:a <span class="hljs-number">96</span>k -ar <span class="hljs-number">44100</span> -map_metadata <span class="hljs-number">0</span> (<span class="hljs-variable">$_</span>.FullName <span class="hljs-nomarkup">-replace</span> <span class="hljs-string">'\.ogg$'</span>, <span class="hljs-string">'.m4a'</span>); <span class="hljs-keyword">if</span> ($?) { <span class="hljs-built_in">Remove-Item</span> <span class="hljs-variable">$_</span>.FullName } }
+</code></pre>
+</details>
+
+<details>
+<summary>macOS và Linux</summary>
+
+<p>Mở <strong>Terminal</strong> lên, dùng lệnh <code>cd</code> trỏ tới thư mục <code>www</code> của dự án và dùng lệnh sau:</p>
+<pre><code class="lang-sh">find . -<span class="hljs-keyword">type</span> <span class="hljs-type">f </span>-name <span class="hljs-string">"*.ogg"</span> -exec sh -c <span class="hljs-symbol">'ffmpeg</span> -i <span class="hljs-string">"$0"</span> -c:a aac -b:a <span class="hljs-number">96</span>k -ar <span class="hljs-number">44100</span> -map_metadata <span class="hljs-number">0</span> <span class="hljs-string">"${0%.ogg}.m4a"</span> &amp;&amp; rm <span class="hljs-string">"$0"</span>' {} \;
+</code></pre>
+</details>
+
+Đợi cho đến khi quá trình chuyển đổi hoàn tất (không còn in thêm dòng nào nữa).
+
+### Chỉnh sửa tệp tin `config.xml`
+
+#### Chỉnh sửa ban đầu
+
+* Mở tệp tin `config.xml` trên thư mục của dự án bằng bất kì trình chỉnh sửa văn bản nào.
+
+![](images/image-48.png)
+
+* Thay `Sample Apache Cordova App` trong phần `description` thành mô tả game mà bạn muốn.
+
+* Thay email `dev@cordova.apache.org` và website `https://cordova.apache.org` trong phần `author` thành email và website của bạn. Thay `Apache Cordova Team` thành tên của bạn.
+
+#### Ẩn thanh thông báo và nút điều hướng khi chơi game
+
+Thêm một dòng mới trước `</widget>` và dán dòng chữ sau vào dòng đó:
+
+```xml
+<preference name="Fullscreen" value="true" />
+```
+
+![](images/image-49.png)
+
+#### Thay đổi biểu tượng của tệp APK
+
+Thêm một dòng mới trước `</widget>` và dán dòng chữ sau vào dòng đó:
+
+```xml
+<icon src="www/icon/icon.png" />
+```
+
+![](images/image-50.png)
+
+Lúc này biểu tượng của tệp APK sẽ giống với biểu tượng game trên RPG Maker MV. Nếu bạn muốn thay đổi biểu tượng của game, hãy thay đổi tệp tin `www/icon/icon.png` thành một tệp tin khác (nhưng vẫn giữ nguyên tên).
+
+#### Thay đổi phiên bản của game
+
+Thay đổi `1.0.0` (hoặc phiên bản đang có trên mục `<widget ... version="">` của `config.xml`) thành phiên bản game bạn muốn, ví dụ như từ `1.0.0` thành `1.0.1`:
+
+![](images/image-65.png)
+
+![](images/image-66.png)
+
+Sau đó lưu lại tệp tin.
+
+#### Bắt buộc xoay ngang màn hình game
+
+Nếu không thực hiện, game mặc định sẽ khởi động ở màn hình dọc.
+
+Thêm một dòng mới trước `</widget>` và dán dòng chữ sau vào dòng đó:
+
+```xml
+<preference name="orientation" value="landscape" />
+```
+
+![](images/image-67.png)
+
+Sau đó lưu lại tệp tin.
+
+### Cài đặt ký tệp tin APK
+
+Để tránh bị Android cảnh báo ứng dụng không an toàn, chúng ta cần ký (sign) tệp tin APK của mình bằng một tệp tin keystore
+
+* Mở một trình soạn thảo văn bản bất kì mà bạn muốn, và sao chép đoạn văn bản sau:
+
+```json
+{
+    "android": {
+        "debug": {
+            "keystore": "android_debug.p12",
+            "storePassword": "storepassword",
+            "alias": "android",
+            "password" : "keypairpassword",
+            "keystoreType": "pkcs12",
+            "packageType": "apk"
+        },
+        "release": {
+            "keystore": "android_release.p12",
+            "storePassword": "storepassword",
+            "alias": "android",
+            "password" : "keypairpassword",
+            "keystoreType": "pkcs12",
+            "packageType": "apk"
+        }
+    }
+}
+```
+
+* Thay đổi thông tin trong mục `debug` và `release` thành thông tin của 2 keystore (hoặc có thể dùng 1 keystore cho cả 2 mục):
+
+| Thông tin | Mô tả |
+| --- | --- |
+| `keystore` | Đường dẫn của tệp tin keystore (có định dạng là `.p12`) |
+| `storePassword` | Mật khẩu của keystore bạn đã đặt trong quá trình tạo |
+| `alias` | Tên gọi của Key Pair trong keystore |
+| `password` | Mật khẩu của Key Pair trong keystore |
+| `keystoreType` | Ghi là `pkcs12`. Có thể để trống và hệ thống sẽ tự phát hiện qua đuôi tệp tin |
+| `packageType` | Ghi là `apk` để tạo tệp tin `.apk` |
+
+* Lưu lại đoạn văn bản đã sửa thành tệp tin `build.json` và đặt nó vào thư mục của dự án.
+
+![](images/image-61.png)
+
+### Đóng gói ứng dụng
+
+Giờ đã đến phần quan trọng nhất đó là đóng gói ứng dụng!
+
+* Mở cửa sổ dòng lệnh và `cd` tới thư mục dự án nếu bạn chưa làm.
+
+* Bắt đầu đóng gói ứng dụng:
+
+```sh
+cordova build --release android
+```
+
+Thay `--release` thành `--debug` nếu bạn muốn tệp `.apk` của bạn hỗ trợ các công cụ gỡ lỗi.
+
+* Hãy đợi cho đến khi có thông báo **BUILD SUCCEEDED** như hình bên dưới. Nếu có lỗi, hãy thử kiểm tra lỗi và tiến hành build lại.
+
+{: .note }
+> Lần đóng gói đầu tiên có thể sẽ rất lâu, nhưng đó là điều bình thường. Các lần đóng gói sau sẽ nhanh hơn.
+
+![](images/image-68.png)
+
+Tệp tin `.apk` sẽ ở 1 trong 2 đường dẫn sau:
+
+* `thumucduan/platforms/android/app/build/outputs/apk/debug/app-debug.apk` nếu build dưới dạng `debug`.
+* `thumucduan/platforms/android/app/build/outputs/apk/release/app-release.apk` nếu build dưới dạng `release`.
+
+### Cập nhật ứng dụng
+
+{: .important }
+> Hãy đảm bảo là bạn đang dùng một keystore cho tất cả các bản cập nhật. Nếu khác keystore thì người chơi sẽ không thể cập nhật được ứng dụng của bạn!
+
+Bạn hãy làm tuần tự các bước sau khi cập nhật bản mới cho game:
+
+* [Sao chép dữ liệu từ thư mục game sang thư mục `www` của dự án](#thêm-dữ-liệu-game-vào-dự-án).
+* [Chuyển đổi tệp tin `.ogg` sang `.m4a`](#chuyển-đổi-âm-thanh-từ-ogg-sang-m4a).
+* [Thay đổi phiên bản của ứng dụng](#thay-đổi-phiên-bản-của-game).
+* [Đóng gói ứng dụng](#đóng-gói-ứng-dụng).
