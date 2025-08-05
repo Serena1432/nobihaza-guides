@@ -1,4 +1,14 @@
+---
+layout: default
+title: Điều kiện cơ bản
+parent: Linux
+permalink: /linux/prerequisities
+lang: vi
+nav_order: 1
+---
+
 # Điều kiện cơ bản
+{: .no_toc }
 
 Thật may mắn khi cài đặt Wine trên Linux sẽ dễ hơn macOS **rất nhiều**, nên khả năng hỗ trợ chơi game Nobihaza trên Linux cũng sẽ cao hơn so với macOS.
 
@@ -15,6 +25,12 @@ Thật may mắn khi cài đặt Wine trên Linux sẽ dễ hơn macOS **rất n
 
 {: .important }
 > **Không phải game Windows nào cũng sẽ có thể chạy được trên Linux**. Nếu bạn gặp lỗi khi chạy game thì không còn cách nào khác, bạn bắt buộc phải liên hệ với nhà phát triển để yêu cầu một bản chính thức cho Linux (hoặc quay lại dùng Windows).
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Cài đặt ban đầu
 
@@ -386,3 +402,4 @@ Sau khi nhấn nút **Run Executable**, hãy chọn tệp `Setup.exe` trong thư
 ![20](images/image-19.png)
 
 # Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installation)
+{: .no_toc }

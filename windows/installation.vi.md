@@ -2,7 +2,7 @@
 layout: default
 title: Tải và chạy game
 parent: Windows
-permalink: /windows/installing
+permalink: /windows/installation
 lang: vi
 nav_order: 2
 ---

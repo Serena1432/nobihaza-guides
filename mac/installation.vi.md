@@ -2,7 +2,7 @@
 layout: default
 title: Tải và chạy game
 parent: macOS
-permalink: /mac/installing
+permalink: /mac/installation
 lang: vi
 nav_order: 2
 ---

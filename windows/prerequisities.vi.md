@@ -215,5 +215,5 @@ Tải font này về [tại đây](https://github.com/ovate/VL-Gothic-font/raw/r
 
 RPG Maker MV là nhàn nhất vì bạn không cần phải cài bất kì RTP nào cả. Những gì bạn cần là một máy có cấu hình tốt vì đa số game sẽ yêu cầu cấu hình khá cao!
 
-# Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installing)
+# Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installation)
 {: .no_toc }

@@ -16,5 +16,5 @@ Hệ điều hành phổ biến nhất hiện tại, và cũng là hệ điều 
 ## Mục lục
 
 * **[Điều kiện cơ bản](prerequisities):** Các thư viện và phần mềm hỗ trợ cần cài đặt trước khi chơi game.
-* **[Tải và chạy game](installing):** Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
+* **[Tải và chạy game](installation):** Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
 * **[Sửa lỗi và mẹo](troubleshooting):** Sửa lỗi thường gặp trong quá trình chơi, cũng như các mẹo vặt để cải thiện trải nghiệm chơi game.

@@ -1,4 +1,14 @@
+---
+layout: default
+title: Cài đặt nâng cao
+parent: Linux
+permalink: /linux/advanced
+lang: vi
+nav_order: 4
+---
+
 # Cài đặt nâng cao
+{: .no_toc }
 
 Nếu bạn không thích cài Flatpak và Bottles (giống mình, vì Flatpak và Bottles tốn quá nhiều dung lượng của máy), thì bạn cũng có thể cài đặt game trực tiếp bằng Wine của hệ điều hành thay vì sử dụng phần mềm hỗ trợ.
 
@@ -13,6 +23,12 @@ Hướng dẫn này sẽ dành cho các bạn đã có một chút am hiểu v�
 > Để tiện lợi thì bạn nên chạy tất cả câu lệnh trên một cửa sổ dòng lệnh, và không nên tắt cửa sổ đó trước khi cài đặt xong.
 >
 > Khi bạn khởi động lại cửa sổ, bạn sẽ phải chạy lại các lệnh `export`.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Cài đặt ban đầu
 

@@ -16,7 +16,7 @@ Dưới đây sẽ là hướng dẫn sửa các lỗi khi chơi game Nobihaza, 
 > Nếu như game vẫn còn lỗi sau khi bạn đã áp dụng những cách bên dưới thì khả năng cao là game sẽ không thể chơi (ổn định) trên macOS, và bạn không còn cách nào khác ngoài việc đợi nhà phát triển phát hành bản chính thức.
 
 {: .important }
-> "Thư mục game" được nhắc đến trong hướng dẫn này là thư mục game trong thư mục `Program Files` mà bạn đã làm khi [thêm game ở mục 2](./installing#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe), thường có dạng là `/Users/tennguoidung/Applications/Nobihaza.app/Contents/drive_c/Program Files/tengame`.
+> "Thư mục game" được nhắc đến trong hướng dẫn này là thư mục game trong thư mục `Program Files` mà bạn đã làm khi [thêm game ở mục 2](./installation#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe), thường có dạng là `/Users/tennguoidung/Applications/Nobihaza.app/Contents/drive_c/Program Files/tengame`.
 
 ## Mục lục
 {: .no_toc }
@@ -69,7 +69,7 @@ Nếu bạn đang chơi game bằng Wine + Kegworks, bạn cần kiểm tra xem 
 
 * Mở 2 thư mục này trong Finder của macOS:
     * Thư mục `dxvk-macOS-*` mà bạn vừa giải nén, như ở ảnh bên dưới.<br>![60](images/image-59.png)
-    * Thư mục `Contents` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
+    * Thư mục `Contents` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installation#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
 
 * Mở ứng dụng **Terminal** lên và nhập dòng chữ sau:
 
@@ -144,7 +144,7 @@ Mở ứng dụng **Font Book** của macOS lên (có thể tìm trong Launchpad
 
 #### Đối với tệp có đuôi `.fon`
 
-* Truy cập thư mục `Contents/drive_c/windows/Fonts` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
+* Truy cập thư mục `Contents/drive_c/windows/Fonts` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installation#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
 
 Thư mục Fonts sẽ như ảnh bên dưới:
 
@@ -203,7 +203,7 @@ Thay đường dẫn `~/Downloads/gm.sf2` của bạn thành đường dẫn t�
 
 ### KegworksConfig không mở khi chạy ứng dụng `Nobihaza` trên Launchpad
 
-Xem lại mục [Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config).
+Xem lại mục [Tải và chạy game#Mở ứng dụng Kegworks Config](./installation#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config).
 
 ## RPG Maker 2000/2003 (`RPG_RT.exe`)
 
@@ -257,7 +257,7 @@ Trong thanh tiêu đề của thông báo lỗi sẽ ghi đường dẫn tệp t
 * Tệp tin đó cũng có thể bị lỗi trong quá trình giải nén, hãy thử giải nén lại tệp tin nén của game.
 
 {: .important }
-> Bạn cần tạo lại lối tắt chạy game ([**Custom EXE Creator**](./installing#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe)) sau khi đã đổi tên thư mục game.
+> Bạn cần tạo lại lối tắt chạy game ([**Custom EXE Creator**](./installation#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe)) sau khi đã đổi tên thư mục game.
 
 ### Unable to find VL Gothic font
 
@@ -307,7 +307,7 @@ Còn lại thì sẽ chỉ có một lỗi khác dành riêng cho macOS:
 
 ![115](images/image-114.png)
 
-Bạn chưa cài đặt thư mục `Contents/Resources/app.nw` của NW.js, hãy xem lại [Tải và chạy game#RPG Maker MV/MZ](./installing#rpg-maker-mvmz).
+Bạn chưa cài đặt thư mục `Contents/Resources/app.nw` của NW.js, hãy xem lại [Tải và chạy game#RPG Maker MV/MZ](./installation#rpg-maker-mvmz).
 
 ## Mẹo dành cho macOS
 

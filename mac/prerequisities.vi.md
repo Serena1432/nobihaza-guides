@@ -332,5 +332,5 @@ Sau khi nhấn nút **Choose Setup Executable**, hãy chọn tệp `Setup.exe` t
 
 ![34](images/image-33.png)
 
-# Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installing)
+# Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installation)
 {: .no_toc }
