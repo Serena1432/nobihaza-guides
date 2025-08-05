@@ -16,10 +16,7 @@ nav_order: 1
 > Ngoài game đó ra thì bạn cần có công cụ hỗ trợ để có thể chơi game:
 > * **RPG Maker 2000/2003:** Sử dụng Wine hoặc EasyRPG (hỗ trợ chính thức cho macOS).
 > * **RPG Maker XP/VX/VX Ace:** Sử dụng Wine hoặc MKXP (hỗ trợ chính thức cho macOS, nhưng khả năng tương thích rất thấp).
-> * **RPG Maker MV/MZ:** Sử dụng NW.js (đa số game đều sẽ hỗ trợ chạy trên macOS, ngoại trừ một số game sẽ được liệt kê ở bên dưới).
-
-{: .important }
-> Bạn **bắt buộc** phải đọc kĩ hướng dẫn này để đảm bảo quá trình chơi game sẽ ít trục trặc nhất có thể.
+> * **RPG Maker MV/MZ:** Sử dụng NW.js (đa số game đều sẽ hỗ trợ chạy trên macOS, ngoại trừ một số game nhất định).
 
 {: .important }
 > **Không phải game Windows nào cũng sẽ có thể chạy được trên macOS**. Nếu bạn gặp lỗi khi chạy game thì không còn cách nào khác, bạn bắt buộc phải liên hệ với nhà phát triển để yêu cầu một bản chính thức cho macOS.
@@ -28,7 +25,7 @@ nav_order: 1
 > Các cách này có thể không hoạt động đối với những máy Mac chạy CPU **Apple silicon** (M1 trở lên). Mình thì không có máy Mac dạng này nên mình không thể hướng dẫn chi tiết được.
 
 {: .note }
-> Bạn cũng có thể cài đặt máy ảo chạy Windows, hoặc dùng BootCamp để cài Windows lên máy Mac của bạn; và sau đó [áp dụng các hướng dẫn dành cho Windows](../1.%20Windows).<br>Tuy nhiên việc này vượt quá phạm vi hướng dẫn về Nobihaza của mình nên mình sẽ không hướng dẫn ở đây.<br><br>Hướng dẫn này chỉ dành cho những người muốn chạy game **trực tiếp** trên macOS thông qua các công cụ hỗ trợ.
+> Bạn cũng có thể cài đặt máy ảo chạy Windows, hoặc dùng BootCamp để cài Windows lên máy Mac của bạn; và sau đó [áp dụng các hướng dẫn dành cho Windows](../../windows).<br>Tuy nhiên việc này vượt quá phạm vi hướng dẫn về Nobihaza của mình nên mình sẽ không hướng dẫn ở đây.<br><br>Hướng dẫn này chỉ dành cho những người muốn chạy game **trực tiếp** trên macOS thông qua các công cụ hỗ trợ.
 
 ## Mục lục
 {: .no_toc }

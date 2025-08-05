@@ -140,6 +140,12 @@ Mặc dù chỉ có một phần nhỏ người sử dụng, nhưng không có n
 
 Bởi vì mình không sở hữu máy chơi game nào cả.
 
+## Tôi nhớ là có phần mềm hỗ trợ chạy ứng dụng Windows trên Android mà sao không thấy bạn hướng dẫn ở đây?
+
+Các phần mềm này rất khó để cài đặt, và bản thân mình cũng chưa có kinh nghiệm sử dụng các phần mềm đó bao giờ. Hơn nữa thì không phải máy nào cũng có thể chạy được phần mềm đó nên mình sẽ không hướng dẫn ở đây.
+
+Với lại đa số game bây giờ đều đã hỗ trợ Android rồi. Bạn chỉ nên tìm hiểu phương thức này nếu như game bạn muốn chơi không thể chơi được bằng các cách khác.
+
 ## Tôi có thể dùng hướng dẫn này để chơi các game RPG Maker khác không phải Nobihaza không?
 
 Hoàn toàn được, miễn sao các game đó được phát triển bằng RPG Maker.
@@ -182,7 +188,7 @@ Nó sẽ đỡ mệt hơn RPG Maker XP/VX/VX Ace rất nhiều, vì các engine 
 <ul>
     <li>Đầu tiên và cũng là cái quan trọng nhất: iOS rất hạn chế việc cho phép cài ứng dụng bên thứ ba. Để có thể được phát hành chính thức trên iOS, bạn cần một chứng chỉ 99$/năm để đăng lên App Store (nhưng mình đảm bảo sẽ không có game Nobihaza nào có thể lên được đó), và 299$/năm để có thể phát hành ứng dụng qua web mà không thông qua App Store.<br>Và nếu bạn nghĩ tới việc sideload thì xin chia buồn, phiên bản iOS càng cao thì càng khó sideload, và đa phần đều yêu cầu có máy tính.</li>
     <li>Kể cả khi có sideload được thì chứng chỉ cũng sẽ bị thu hồi sau 7 ngày và bạn bắt buộc phải sideload lại.</li>
-    <li>Apple yêu cầu một máy Mac để phát triển ứng dụng cho iOS. Thực ra có một số công cụ giúp phát triển ứng dụng iOS trên Windows, nhưng nó không thể dùng để phát triển game RPG Maker.<br>Và trong cả cộng đồng nhà phát triển game Nobihaza thì chỉ có <b>một mình mình</b> là có máy Mac, và thậm chí nó chỉ là Hackintosh chứ không phải máy Mac thật.</li>
+    <li>Apple yêu cầu một máy Mac để phát triển ứng dụng cho iOS. Thực ra có một số công cụ giúp phát triển ứng dụng iOS trên Windows, nhưng nó không thể dùng để phát triển game RPG Maker.<br>Và trong cả cộng đồng nhà phát triển game Nobihaza Việt Nam thì chỉ có <b>một mình mình</b> là có máy Mac, và thậm chí nó chỉ là Hackintosh chứ không phải máy Mac thật.</li>
     <li>Sau khi đã có máy Mac thì bạn cần phải có một chiếc iPhone để có thể tạo chứng chỉ và xuất ứng dụng ra tệp <code>.ipa</code>.</li>
     <li>iOS rất tù và không thể tùy ý cho các tệp tin vào trong dữ liệu của một ứng dụng.</li>
     <li>Riêng các game RPG Maker MV/MZ thì các nhà phát triển bắt buộc phải dùng WebKit của Safari và nó <b>cực kì lag</b> và cũ kĩ, và để nâng cấp phiên bản WebKit thì chúng ta phải làm gì? Nâng cấp cả cái iOS lên, vì phiên bản trình duyệt WebKit nó sẽ đi cùng với phiên bản iOS.</li>
@@ -194,6 +200,6 @@ Tuy nhiên đó vẫn chỉ là RPG Maker 2000/2003 thôi. Đối với RPG Make
 
 ## Khi nào thì game RPG Maker XP/VX/VX Ace mới hỗ trợ chơi trên iOS?
 
-* Về cộng đồng bên ngoài Nobihaza thì đã có một số người đang thử nghiệm chơi game RPG Maker XP/VX/VX Ace (mình sẽ gọi chung là RGSS) trên iOS, tuy nhiên thì nó vẫn chưa hoàn thiện, và vẫn chưa có game nào được công khai là có thể chạy được trên iOS. Mà kể cả có rồi thì mình cũng chưa chắc là nó có thể chơi được các game Nobihaza hay không.
+* Về cộng đồng bên ngoài Nobihaza thì đã có một số người đang thử nghiệm chơi game RPG Maker XP/VX/VX Ace trên iOS, tuy nhiên thì nó vẫn chưa hoàn thiện, và vẫn chưa có game nào được công khai là có thể chạy được trên iOS. Mà kể cả có rồi thì mình cũng chưa chắc là nó có thể chơi được các game Nobihaza hay không.
 
 * Còn về cộng đồng Nobihaza thì... có lẽ là còn lâu. Hiện tại mình vẫn đang còn thiếu cả kinh nghiệm lẫn thời gian để có thể nghiên cứu về vấn đề này. Nó khả thi nhưng sẽ rất là lâu, thậm chí lên tới vài năm. Có thể đến lúc đó thì sẽ có người bên ngoài cộng đồng làm xong trước mình.

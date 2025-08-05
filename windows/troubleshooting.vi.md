@@ -134,6 +134,25 @@ Lỗi này xảy ra nhiều nhất khi máy tính của bạn không có thiết
 
 * Sau khi đã làm xong tất cả những cách trên, hãy khởi động lại máy để xem đã sửa được lỗi chưa.
 
+### DirectDraw Error (`DDERR_UNSUPPORTED`)
+
+![46](images/image-45.png)
+
+* Xem lại [Điều kiện cơ bản#DirectX End-User Runtime](./prerequisities#directx-end-user-runtime).
+
+* Phiên bản trình điều khiển (driver) của bạn đã quá cũ, xem mục [Nâng cấp trình điều khiển card đồ họa](#nâng-cấp-trình-điều-khiển-card-đồ-hoạ-driver-gpu).
+
+* Card đồ họa của bạn đã quá cũ, hãy nâng cấp máy tính / thay card đồ họa mới (nếu đang sử dụng máy tính để bàn).
+
+* Nếu vẫn chưa được, hãy thử các bước sau:
+    * Nhấn chuột phải vào tệp tin `RPG_RT.exe` trong thư mục game, và nhấn vào mục **Properties**.
+    * Nhấn vào tab **Compatibility**, sau đó tích vào tuỳ chọn **Run this program in compatibility mode**.
+    * Chọn **Windows XP (Service Pack 3)** ở hộp tuỳ chọn bên dưới.
+    
+    ![](images/image-96.png)
+
+* Cũng có một số trường hợp hy hữu là do màn hình máy tính của bạn, hãy thử thay màn hình mới hoặc dây cáp kết nối / cổng kết nối.
+
 ## RPG Maker 2000/2003 (EasyRPG)
 
 Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
@@ -195,25 +214,6 @@ Bạn đã xoá nhầm tệp tin `Game.rgss3a` hoặc thư mục `Data` của ga
 ![45](images/image-44.png)
 
 Cách sửa giống như mục [`XXXX 乗り物 は開けません` (Không thể mở file XXXX) / `???????????????????` (một đống dấu hỏi chấm) của RPG Maker 2000/2003](#xxxx-乗り物-は開けません-không-thể-mở-file-xxxx---một-đống-dấu-hỏi-chấm).
-
-### DirectDraw Error (`DDERR_UNSUPPORTED`)
-
-![46](images/image-45.png)
-
-* Xem lại [Điều kiện cơ bản#DirectX End-User Runtime](./prerequisities#directx-end-user-runtime).
-
-* Phiên bản trình điều khiển (driver) của bạn đã quá cũ, xem mục [Nâng cấp trình điều khiển card đồ họa](#nâng-cấp-trình-điều-khiển-card-đồ-hoạ-driver-gpu).
-
-* Card đồ họa của bạn đã quá cũ, hãy nâng cấp máy tính / thay card đồ họa mới (nếu đang sử dụng máy tính để bàn).
-
-* Nếu vẫn chưa được, hãy thử các bước sau:
-    * Nhấn chuột phải vào tệp tin `RPG_RT.exe` trong thư mục game, và nhấn vào mục **Properties**.
-    * Nhấn vào tab **Compatibility**, sau đó tích vào tuỳ chọn **Run this program in compatibility mode**.
-    * Chọn **Windows XP (Service Pack 3)** ở hộp tuỳ chọn bên dưới.
-    
-    ![](images/image-96.png)
-
-* Cũng có một số trường hợp hy hữu là do màn hình máy tính của bạn, hãy thử thay màn hình mới hoặc dây cáp kết nối / cổng kết nối.
 
 ### Có một đống ký tự linh tinh khi khởi động game
 
@@ -373,7 +373,8 @@ Lỗi này thường chỉ xảy ra khi bạn chơi game trên trình duyệt, c
 
 ### Bật chế độ hiệu năng cao nhất trên laptop
 
-**Lưu ý:** Cách này sẽ làm tăng một phần hiệu năng trên máy tính của bạn, nhưng đổi lại thì pin máy tính của bạn sẽ hết nhanh hơn và máy cũng sẽ nóng hơn.
+{: .note }
+> Cách này sẽ làm tăng một phần hiệu năng trên máy tính của bạn, nhưng đổi lại thì pin máy tính của bạn sẽ hết nhanh hơn và máy cũng sẽ nóng hơn.
 
 * Mở `Dấu nhắc lệnh` (Command Prompt) dưới quyền quản trị. Bạn cũng có thể nhấn tổ hợp `Windows + S` và nhập chữ `Command Prompt`:
 

@@ -297,7 +297,7 @@ Hiện tại mình vẫn chưa tìm được cách nào để sửa lỗi này, 
 
 ## RPG Maker MV
 
-Do đều sử dụng NW.js nên cách sửa trên macOS cũng sẽ [giống như trên Windows](../1.%20Windows/./troubleshooting#rpg-maker-mvmz).
+Do đều sử dụng NW.js nên cách sửa trên macOS cũng sẽ [giống như trên Windows](../../windows/./troubleshooting#rpg-maker-mvmz).
 
 Chỉ cần nhớ một điều rằng thư mục game trên macOS sẽ là `Contents/Resources/app.nw` ở bên trong ứng dụng của game. Nếu lỗi của bạn không được liệt kê trong mục đó thì rất tiếc, game sẽ không thể chơi được ổn định trên macOS.
 

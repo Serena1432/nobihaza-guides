@@ -28,7 +28,7 @@ toc: true
 ## Other sections
 
 * **[Definitions](definitions)**<br>Explanations of terms and proper names that you may come across in this guide.
-* **[Detecting RPG Maker games](detect-rpg)**<br>How to figure out which RPG Maker engine a game you’re playing was made with.
+* **[Identifying RPG Maker games](detect-rpg)**<br>How to figure out which RPG Maker engine a game you’re playing was made with.
 * **[FAQ](faq)**<br>Frequently asked questions when playing Nobihaza.
 * **[Support status](status)**<br>Current support status of Nobihaza on each operating system.
 * **[Basic gameplay guide](basic)**<br>Basic Nobihaza gameplay guide for beginners.

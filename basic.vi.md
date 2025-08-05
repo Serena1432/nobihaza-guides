@@ -33,7 +33,7 @@ toc: true
 | S | Đi chậm (hoặc sử dụng kĩ năng đặc biệt ở một số game) |
 | C | Nạp lại đạn hoặc đổi loại đạn |
 | Q | Rút vũ khí phụ ở một số game |
-| Phím số (1, 2, 3, 4, v.v) | Đổi vũ khí / vật dụng đang cầm |
+| Phím số (1, 2, 3, 4, v.v) | Đổi vũ khí / vật dụng đang cầm (chỉ dành cho một số game) |
 | F1 | Mở cài đặt của engine (phần mềm làm game) |
 | F2 | Hiển thị / Ẩn FPS |
 | F4 / Alt + Enter | Bật / Tắt chế độ toàn màn hình |

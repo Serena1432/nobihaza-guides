@@ -66,9 +66,9 @@ toc: true
 
 | Đuôi tệp tin | Phần mềm làm game |
 | --- | --- |
-| `Game.rgssad` | RPG Maker XP |
-| `Game.rgss2a` | RPG Maker VX |
-| `Game.rgss3a` | RPG Maker VX Ace |
+| `.rxdata` | RPG Maker XP |
+| `.rvdata` | RPG Maker VX |
+| `.rvdata2` | RPG Maker VX Ace |
 
 ![17](images/image-16.png)
 

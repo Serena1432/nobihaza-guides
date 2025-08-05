@@ -162,7 +162,6 @@ Giống như các ứng dụng iOS bên thứ 3 khác, bạn cần có máy tín
 
 * Vào ngày 11/1/2024, mình đã tải lên một bản thử nghiệm của EasyRPG dành cho iOS (thậm chí còn trước cả đội ngũ phát triển EasyRPG!), và từ đó đã có nhiều game Nobihaza cũ có thể chạy được trên iOS; mặc dù có một số lưu ý so với các hệ điều hành khác:
     * EasyRPG sẽ được chạy thông qua RetroArch chứ không có ứng dụng riêng, vì thế nên có một số thứ sẽ phụ thuộc vào RetroArch. Bạn nên đọc cả hướng dẫn sử dụng của RetroArch nữa.
-    * Tệp tin MIDI sẽ không thể phát nếu như không có tệp tin `easyrpg.soundfont` trong mỗi thư mục game.
     * Một số game sẽ không thể lưu được tiến trình.
 
 * Những game còn lại sẽ hoàn toàn không chạy được trên iOS.
