@@ -1,4 +1,14 @@
+---
+layout: default
+title: Điều kiện cơ bản
+parent: macOS
+permalink: /mac/prerequisities
+lang: vi
+nav_order: 1
+---
+
 # Điều kiện cơ bản
+{: .no_toc }
 
 {: .important }
 > Hiện tại chỉ có [**Doraemon: Nobita's Resident Evil 2 (Việt Hoá)**](https://nobi2.s1432.org) là hỗ trợ chính thức cho macOS, bạn có thể tải và chơi luôn mà không cần phải qua những bước rườm rà này.
@@ -19,6 +29,12 @@
 
 {: .note }
 > Bạn cũng có thể cài đặt máy ảo chạy Windows, hoặc dùng BootCamp để cài Windows lên máy Mac của bạn; và sau đó [áp dụng các hướng dẫn dành cho Windows](../1.%20Windows).<br>Tuy nhiên việc này vượt quá phạm vi hướng dẫn về Nobihaza của mình nên mình sẽ không hướng dẫn ở đây.<br><br>Hướng dẫn này chỉ dành cho những người muốn chạy game **trực tiếp** trên macOS thông qua các công cụ hỗ trợ.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Cấu hình máy tính
 
@@ -317,3 +333,4 @@ Sau khi nhấn nút **Choose Setup Executable**, hãy chọn tệp `Setup.exe` t
 ![34](images/image-33.png)
 
 # Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installing)
+{: .no_toc }

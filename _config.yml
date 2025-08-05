@@ -1,0 +1,91 @@
+title: Nobihaza Guides
+email: admin@s1432.org
+description: >-
+  An ultimate guide for playing Nobihaza/RPG Maker games, made by
+  Serena1432 and Nobihaza Vietnam Community.
+baseurl: ""
+url: "https://guides.nbhzvn.one"
+twitter_username: Serena1432
+github_username: Serena1432
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/logo.png"
+
+permalink: pretty
+
+theme: just-the-docs
+color_scheme: dark
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bin/
+  - lib/
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  - fixtures/
+
+languages: ["en", "vi"]
+default_lang: "vi"
+
+languages_info:
+  en:
+    name: English
+    flag: "🇬🇧"
+  vi:
+    name: Tiếng Việt
+    flag: "🇻🇳"
+
+polyglot:
+  default_lang_in_url: true
+  relative_links: true
+
+aux_links_new_tab: true
+
+nav_enabled: true
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/Serena1432/nobihaza-guides"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+callouts_level: quiet
+callouts:
+  important:
+    title: Important
+    color: github-important
+  tip:
+    title: Tip
+    color: github-tip
+  note:
+    title: Note
+    color: github-note
+  caution:
+    title: Caution
+    color: github-caution
+  warning:
+    title: Warning
+    color: github-warning

@@ -1,6 +1,22 @@
-# Tình trạng hỗ trợ
+---
+layout: default
+permalink: /status
+title: Tình trạng hỗ trợ
+lang: vi
+nav_order: 4
+toc: true
+---
 
-Theo như mình xem xét thì tính đến ngày 29/4/2025, khả năng chơi các game Nobihaza trên các thiết bị sẽ như dưới đây:
+# Tình trạng hỗ trợ
+{: .no_toc }
+
+Theo như mình xem xét thì tính đến ngày 5/8/2025, khả năng chơi các game Nobihaza trên các thiết bị sẽ như dưới đây:
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Windows
 
@@ -165,4 +181,4 @@ Bản chất các game này được làm bằng JavaScript, nên bạn vẫn c�
 
 Mình sẽ không hướng dẫn về cái này. Nếu bạn tò mò thì bạn có thể tìm hiểu hướng dẫn ở trên Internet.
 
-Mình cũng sẽ có dự định làm một launcher cho iOS về sau này. Bạn có thể đọc thêm tại [FAQ](FAQ.md#có-cách-nào-để-chơi-game-rpg-maker-mvmz-trên-ios-mà-không-cần-phải-tự-build-không).
+Mình cũng sẽ có dự định làm một launcher cho iOS về sau này. Bạn có thể đọc thêm tại [FAQ](./faq#có-cách-nào-để-chơi-game-rpg-maker-mvmz-trên-ios-mà-không-cần-phải-tự-build-không).

@@ -1,8 +1,24 @@
+---
+layout: default
+permalink: /faq
+title: Câu hỏi thường gặp
+lang: vi
+nav_order: 3
+toc: true
+---
+
 # Câu hỏi thường gặp
+{: .no_toc }
 
 Dưới đây là những câu hỏi thường gặp và mình sẽ cố gắng trả lời nhiều nhất có thể, với tư cách là một nhà phát triển game Nobihaza và đang là nhà phát triển của trang web **nbhzvn.one**.
 
-> [!NOTE]
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+{: .note }
 > Phần **Câu hỏi thường gặp** này chỉ tập trung vào những câu hỏi mà bạn sẽ hỏi khi **chơi game Nobihaza** (hay RPG Maker nói chung) chứ không phải là định nghĩa của Nobihaza. Nên những câu hỏi cơ bản như "Nobihaza là gì?" hay "Game Nobihaza đầu tiên được bắt đầu vào năm nào?" thì mình sẽ không trả lời.
 
 ## Nobihaza được làm bằng phần mềm làm game nào?
@@ -11,7 +27,7 @@ Toàn bộ các game Nobihaza được làm bằng các phần mềm thuộc ser
 
 ## Làm thế nào để xác định một game Nobihaza được làm bằng phần mềm RPG Maker nào?
 
-Bạn có thể đọc [cách nhận diện game RPG Maker](Nhận%20diện%20game%20RPG%20Maker.md).
+Bạn có thể đọc [cách nhận diện game RPG Maker](./detect-rpg).
 
 ## Cấu hình yêu cầu để chơi game Nobihaza là gì?
 
@@ -21,7 +37,7 @@ Mình chỉ muốn nói là: đừng sở hữu thiết bị quá cũ, quá rẻ
 
 Còn lại thì nếu máy tính của bạn được tối ưu hoá tốt, không có quá nhiều phần mềm chạy ngầm thì mình khá chắc máy bạn có thể chơi được gần hết các game Nobihaza.
 
-> [!NOTE]
+{: .note }
 > Đây là cấu hình **tối thiểu** để có thể chạy gần như toàn bộ các game Nobihaza được làm trên các engine cụ thể.
 
 ### RPG Maker 2000/2003
@@ -144,13 +160,13 @@ Sau khi mình có nhiều thời gian rảnh hơn thì mình cũng sẽ bắt đ
 
 <details>
 <summary><b>Tại sao điều này lại khả thi?</b></summary>
-
-Bản chất các game RPG Maker MV/MZ được phát triển trên nền tảng web, và vì nó là nền tảng web nên sẽ có thể chạy được trên iOS mà không cần tốn quá nhiều công sức, giống như mình đã làm với Nobihaza 2 Remake bản tiếng Việt.
-
-Tuy nhiên, việc làm một launcher có nghĩa là phải hỗ trợ cho tất cả các game RPG Maker MV, bao gồm một menu chọn game, bàn phím ảo, tự do thay đổi bố cục phím, quản lý tệp tin lưu game, v.v.
-
-Nó khả thi thông qua việc sử dụng Cordova, vốn là một công cụ để web có thể tương tác với hệ thống trên iOS. Nên chỉ cần mình nghiên cứu đủ và có đủ thời gian, thì việc chơi gần như mọi tựa game RPG Maker MV trên iOS sẽ là điều hoàn toàn có thể xảy ra.
-
+<br>
+Bản chất các game RPG Maker MV/MZ được phát triển trên nền tảng web, và vì nó là nền tảng web nên sẽ có thể chạy được trên iOS mà không cần tốn quá nhiều công sức, giống như mình đã làm với Nobihaza 2 Remake bản tiếng Việt.<br>
+<br>
+Tuy nhiên, việc làm một launcher có nghĩa là phải hỗ trợ cho tất cả các game RPG Maker MV, bao gồm một menu chọn game, bàn phím ảo, tự do thay đổi bố cục phím, quản lý tệp tin lưu game, v.v.<br>
+<br>
+Nó khả thi thông qua việc sử dụng Cordova, vốn là một công cụ để web có thể tương tác với hệ thống trên iOS. Nên chỉ cần mình nghiên cứu đủ và có đủ thời gian, thì việc chơi gần như mọi tựa game RPG Maker MV trên iOS sẽ là điều hoàn toàn có thể xảy ra.<br>
+<br>
 Nó sẽ đỡ mệt hơn RPG Maker XP/VX/VX Ace rất nhiều, vì các engine đó sử dụng Ruby. Tuy nhiên thì vẫn sẽ phải thêm khá nhiều tính năng nên sẽ mất khá nhiều thời gian.
 </details>
 
@@ -158,16 +174,17 @@ Nó sẽ đỡ mệt hơn RPG Maker XP/VX/VX Ace rất nhiều, vì các engine 
 
 <details>
 <summary><b>Riêng cái này thì mình sẽ nói rất là nhiều.</b></summary>
-
-* Đầu tiên và cũng là cái quan trọng nhất: iOS rất hạn chế việc cho phép cài ứng dụng bên thứ ba. Để có thể được phát hành chính thức trên iOS, bạn cần một chứng chỉ 99$/năm để đăng lên App Store (nhưng mình đảm bảo sẽ không có game Nobihaza nào có thể lên được đó), và 299$/năm để có thể phát hành ứng dụng qua web mà không thông qua App Store.<br>Và nếu bạn nghĩ tới việc sideload thì xin chia buồn, phiên bản iOS càng cao thì càng khó sideload, và đa phần đều yêu cầu có máy tính.
-* Kể cả khi có sideload được thì chứng chỉ cũng sẽ bị thu hồi sau 7 ngày và bạn bắt buộc phải sideload lại.
-* Apple yêu cầu một máy Mac để phát triển ứng dụng cho iOS. Thực ra có một số công cụ giúp phát triển ứng dụng iOS trên Windows, nhưng nó không thể dùng để phát triển game RPG Maker.<br>Và trong cả cộng đồng nhà phát triển game Nobihaza thì chỉ có **một mình mình** là có máy Mac, và thậm chí nó chỉ là Hackintosh chứ không phải máy Mac thật.
-* Sau khi đã có máy Mac thì bạn cần phải có một chiếc iPhone để có thể tạo chứng chỉ và xuất ứng dụng ra tệp `.ipa`.
-* iOS rất tù và không thể tùy ý cho các tệp tin vào trong dữ liệu của một ứng dụng.
-* Riêng các game RPG Maker MV/MZ thì các nhà phát triển bắt buộc phải dùng WebKit của Safari và nó **cực kì lag** và cũ kĩ, và để nâng cấp phiên bản WebKit thì chúng ta phải làm gì? Nâng cấp cả cái iOS lên, vì phiên bản trình duyệt WebKit nó sẽ đi cùng với phiên bản iOS.
-
-Trước năm 2023 thì tính riêng các game Nobihaza, chỉ có **Doraemon: Nobita's Resident Evil 2 (Việt Hóa)** của mình là hỗ trợ cho iOS, và thậm chí nó còn không ổn định. Mãi đến tháng 11/2023 khi mình là người đầu tiên trong cộng đồng Nobihaza công bố EasyRPG dành cho iOS, thì lúc đó các game Nobihaza được làm bằng RPG Maker 2000/2003 mới có thể chơi được trên iOS thông qua RetroArch. Cũng may mắn là đội ngũ phát triển EasyRPG đang có ý định phát triển ứng dụng chính thức cho iOS, nên sau này việc chơi game EasyRPG trên iOS sẽ ổn định hơn.
-
+<br>
+<ul>
+    <li>Đầu tiên và cũng là cái quan trọng nhất: iOS rất hạn chế việc cho phép cài ứng dụng bên thứ ba. Để có thể được phát hành chính thức trên iOS, bạn cần một chứng chỉ 99$/năm để đăng lên App Store (nhưng mình đảm bảo sẽ không có game Nobihaza nào có thể lên được đó), và 299$/năm để có thể phát hành ứng dụng qua web mà không thông qua App Store.<br>Và nếu bạn nghĩ tới việc sideload thì xin chia buồn, phiên bản iOS càng cao thì càng khó sideload, và đa phần đều yêu cầu có máy tính.</li>
+    <li>Kể cả khi có sideload được thì chứng chỉ cũng sẽ bị thu hồi sau 7 ngày và bạn bắt buộc phải sideload lại.</li>
+    <li>Apple yêu cầu một máy Mac để phát triển ứng dụng cho iOS. Thực ra có một số công cụ giúp phát triển ứng dụng iOS trên Windows, nhưng nó không thể dùng để phát triển game RPG Maker.<br>Và trong cả cộng đồng nhà phát triển game Nobihaza thì chỉ có <b>một mình mình</b> là có máy Mac, và thậm chí nó chỉ là Hackintosh chứ không phải máy Mac thật.</li>
+    <li>Sau khi đã có máy Mac thì bạn cần phải có một chiếc iPhone để có thể tạo chứng chỉ và xuất ứng dụng ra tệp `.ipa`.</li>
+    <li>iOS rất tù và không thể tùy ý cho các tệp tin vào trong dữ liệu của một ứng dụng.</li>
+    <li>Riêng các game RPG Maker MV/MZ thì các nhà phát triển bắt buộc phải dùng WebKit của Safari và nó <b>cực kì lag</b> và cũ kĩ, và để nâng cấp phiên bản WebKit thì chúng ta phải làm gì? Nâng cấp cả cái iOS lên, vì phiên bản trình duyệt WebKit nó sẽ đi cùng với phiên bản iOS.</li>
+</ul><br>
+Trước năm 2023 thì tính riêng các game Nobihaza, chỉ có <b>Doraemon: Nobita's Resident Evil 2 (Việt Hóa)</b> của mình là hỗ trợ cho iOS, và thậm chí nó còn không ổn định. Mãi đến tháng 11/2023 khi mình là người đầu tiên trong cộng đồng Nobihaza công bố EasyRPG dành cho iOS, thì lúc đó các game Nobihaza được làm bằng RPG Maker 2000/2003 mới có thể chơi được trên iOS thông qua RetroArch. Cũng may mắn là đội ngũ phát triển EasyRPG đang có ý định phát triển ứng dụng chính thức cho iOS, nên sau này việc chơi game EasyRPG trên iOS sẽ ổn định hơn.<br>
+<br>
 Tuy nhiên đó vẫn chỉ là RPG Maker 2000/2003 thôi. Đối với RPG Maker VX/VX Ace thì hiện tại vẫn chưa có cách nào cả.
 </details>
 

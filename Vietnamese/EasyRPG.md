@@ -101,7 +101,7 @@ Khởi động lại game và bạn sẽ thấy chất âm của game khi phát 
 
 ### Game không phát nhạc MIDI hoặc chất lượng âm thanh kém
 
-> [!NOTE]
+{: .note }
 > RetroArch sẽ không sử dụng được cách này.
 
 * Trong khi chạy game bằng EasyRPG, nhấn nút **F1** để mở phần cài đặt và qua mục **Âm thanh** -> **Soundfont**.

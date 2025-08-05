@@ -1,6 +1,22 @@
+---
+layout: default
+permalink: /definitions
+title: Định nghĩa
+lang: vi
+nav_order: 1
+toc: true
+---
+
 # Định nghĩa
+{: .no_toc }
 
 Ở phần này, mình sẽ giải nghĩa của các thuật ngữ và các tên riêng bạn sẽ gặp trong hướng dẫn này, và cả trong khi đang chơi game Nobihaza.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Về Nobihaza và RPG Maker
 

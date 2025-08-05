@@ -1,0 +1,31 @@
+$content-width: 75rem;
+
+//--- Note Colors (Blue) ---
+$github-note-300: #316dca;
+$github-note-200: mix(white, $github-note-300, 25%); // 25% white mixed in
+$github-note-100: mix(white, $github-note-300, 50%);
+$github-note-000: mix(white, $github-note-300, 90%); // 90% white, for a very light background
+
+//--- Tip Colors (Green) ---
+$github-tip-300: #347d39;
+$github-tip-200: mix(white, $github-tip-300, 25%);
+$github-tip-100: mix(white, $github-tip-300, 50%);
+$github-tip-000: mix(white, $github-tip-300, 90%);
+
+//--- Important Colors (Purple) ---
+$github-important-300: #8256d0;
+$github-important-200: mix(white, $github-important-300, 25%);
+$github-important-100: mix(white, $github-important-300, 50%);
+$github-important-000: mix(white, $github-important-300, 90%);
+
+//--- Warning Colors (Brown/Yellow) ---
+$github-warning-300: #966600;
+$github-warning-200: mix(white, $github-warning-300, 25%);
+$github-warning-100: mix(white, $github-warning-300, 50%);
+$github-warning-000: mix(white, $github-warning-300, 90%);
+
+//--- Caution Colors (Red) ---
+$github-caution-300: #c93c37;
+$github-caution-200: mix(white, $github-caution-300, 25%);
+$github-caution-100: mix(white, $github-caution-300, 50%);
+$github-caution-000: mix(white, $github-caution-300, 90%);

@@ -1,4 +1,14 @@
+---
+layout: default
+title: Sửa lỗi và mẹo
+parent: macOS
+permalink: /mac/troubleshooting
+lang: vi
+nav_order: 3
+---
+
 # Sửa lỗi và mẹo
+{: .no_toc }
 
 Dưới đây sẽ là hướng dẫn sửa các lỗi khi chơi game Nobihaza, cùng với các mẹo để có thể chơi game tốt hơn trên macOS.
 
@@ -7,6 +17,12 @@ Dưới đây sẽ là hướng dẫn sửa các lỗi khi chơi game Nobihaza, 
 
 {: .important }
 > "Thư mục game" được nhắc đến trong hướng dẫn này là thư mục game trong thư mục `Program Files` mà bạn đã làm khi [thêm game ở mục 2](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe), thường có dạng là `/Users/tennguoidung/Applications/Nobihaza.app/Contents/drive_c/Program Files/tengame`.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Chung
 

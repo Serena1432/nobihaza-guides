@@ -1,4 +1,14 @@
+---
+layout: default
+title: Sửa lỗi và mẹo
+parent: Windows
+permalink: /windows/troubleshooting
+lang: vi
+nav_order: 3
+---
+
 # Sửa lỗi và mẹo
+{: .no_toc }
 
 Dưới đây là cách sửa những lỗi thường gặp khi chơi các game Nobihaza, và một số mẹo để có thể tối ưu hoá game trên Windows.
 
@@ -6,6 +16,12 @@ Phần này có sử dụng lại một số ảnh từ [hướng dẫn cũ năm
 
 {: .important }
 > Chỉ nên báo cáo lỗi cho nhà phát triển của game nếu như đã làm hết tất cả hướng dẫn dưới đây mà vẫn chưa hết lỗi.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Chung
 

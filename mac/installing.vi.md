@@ -1,6 +1,22 @@
+---
+layout: default
+title: Tải và chạy game
+parent: macOS
+permalink: /mac/installing
+lang: vi
+nav_order: 2
+---
+
 # Tải và chạy game
+{: .no_toc }
 
 Việc cài đặt game trên macOS sẽ khá khó khăn do gần như không có game nào hỗ trợ chính thức cho macOS.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Tải game xuống
 

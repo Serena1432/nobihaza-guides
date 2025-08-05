@@ -1,6 +1,22 @@
+---
+layout: default
+permalink: /detect-rpg
+title: Nhận diện game RPG Maker
+lang: vi
+nav_order: 2
+toc: true
+---
+
 # Nhận diện game RPG Maker
+{: .no_toc }
 
 Đây sẽ là hướng dẫn để bạn nhận biết game Nobihaza bạn muốn chơi được làm bằng phần mềm làm game nào.
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Truy cập vào thư mục game
 
@@ -8,7 +24,7 @@
 
 ![11](images/image-10.png)
 
-> [!NOTE]
+{: .note }
 > Dưới đây là các cách có thể áp dụng để nhận diện một game. Bạn có thể chọn một hay nhiều cách mà bạn cảm thấy dễ chịu nhất.
 
 ## RPG Maker 2000/2003
@@ -37,7 +53,7 @@
 
 ![16](images/image-15.png)
 
-> [!NOTE]
+{: .note }
 > Đối với các game không được mã hóa thì có thể sẽ có tệp tin dự án thay vào đó (mặc dù không phải game nào cũng có).
 >
 > | Tên tệp tin | Phần mềm làm game |

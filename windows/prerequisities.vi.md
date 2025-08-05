@@ -1,6 +1,22 @@
+---
+layout: default
+title: Điều kiện cơ bản
+parent: Windows
+permalink: /windows/prerequisities
+lang: vi
+nav_order: 1
+---
+
 # Điều kiện cơ bản
+{: .no_toc }
 
 Trước khi chơi bất kì game Nobihaza nào, hãy đảm bảo máy tính của bạn đã cài đặt những thứ đã được đề cập dưới đây:
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Cài đặt ban đầu
 
@@ -200,3 +216,4 @@ Tải font này về [tại đây](https://github.com/ovate/VL-Gothic-font/raw/r
 RPG Maker MV là nhàn nhất vì bạn không cần phải cài bất kì RTP nào cả. Những gì bạn cần là một máy có cấu hình tốt vì đa số game sẽ yêu cầu cấu hình khá cao!
 
 # Sau khi đã hoàn tất, hãy tới phần [Tải và chạy game](./installing)
+{: .no_toc }

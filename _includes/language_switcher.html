@@ -1,0 +1,37 @@
+{% comment %}
+  This component builds a language switcher dropdown.
+  It requires the `languages_info` object to be defined in _config.yml.
+{% endcomment %}
+
+{%- assign current_lang_code = page.lang | default: site.default_lang -%}
+{%- assign current_lang_info = site.languages_info[current_lang_code] -%}
+
+<div class="lang-switcher">
+  <button id="lang-switcher-button" class="lang-button">
+    <span class="lang-flag">{{ current_lang_info.flag }}</span>
+    <span class="lang-name">{{ current_lang_info.name }}</span>
+    <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M7 10l5 5 5-5H7z"/></svg>
+  </button>
+
+  <ul id="lang-switcher-dropdown" class="dropdown-content">
+    {% for lang_code in site.languages %}
+      {%- if lang_code != current_lang_code -%}
+        {%- assign lang_info = site.languages_info[lang_code] -%}
+        <li>
+          {% comment %} The 'localize' filter from jekyll-polyglot finds the translated version of the current page. {% endcomment %}
+          {% if lang_code == site.default_lang %}
+            <a {% static_href %}href="{{ page.url }}"{% endstatic_href %} class="lang-option">
+                <span class="lang-flag">{{ lang_info.flag }}</span>
+                <span class="lang-name">{{ lang_info.name }}</span>
+            </a>
+          {% else %}
+            <a {% static_href %}href="/{{ lang_code }}{{ page.url }}"{% endstatic_href %} class="lang-option">
+                <span class="lang-flag">{{ lang_info.flag }}</span>
+                <span class="lang-name">{{ lang_info.name }}</span>
+            </a>
+          {% endif %}
+        </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>

@@ -1,6 +1,22 @@
+---
+layout: default
+title: Tải và chạy game
+parent: Windows
+permalink: /windows/installing
+lang: vi
+nav_order: 2
+---
+
 # Tải và chạy game
+{: .no_toc }
 
 Tất cả các game Nobihaza đều sẽ hỗ trợ Windows, nên việc chạy game Nobihaza trên Windows sẽ dễ dàng nhất, và bạn sẽ không phải làm gì thêm nếu đã chuẩn bị trước ở phần [Điều kiện cơ bản](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md).
+
+## Mục lục
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Tải game xuống
 

@@ -2,10 +2,10 @@
 
 Dưới đây sẽ là cách sửa các lỗi thường gặp trên thiết bị Android.
 
-> [!IMPORTANT]
+{: .important }
 > Không phải game nào cũng sẽ tương thích với Android. Nếu bạn không thể chạy game sau khi đọc hướng dẫn này, vui lòng báo lỗi cho nhà phát triển.
 
-> [!IMPORTANT]
+{: .important }
 > Trước khi bắt đầu, hãy đảm bảo bạn đã tải bản mới nhất của các phần mềm hỗ trợ (EasyRPG, JoiPlay và Android WebView).
 
 ## Chung
@@ -33,7 +33,7 @@ Bạn hãy thử tất cả cách bên dưới:
 
 Các phần mềm hỗ trợ sẽ yêu cầu cấp quyền truy cập tất cả các tệp khi khởi động lần đầu tiên, tuy nhiên nếu bạn lỡ bỏ qua thông báo đó thì bạn có thể vào Cài đặt để cấp quyền lại.
 
-> [!NOTE]
+{: .note }
 > Ảnh chụp bên dưới sẽ là của One UI 5.1. Giao diện của các hãng điện thoại khác có thể sẽ khác đi một chút.
 
 * Vào ứng dụng **Cài đặt** và nhấn vào mục **Ứng dụng**.
@@ -64,12 +64,12 @@ Sau khi bạn giải nén game ra ngoài, bạn có thể sẽ thấy ảnh tài
 
 * Hãy tạo 2 tệp tin trống có tên là `.nomedia` và `.nosearch` (hoặc lấy 2 tệp tin bất kì và đổi thành 2 cái tên đó), sau đó di chuyển 2 tệp tin vào thư mục game (hoặc thư mục chứa tất cả các game).
 
-> [!IMPORTANT]
+{: .important }
 > Các trình quản lý tệp mặc định sẽ ẩn các tệp tin bắt đầu bằng dấu chấm, bao gồm cả 2 tệp tin vừa mới tạo. Tuy nhiên thì bạn chỉ cần tạo 1 lần (nếu thử lại thì sẽ có thông báo tệp tin đã tồn tại).
 >
 > Nếu bạn muốn, bạn cũng có thể bật tùy chọn **Hiển thị tệp tin hệ thống ẩn** (Show hidden files) trên trình quản lý tệp của bạn.
 
-> [!TIP]
+{: .tip }
 > ZArchiver cũng có tùy chọn tạo tệp tin trống bằng cách nhấn vào dấu cộng (+) ở góc dưới bên phải ứng dụng, sau đó nhấn vào mục thứ 3 (biểu tượng tệp tin) và nhập tên tệp tin.
 >
 > ![](images/image-8.png)
@@ -98,7 +98,7 @@ Hãy tải lại EasyRPG bản ổn định (Stable/Release), ví dụ như bả
 
 ### Các lỗi khác
 
-Xem tại mục [EasyRPG](../EasyRPG.md).
+Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
 
 ## RPG Maker XP/VX/VX Ace/MV/MZ (JoiPlay)
 
@@ -153,7 +153,7 @@ Bạn đã xóa nhầm tệp tin `Game.ini` trên máy (hoặc nó không có �
 
 * Nếu bạn chắc chắn lỗi là do nhà phát triển không để tệp tin này vào trong tệp tin nén, hãy báo cáo lỗi cho nhà phát triển.
 
-> [!TIP]
+{: .tip }
 > Bạn cũng có thể tự tạo một tệp tin `Game.ini` riêng và cho nó vào thư mục game, mặc dù nó có thể không tương thích hoàn toàn với `Game.ini` gốc.
 >
 > ```ini
@@ -249,12 +249,12 @@ Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 * MTP sẽ dễ cài đặt hơn, nhưng có tốc độ thấp hơn và dễ bị lỗi hơn.
 * ADB sẽ ngược lại, khó cài đặt hơn nhưng tốc độ sẽ cao hơn.
 
-> [!IMPORTANT]
+{: .important }
 > Trước khi bắt đầu, hãy cài đặt driver của điện thoại nếu bạn đang sử dụng Windows.
 
 #### Thông qua MTP
 
-> [!IMPORTANT]
+{: .important }
 > Đối với Windows và Linux thì mặc định sẽ nhận luôn điện thoại khi mới cắm vào USB. Tuy nhiên với macOS, bạn cần cài đặt **OpenMTP** và sử dụng MTP ở chính ứng dụng đó.
 
 * Kết nối điện thoại với máy tính thông qua dây cáp USB (có thể dùng dây sạc nếu sạc của bạn có cổng USB cắm vào máy tính).
@@ -303,7 +303,7 @@ Trước tiên, bạn cần cài đặt ADB trên máy tính.
 
 ##### Kết nối điện thoại
 
-> [!IMPORTANT]
+{: .important }
 > Đối với macOS và Linux, hãy thêm `./` vào trước từ `adb` trong mọi câu lệnh bên dưới thông báo này, ví dụ như `./adb devices` thay vì `adb devices`.
 
 * Mở Command Prompt (hoặc Terminal với macOS và Linux) và dùng lệnh `cd` trỏ tới thư mục vừa giải nén:
@@ -339,7 +339,7 @@ Ví dụ như mình muốn copy game từ thư mục `/home/hyacine/Nobihaza/Nob
 adb push -a "/home/hyacine/Nobihaza/Nobihaza 2" "/sdcard/Download"
 ```
 
-> [!TIP]
+{: .tip }
 > Đường dẫn chính của bộ nhớ điện thoại sẽ là `/sdcard`. Tuy nhiên nếu bạn muốn copy vào thẻ nhớ thì:
 >
 > * Dùng lệnh `adb shell ls /storage` để lấy ID của phân vùng thẻ nhớ trước.
@@ -365,7 +365,7 @@ adb install /path/to/apk.apk
 
 Thay `/path/to/apk.apk` thành đường dẫn tới tệp tin APK.
 
-> [!IMPORTANT]
+{: .important }
 > Một số điện thoại (nhất là của Xiaomi đang chạy MIUI/HyperOS) sẽ yêu cầu bạn phải bật tùy chọn **Cài đặt ứng dụng bằng USB** trong phần Tùy chọn nhà phát triển.
 
 ### Đóng gói APK dành cho Android
