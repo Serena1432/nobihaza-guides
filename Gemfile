@@ -3,6 +3,7 @@ gem "jekyll", "~> 4.4.1"
 gem "just-the-docs"
 group :jekyll_plugins do
   gem "jekyll-polyglot"
+  gem "jekyll-target-blank"
   gem "jekyll-feed", "~> 0.12"
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
