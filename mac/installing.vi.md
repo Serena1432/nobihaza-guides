@@ -150,7 +150,7 @@ Làm tương tự với phần [**Chạy bằng tệp `RPG_RT.exe`**](#ch%E1%BA%
 
 ## RPG Maker MV/MZ
 
-* Truy cập thư mục `nwjs` mà bạn đã tải xuống và giải nén ở [mục 1](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#rpg-maker-mv). Sao chép ứng dụng `nwjs` vào thư mục game.
+* Truy cập thư mục `nwjs` mà bạn đã tải xuống và giải nén ở [mục 1](./prerequisities#rpg-maker-mv). Sao chép ứng dụng `nwjs` vào thư mục game.
 
 ![51](images/image-50.png)
 

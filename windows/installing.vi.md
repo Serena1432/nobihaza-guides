@@ -10,7 +10,7 @@ nav_order: 2
 # Tải và chạy game
 {: .no_toc }
 
-Tất cả các game Nobihaza đều sẽ hỗ trợ Windows, nên việc chạy game Nobihaza trên Windows sẽ dễ dàng nhất, và bạn sẽ không phải làm gì thêm nếu đã chuẩn bị trước ở phần [Điều kiện cơ bản](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md).
+Tất cả các game Nobihaza đều sẽ hỗ trợ Windows, nên việc chạy game Nobihaza trên Windows sẽ dễ dàng nhất, và bạn sẽ không phải làm gì thêm nếu đã chuẩn bị trước ở phần [Điều kiện cơ bản](./prerequisities).
 
 ## Mục lục
 {: .no_toc }

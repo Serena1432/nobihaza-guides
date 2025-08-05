@@ -16,7 +16,7 @@ Dưới đây sẽ là hướng dẫn sửa các lỗi khi chơi game Nobihaza, 
 > Nếu như game vẫn còn lỗi sau khi bạn đã áp dụng những cách bên dưới thì khả năng cao là game sẽ không thể chơi (ổn định) trên macOS, và bạn không còn cách nào khác ngoài việc đợi nhà phát triển phát hành bản chính thức.
 
 {: .important }
-> "Thư mục game" được nhắc đến trong hướng dẫn này là thư mục game trong thư mục `Program Files` mà bạn đã làm khi [thêm game ở mục 2](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe), thường có dạng là `/Users/tennguoidung/Applications/Nobihaza.app/Contents/drive_c/Program Files/tengame`.
+> "Thư mục game" được nhắc đến trong hướng dẫn này là thư mục game trong thư mục `Program Files` mà bạn đã làm khi [thêm game ở mục 2](./installing#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe), thường có dạng là `/Users/tennguoidung/Applications/Nobihaza.app/Contents/drive_c/Program Files/tengame`.
 
 ## Mục lục
 {: .no_toc }
@@ -69,7 +69,7 @@ Nếu bạn đang chơi game bằng Wine + Kegworks, bạn cần kiểm tra xem 
 
 * Mở 2 thư mục này trong Finder của macOS:
     * Thư mục `dxvk-macOS-*` mà bạn vừa giải nén, như ở ảnh bên dưới.<br>![60](images/image-59.png)
-    * Thư mục `Contents` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
+    * Thư mục `Contents` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
 
 * Mở ứng dụng **Terminal** lên và nhập dòng chữ sau:
 
@@ -131,7 +131,7 @@ Nếu game vẫn lag sau khi đã làm đủ cách trên thì không có cách n
 
 ![68](images/image-67.png)
 
-* Xem lại [Điều kiện cơ bản#Chuyển vùng thành Nhật Bản cho Wine](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#chuy%E1%BB%83n-v%C3%B9ng-th%C3%A0nh-nh%E1%BA%ADt-b%E1%BA%A3n-cho-wine) và [Điều kiện cơ bản#Cài đặt thư viện cần thiết cho Wine](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#c%C3%A0i-%C4%91%E1%BA%B7t-th%C6%B0-vi%E1%BB%87n-c%E1%BA%A7n-thi%E1%BA%BFt-cho-wine).
+* Xem lại [Điều kiện cơ bản#Chuyển vùng thành Nhật Bản cho Wine](./prerequisities#chuy%E1%BB%83n-v%C3%B9ng-th%C3%A0nh-nh%E1%BA%ADt-b%E1%BA%A3n-cho-wine) và [Điều kiện cơ bản#Cài đặt thư viện cần thiết cho Wine](./prerequisities#c%C3%A0i-%C4%91%E1%BA%B7t-th%C6%B0-vi%E1%BB%87n-c%E1%BA%A7n-thi%E1%BA%BFt-cho-wine).
 
 * Kiểm tra xem trong thư mục game có tệp tin font chữ (kết thúc bằng `.ttf`, `.otf` hay `.fon`) nào không, nếu có thì:
 
@@ -144,7 +144,7 @@ Mở ứng dụng **Font Book** của macOS lên (có thể tìm trong Launchpad
 
 #### Đối với tệp có đuôi `.fon`
 
-* Truy cập thư mục `Contents/drive_c/windows/Fonts` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
+* Truy cập thư mục `Contents/drive_c/windows/Fonts` của ứng dụng `Nobihaza`, hoặc tên khác mà bạn đã đặt ở mục 1. Xem lại mục [2. Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config) nếu bạn đã quên.
 
 Thư mục Fonts sẽ như ảnh bên dưới:
 
@@ -164,7 +164,7 @@ reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Fonts" /v "RM2000" /d
 
 Đa số game Nobihaza được làm bằng RPG Maker VX Ace trở xuống sẽ sử dụng MIDI. Nếu bạn thấy trong quá trình chơi mà có một số bài nhạc không thể phát được, nó có thể là nhạc MIDI và máy bạn đang bị lỗi.
 
-* Xem lại mục [Điều kiện cơ bản#Cài đặt thư viện cần thiết cho Wine](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#c%C3%A0i-%C4%91%E1%BA%B7t-th%C6%B0-vi%E1%BB%87n-c%E1%BA%A7n-thi%E1%BA%BFt-cho-wine).
+* Xem lại mục [Điều kiện cơ bản#Cài đặt thư viện cần thiết cho Wine](./prerequisities#c%C3%A0i-%C4%91%E1%BA%B7t-th%C6%B0-vi%E1%BB%87n-c%E1%BA%A7n-thi%E1%BA%BFt-cho-wine).
 
 * Một số máy cũng có thể sẽ cần FluidSynth để có thể phát nhạc MIDI:
 
@@ -203,7 +203,7 @@ Thay đường dẫn `~/Downloads/gm.sf2` của bạn thành đường dẫn t�
 
 ### KegworksConfig không mở khi chạy ứng dụng `Nobihaza` trên Launchpad
 
-Xem lại mục [Tải và chạy game#Mở ứng dụng Kegworks Config](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config).
+Xem lại mục [Tải và chạy game#Mở ứng dụng Kegworks Config](./installing#m%E1%BB%9F-%E1%BB%A9ng-d%E1%BB%A5ng-kegworks-config).
 
 ## RPG Maker 2000/2003 (`RPG_RT.exe`)
 
@@ -211,14 +211,14 @@ Xem lại mục [Tải và chạy game#Mở ứng dụng Kegworks Config](2.%20T
 
 ![67](images/image-66.png)
 
-* Xem lại [Điều kiện cơ bản#Chuyển vùng thành Nhật Bản cho Wine](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#chuy%E1%BB%83n-v%C3%B9ng-th%C3%A0nh-nh%E1%BA%ADt-b%E1%BA%A3n-cho-wine).
+* Xem lại [Điều kiện cơ bản#Chuyển vùng thành Nhật Bản cho Wine](./prerequisities#chuy%E1%BB%83n-v%C3%B9ng-th%C3%A0nh-nh%E1%BA%ADt-b%E1%BA%A3n-cho-wine).
 
 * Cũng có thể là do tệp tin đó thực sự không có trong thư mục game. Hãy giải nén lại vào thư mục game và thử lại.
 
 {: .note }
 > Có một số trường hợp hiếm là do người dịch khi nén game bằng máy tính vẫn chưa để vùng là Nhật Bản, và sau khi nén thì tên của các tệp tin tài nguyên sẽ bị hỏng và chứa các kí tự vô nghĩa (hay còn được gọi là Mojibake).
 >
-> Lỗi này cũng sẽ khiến cho game không thể tìm được tệp tin tài nguyên. Bạn có thể xem chi tiết về lỗi này [ở đây](../6.%20Sửa%20lỗi%20chung/1.%20Sửa%20lỗi%20tệp%20tin%20mojibake.md).
+> Lỗi này cũng sẽ khiến cho game không thể tìm được tệp tin tài nguyên. Bạn có thể xem chi tiết về lỗi này [ở đây](../../miscellaneous/mojibake).
 
 ### `RPGツクール2000/2003のランタイムパッケージがセットアップされていません。` (Gói khởi chạy của RPG Maker 2000/2003 chưa được cài đặt)
 
@@ -257,7 +257,7 @@ Trong thanh tiêu đề của thông báo lỗi sẽ ghi đường dẫn tệp t
 * Tệp tin đó cũng có thể bị lỗi trong quá trình giải nén, hãy thử giải nén lại tệp tin nén của game.
 
 {: .important }
-> Bạn cần tạo lại lối tắt chạy game ([**Custom EXE Creator**](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe)) sau khi đã đổi tên thư mục game.
+> Bạn cần tạo lại lối tắt chạy game ([**Custom EXE Creator**](./installing#ch%E1%BA%A1y-b%E1%BA%B1ng-t%E1%BB%87p-rpg_rtexe)) sau khi đã đổi tên thư mục game.
 
 ### Unable to find VL Gothic font
 
@@ -307,7 +307,7 @@ Còn lại thì sẽ chỉ có một lỗi khác dành riêng cho macOS:
 
 ![115](images/image-114.png)
 
-Bạn chưa cài đặt thư mục `Contents/Resources/app.nw` của NW.js, hãy xem lại [Tải và chạy game#RPG Maker MV/MZ](2.%20T%E1%BA%A3i%20v%C3%A0%20ch%E1%BA%A1y%20game.md#rpg-maker-mvmz).
+Bạn chưa cài đặt thư mục `Contents/Resources/app.nw` của NW.js, hãy xem lại [Tải và chạy game#RPG Maker MV/MZ](./installing#rpg-maker-mvmz).
 
 ## Mẹo dành cho macOS
 
@@ -578,7 +578,7 @@ Trong đó `~/Downloads/*-apple-darwin-simple-http-server` sẽ là đường d�
 
 Ứng dụng `Nobihaza` (hoặc tên khác mà bạn đã đặt ở mục **Điều kiện cơ bản**) đã chứa toàn bộ game và thư viện bạn đã cài đặt, nên bạn có thể chuyển ứng dụng này sang một máy Mac khác (cho người khác sử dụng hoặc là nếu bạn có một máy Mac khác).
 
-* Đảm bảo là máy Mac đích cũng đã [cài đặt Kegworks Winery](1.%20%C4%90i%E1%BB%81u%20ki%E1%BB%87n%20c%C6%A1%20b%E1%BA%A3n.md#wine-v%C3%A0-kegworks) và đã có cùng **Wrapper Version** với **Engine** như bạn để tránh xảy ra lỗi nhiều nhất có thể. Bạn có thể xem ở mục **Wrapper Version** với **Engine** ở KegworksConfig.
+* Đảm bảo là máy Mac đích cũng đã [cài đặt Kegworks Winery](./prerequisities#wine-v%C3%A0-kegworks) và đã có cùng **Wrapper Version** với **Engine** như bạn để tránh xảy ra lỗi nhiều nhất có thể. Bạn có thể xem ở mục **Wrapper Version** với **Engine** ở KegworksConfig.
 
 * Sao chép ứng dụng `Nobihaza` (hoặc tên khác) trong thư mục `/Users/tennguoidung/Applications/Kegworks`, hoặc tạo một tệp tin nén nếu bạn đang muốn tải nó lên Internet.
 

@@ -320,7 +320,7 @@ Sau khi nhấn nút **Choose Setup Executable**, hãy chọn tệp `Setup.exe` t
 ## RPG Maker MV
 
 {: .important }
-> Một số game sẽ **không thể** chạy được trên macOS nếu như bạn không sửa dữ liệu của game (yêu cầu phải có kiến thức về lập trình JavaScript) do các game này có sử dụng thư viện chỉ dành cho Windows. Xem thêm tại mục [Tình trạng hỗ trợ](../Tình%20trạng%20hỗ%20trợ.md).
+> Một số game sẽ **không thể** chạy được trên macOS nếu như bạn không sửa dữ liệu của game (yêu cầu phải có kiến thức về lập trình JavaScript) do các game này có sử dụng thư viện chỉ dành cho Windows. Xem thêm tại mục [Tình trạng hỗ trợ](../../status).
 
 Đối với macOS thì việc tải NW.js xuống là bắt buộc.
 
