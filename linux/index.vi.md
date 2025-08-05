@@ -17,7 +17,7 @@ Hướng dẫn này áp dụng cho tất cả các Linux distro, tuy nhiên mộ
 
 ## Mục lục
 
-* **[Điều kiện cơ bản](prerequisities):** Các thư viện và phần mềm hỗ trợ cần cài đặt trước khi chơi game.
-* **[Tải và chạy game](installation):** Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
-* **[Sửa lỗi và mẹo](troubleshooting):** Sửa lỗi thường gặp trong quá trình chơi, cũng như các mẹo vặt để cải thiện trải nghiệm chơi game.
-* **[Cài đặt nâng cao](advanced):** Dành cho những bạn đã quen với cửa sổ dòng lệnh, và muốn hạn chế tối đa việc sử dụng phần mềm hỗ trợ.
+* **[Điều kiện cơ bản](prerequisities)**<br>Các thư viện và phần mềm hỗ trợ cần cài đặt trước khi chơi game.
+* **[Tải và chạy game](installation)**<br>Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
+* **[Sửa lỗi và mẹo](troubleshooting)**<br>Sửa lỗi thường gặp trong quá trình chơi, cũng như các mẹo vặt để cải thiện trải nghiệm chơi game.
+* **[Cài đặt nâng cao](advanced)**<br>Dành cho những bạn đã quen với cửa sổ dòng lệnh, và muốn hạn chế tối đa việc sử dụng phần mềm hỗ trợ.

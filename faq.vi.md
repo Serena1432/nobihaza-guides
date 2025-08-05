@@ -148,6 +148,10 @@ Hoàn toàn được, miễn sao các game đó được phát triển bằng RP
 
 Google sẽ là một người bạn đáng tin cậy của bạn. Mình không có kinh nghiệm với bất kì phần mềm làm game nào ngoài RPG Maker MV, nên mình nghĩ mình không thể làm hướng dẫn được.
 
+## Bạn mất bao lâu để làm hướng dẫn này?
+
+Mình bắt đầu làm hướng dẫn này từ ngày 7/4/2025. Tuy nhiên thì mình cũng bỏ dự án này trong vòng gần 2 tháng cho đến khi quay trở lại và hoàn thành nốt website này.
+
 ## Tôi có nên sử dụng Scarlet giống như hướng dẫn trước của bạn thay vì ESign không?
 
 **KHÔNG!** Mình đã không còn chịu nổi với một đống quảng cáo của cái web đó nữa. Thậm chí trong lúc mình đang làm hướng dẫn này và đến phần cài đặt Scarlet, mình đã không thể tắt nổi quảng cáo của website đó, kể cả khi đã (vô tình) nhấn vào quảng cáo.

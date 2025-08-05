@@ -13,6 +13,6 @@ Hệ điều hành độc quyền dành cho các máy Mac (MacBook, Mac Pro, iMa
 
 ## Mục lục
 
-* **[Điều kiện cơ bản](prerequisities):** Các thư viện và phần mềm hỗ trợ cần cài đặt trước khi chơi game.
-* **[Tải và chạy game](installation):** Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
-* **[Sửa lỗi và mẹo](troubleshooting):** Sửa lỗi thường gặp trong quá trình chơi, cũng như các mẹo vặt để cải thiện trải nghiệm chơi game.
+* **[Điều kiện cơ bản](prerequisities)**<br>Các thư viện và phần mềm hỗ trợ cần cài đặt trước khi chơi game.
+* **[Tải và chạy game](installation)**<br>Cách tải, cài đặt và chơi các game Nobihaza mà bạn muốn.
+* **[Sửa lỗi và mẹo](troubleshooting)**<br>Sửa lỗi thường gặp trong quá trình chơi, cũng như các mẹo vặt để cải thiện trải nghiệm chơi game.

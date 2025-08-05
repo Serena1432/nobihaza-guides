@@ -96,7 +96,7 @@ Hầu hết các Linux distro hiện tại đều miễn phí và mã nguồn m�
 
 Hệ điều hành phổ biến nhất trên điện thoại, được sử dụng chủ yếu bởi các hãng điện thoại không phải Apple như Samsung, Xiaomi, Oppo, Vivo, v.v.
 
-Bản thân Android gốc là một hệ điều hành mã nguồn mở, nhưng các hãng điện thoại có thể tuỳ biến nó và ra mắt bản hệ điều hành đặc trưng của riêng hãng đó.
+Bản thân Android gốc là một hệ điều hành mã nguồn mở, nhưng các hãng điện thoại có thể tuỳ biến nó và ra mắt bản hệ điều hành mã nguồn đóng đặc trưng của riêng hãng đó.
 
 ### iOS
 
@@ -208,7 +208,7 @@ Một ngôn ngữ đánh dấu khác, dùng để thiết kế giao diện của
 
 ### JavaScript
 
-Là một ngôn ngữ lập trình mà RPG Maker MV/MZ sử dụng.
+Là một ngôn ngữ lập trình được sử dụng chủ yếu cho website, và cũng là ngôn ngữ mà RPG Maker MV/MZ sử dụng.
 
 HTML5 + CSS + JavaScript thường sẽ đi chung với nhau để tạo nên một trang web tĩnh.
 
