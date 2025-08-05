@@ -48,21 +48,26 @@ Hiện tại hướng dẫn này chỉ hỗ trợ RPG Maker MV/MZ. Các engine k
 <details>
 <summary>Windows và macOS</summary>
 
-* Truy cập vào [trang web tải xuống OpenJDK](https://www.openlogic.com/openjdk-downloads).
-
-* Chọn phiên bản OpenJDK bạn muốn tải:
-    * Chọn **Java Version** là phiên bản JDK mà bạn đã chọn ở phần Lựa chọn phiên bản. Đối với `cordova-android` bản mới nhất, chúng ta sẽ dùng bản 17.
-    * Chọn **Operating System** là phiên bản hệ điều hành bạn đang sử dụng.
-    * Chọn **Architecture** là kiến trúc CPU máy tính của bạn (x86 hoặc ARM).
-    * Chọn **Java Package** là JDK.
-
-Sau khi đã lựa chọn xong, danh sách các phiên bản sẽ giống như thế này:
-
-![](images/image-26.png)
-
-* Nhấn vào chữ `.msi` (hoặc `.pkg` đối với macOS) đầu tiên trong danh sách (ở ảnh trên sẽ là phiên bản `17.0.16+8`). Nếu có phiên bản mới hơn trong tương lai thì bạn sẽ chọn phiên bản mới hơn đó.
-
-* Sau khi tải xong, nhấn đúp vào tệp tin `.msi` hoặc `.pkg` đã tải xuống và tiến hành cài đặt.
+<ul>
+<li><p>Truy cập vào <a href="https://www.openlogic.com/openjdk-downloads">trang web tải xuống OpenJDK</a>.</p>
+</li>
+<li><p>Chọn phiên bản OpenJDK bạn muốn tải:</p>
+<ul>
+<li>Chọn <strong>Java Version</strong> là phiên bản JDK mà bạn đã chọn ở phần Lựa chọn phiên bản. Đối với <code>cordova-android</code> bản mới nhất, chúng ta sẽ dùng bản 17.</li>
+<li>Chọn <strong>Operating System</strong> là phiên bản hệ điều hành bạn đang sử dụng.</li>
+<li>Chọn <strong>Architecture</strong> là kiến trúc CPU máy tính của bạn (x86 hoặc ARM).</li>
+<li>Chọn <strong>Java Package</strong> là JDK.</li>
+</ul>
+</li>
+</ul>
+<p>Sau khi đã lựa chọn xong, danh sách các phiên bản sẽ giống như thế này:</p>
+<p><img src="images/image-26.png" alt=""></p>
+<ul>
+<li><p>Nhấn vào chữ <code>.msi</code> (hoặc <code>.pkg</code> đối với macOS) đầu tiên trong danh sách (ở ảnh trên sẽ là phiên bản <code>17.0.16+8</code>). Nếu có phiên bản mới hơn trong tương lai thì bạn sẽ chọn phiên bản mới hơn đó.</p>
+</li>
+<li><p>Sau khi tải xong, nhấn đúp vào tệp tin <code>.msi</code> hoặc <code>.pkg</code> đã tải xuống và tiến hành cài đặt.</p>
+</li>
+</ul>
 
 </details>
 
@@ -121,9 +126,12 @@ Hãy tham khảo hướng dẫn cài đặt OpenJDK dành riêng cho distro củ
 <details>
 <summary>Windows và macOS</summary>
 
-* Truy cập [trang web tải xuống ffmpeg](https://ffmpeg.org/download.html).
-
-* Tải xuống FFmpeg cho hệ điều hành của bạn. Sau đó nhấp đúp vào tệp đã tải xuống để chạy và tiến hành cài đặt.
+<ul>
+<li><p>Truy cập <a href="https://ffmpeg.org/download.html">trang web tải xuống ffmpeg</a>.</p>
+</li>
+<li><p>Tải xuống FFmpeg cho hệ điều hành của bạn. Sau đó nhấp đúp vào tệp đã tải xuống để chạy và tiến hành cài đặt.</p>
+</li>
+</ul>
 </details>
 
 <details>
@@ -139,27 +147,31 @@ FFmpeg thường sẽ có sẵn trên kho phần mềm của distro bạn đang 
 <details>
 <summary>Android SDK</summary>
 
-* Vào ứng dụng **Android Studio** chọn **More Actions**, sau đó chọn **SDK Manager**.
-
-* Đường dẫn của Android SDK sẽ nằm ở ô Android SDK Location. Đối với mình sẽ là `/home/murasame/Android/Sdk`.
-
-![](images/image-34.png)
+<ul>
+<li><p>Vào ứng dụng <strong>Android Studio</strong> chọn <strong>More Actions</strong>, sau đó chọn <strong>SDK Manager</strong>.</p>
+</li>
+<li><p>Đường dẫn của Android SDK sẽ nằm ở ô Android SDK Location. Đối với mình sẽ là <code>/home/murasame/Android/Sdk</code>.</p>
+</li>
+</ul>
+<p><img src="images/image-34.png" alt=""></p>
 </details>
 
 <details>
 <summary>Java JDK</summary>
 
-* Đối với Windows và macOS, đường dẫn của JDK sẽ được ghi ở trong quá trình cài đặt, ví dụ như `C:\Program Files\OpenJDK\17`.
-
-* Đối với Linux, sử dụng lệnh `where javac`, sau đó lấy đường dẫn không phải `/usr/bin` (của mình là dòng thứ 2) và bỏ chữ `/bin/javac` đi. Đối với mình sẽ là `/usr/lib/jvm/default`.
-
-![](images/image-35.png)
+<ul>
+<li><p>Đối với Windows và macOS, đường dẫn của JDK sẽ được ghi ở trong quá trình cài đặt, ví dụ như <code>C:\Program Files\OpenJDK\17</code>.</p>
+</li>
+<li><p>Đối với Linux, sử dụng lệnh <code>where javac</code>, sau đó lấy đường dẫn không phải <code>/usr/bin</code> (của mình là dòng thứ 2) và bỏ chữ <code>/bin/javac</code> đi. Đối với mình sẽ là <code>/usr/lib/jvm/default</code>.</p>
+</li>
+</ul>
+<p><img src="images/image-35.png" alt=""></p>
 </details>
 
 <details>
 <summary>Gradle</summary>
 
-Nó chính là đường dẫn của thư mục bạn đã giải nén từ tệp `gradle-*.zip`.
+<p>Nó chính là đường dẫn của thư mục bạn đã giải nén từ tệp <code>gradle-*.zip</code>.</p>
 </details>
 
 #### Cài đặt biến môi trường
@@ -167,74 +179,75 @@ Nó chính là đường dẫn của thư mục bạn đã giải nén từ tệ
 <details>
 <summary>Windows</summary>
 
-* Nhấn tổ hợp `Windows + S` để mở công cụ tìm kiếm và tìm `environment variables`. Nhấn vào mục **Edit the system environment variables** đầu tiên.
-
-![](images/image-36.png)
-
-* Nhấn vào nút **Environment Variables**.
-
-![](images/image-37.png)
-
-* Chọn mục **Path** ở trong phần **User variables** và nhấn nút **Edit**.
-
-![](images/image-38.png)
-
-* Thay những từ sau đây trong các đường dẫn bên dưới thành các đường dẫn mà bạn đã tìm được:
-    * `sdkPath`: Đường dẫn của Android SDK
-    * `jdkPath`: Đường dẫn của Java JDK
-    * `gradlePath`: Đường dẫn của thư mục Gradle đã giải nén
-
-* Nhấn nút **New** và lần lượt thêm các đường dẫn sau (mỗi đường dẫn là 1 nút New):
-
-    ```
-    sdkPath\tools
-    sdkPath\cmdline-tools\latest\bin
-    sdkPath\platform-tools
-    sdkPath\emulator
-    sdkPath\build-tools
-    jdkPath\bin
-    gradlePath\bin
-    ```
-
-    Ví dụ như ảnh bên dưới:
-
-    ![](images/image-39.png)
-
-* Nhấn **OK** để lưu lại.
-
-* Nhấn nút **New** bên cạnh trái nút **Edit** vừa nãy.
-
-![](images/image-40.png)
-
-* Nhập Variable name là `JAVA_HOME` và Variable value là đường dẫn của Java JDK.
-
-![](images/image-41.png)
-
-* Nhấn **OK** để lưu lại. Tiếp tục nhấn nút **New** để tạo thêm hai biến mới là `ANDROID_HOME` và `ANDROID_SDK_ROOT` với cùng một giá trị là đường dẫn của Android SDK.
-
-![](images/image-42.png)
-
-![](images/image-43.png)
-
-* Cuối cùng nhấn **OK** hai lần để lưu lại cài đặt.
+<ul>
+<li>Nhấn tổ hợp <code>Windows + S</code> để mở công cụ tìm kiếm và tìm <code>environment variables</code>. Nhấn vào mục <strong>Edit the system environment variables</strong> đầu tiên.</li>
+</ul>
+<p><img src="images/image-36.png" alt=""></p>
+<ul>
+<li>Nhấn vào nút <strong>Environment Variables</strong>.</li>
+</ul>
+<p><img src="images/image-37.png" alt=""></p>
+<ul>
+<li>Chọn mục <strong>Path</strong> ở trong phần <strong>User variables</strong> và nhấn nút <strong>Edit</strong>.</li>
+</ul>
+<p><img src="images/image-38.png" alt=""></p>
+<ul>
+<li><p>Thay những từ sau đây trong các đường dẫn bên dưới thành các đường dẫn mà bạn đã tìm được:</p>
+<ul>
+<li><code>sdkPath</code>: Đường dẫn của Android SDK</li>
+<li><code>jdkPath</code>: Đường dẫn của Java JDK</li>
+<li><code>gradlePath</code>: Đường dẫn của thư mục Gradle đã giải nén</li>
+</ul>
+</li>
+<li><p>Nhấn nút <strong>New</strong> và lần lượt thêm các đường dẫn sau (mỗi đường dẫn là 1 nút New):</p>
+<pre><code>  sdkPath<span class="hljs-symbol">\t</span>ools
+  sdkPath<span class="hljs-symbol">\c</span>mdline-tools<span class="hljs-symbol">\l</span>atest<span class="hljs-symbol">\b</span>in
+  sdkPath<span class="hljs-symbol">\p</span>latform-tools
+  sdkPath<span class="hljs-symbol">\e</span>mulator
+  sdkPath<span class="hljs-symbol">\b</span>uild-tools
+  jdkPath<span class="hljs-symbol">\b</span>in
+  gradlePath<span class="hljs-symbol">\b</span>in
+</code></pre><p>  Ví dụ như ảnh bên dưới:</p>
+<p>  <img src="images/image-39.png" alt=""></p>
+</li>
+<li><p>Nhấn <strong>OK</strong> để lưu lại.</p>
+</li>
+<li><p>Nhấn nút <strong>New</strong> bên cạnh trái nút <strong>Edit</strong> vừa nãy.</p>
+</li>
+</ul>
+<p><img src="images/image-40.png" alt=""></p>
+<ul>
+<li>Nhập Variable name là <code>JAVA_HOME</code> và Variable value là đường dẫn của Java JDK.</li>
+</ul>
+<p><img src="images/image-41.png" alt=""></p>
+<ul>
+<li>Nhấn <strong>OK</strong> để lưu lại. Tiếp tục nhấn nút <strong>New</strong> để tạo thêm hai biến mới là <code>ANDROID_HOME</code> và <code>ANDROID_SDK_ROOT</code> với cùng một giá trị là đường dẫn của Android SDK.</li>
+</ul>
+<p><img src="images/image-42.png" alt=""></p>
+<p><img src="images/image-43.png" alt=""></p>
+<ul>
+<li>Cuối cùng nhấn <strong>OK</strong> hai lần để lưu lại cài đặt.</li>
+</ul>
 </details>
 
 <details>
 <summary>macOS và Linux</summary>
 
-* Mở tệp `/Users/$USER/.profile` (hoặc `/home/$USER/.profile` đối với Linux) bằng bất kì trình soạn thảo văn bản nào.
-
-* Thêm các dòng sau vào cuối tệp tin đó:
-
-```sh
-export ANDROID_HOME="/home/murasame/Android/Sdk" # Thay đổi thành đường dẫn Android SDK bạn vừa tìm được
-export ANDROID_SDK_ROOT="$ANDROID_HOME"
-export JAVA_HOME="/usr/lib/jvm/default" # Thay đổi thành đường dẫn Java JDK bạn vừa tìm được
-export GRADLE_PATH="/home/murasame/gradle" # Thay đổi thành đường dẫn Gradle bạn vừa tìm được
-export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/build-tools:$JAVA_HOME/bin:$GRADLE_PATH/bin:$PATH"
-```
-
-* Đăng xuất (logoff) tài khoản của máy tính ra sau đó đăng nhập lại để áp dụng thay đổi.
+<ul>
+<li><p>Mở tệp <code>/Users/$USER/.profile</code> (hoặc <code>/home/$USER/.profile</code> đối với Linux) bằng bất kì trình soạn thảo văn bản nào.</p>
+</li>
+<li><p>Thêm các dòng sau vào cuối tệp tin đó:</p>
+</li>
+</ul>
+<pre><code class="lang-sh"><span class="hljs-built_in">export</span> ANDROID_HOME=<span class="hljs-string">"/home/murasame/Android/Sdk"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Android SDK bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> ANDROID_SDK_ROOT=<span class="hljs-string">"<span class="hljs-variable">$ANDROID_HOME</span>"</span>
+<span class="hljs-built_in">export</span> JAVA_HOME=<span class="hljs-string">"/usr/lib/jvm/default"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Java JDK bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> GRADLE_PATH=<span class="hljs-string">"/home/murasame/gradle"</span> <span class="hljs-comment"># Thay đổi thành đường dẫn Gradle bạn vừa tìm được</span>
+<span class="hljs-built_in">export</span> PATH=<span class="hljs-string">"<span class="hljs-variable">$ANDROID_HOME</span>/tools:<span class="hljs-variable">$ANDROID_HOME</span>/cmdline-tools/latest/bin:<span class="hljs-variable">$ANDROID_HOME</span>/platform-tools:<span class="hljs-variable">$ANDROID_HOME</span>/emulator:<span class="hljs-variable">$ANDROID_HOME</span>/build-tools:<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$GRADLE_PATH</span>/bin:<span class="hljs-variable">$PATH</span>"</span>
+</code></pre>
+<ul>
+<li>Đăng xuất (logoff) tài khoản của máy tính ra sau đó đăng nhập lại để áp dụng thay đổi.</li>
+</ul>
 </details>
 
 #### Kiểm tra thư viện
@@ -244,31 +257,25 @@ Mở cửa sổ dòng lệnh lên và kiểm tra các thư viện bên dưới:
 <details>
 <summary>Android SDK</summary>
 
-```sh
-echo $ANDROID_HOME
-```
-
-Nếu nó in ra đường dẫn bạn đã lấy trước đó thì bạn đã thành công.
+<pre><code class="lang-sh"><span class="hljs-built_in">echo</span> <span class="hljs-variable">$ANDROID_HOME</span>
+</code></pre>
+<p>Nếu nó in ra đường dẫn bạn đã lấy trước đó thì bạn đã thành công.</p>
 </details>
 
 <details>
 <summary>Java JDK</summary>
 
-```sh
-java --version
-```
-    
-Nếu nó in ra `openjdk 17` thì bạn đã thành công.
+<pre><code class="lang-sh">java <span class="hljs-comment">--version</span>
+</code></pre>
+<p>Nếu nó in ra <code>openjdk 17</code> thì bạn đã thành công.</p>
 </details>
 
 <details>
 <summary>Gradle</summary>
 
-```sh
-gradle --version
-```
-
-Nếu nó in ra câu **Welcome to Gradle** thì bạn đã thành công.
+<pre><code class="lang-sh">gradle <span class="hljs-comment">--version</span>
+</code></pre>
+<p>Nếu nó in ra câu <strong>Welcome to Gradle</strong> thì bạn đã thành công.</p>
 </details>
 
 Nếu có một thư viện vẫn báo lỗi, hãy thử lại các bước bên trên.
@@ -375,32 +382,35 @@ Nếu có lỗi xảy ra khi chơi trên web, bạn cần phải tự sửa cho 
 <details>
 <summary>Windows và macOS</summary>
 
-* Truy cập vào [trang tải xuống của Node.js](https://nodejs.org/en/download).
-
-* Ở mục **Or get a prebuilt Node.js® for**, hãy chọn hệ điều hành và loại hệ điều hành (x86, x64 hay ARM64) mà máy bạn đang sử dụng. Ví dụ như dưới đây sẽ là dành cho Windows 64-bit (x64):
-
-![](images/image-24.png)
-
-* Nhấn đúp để chạy tệp tin vừa mới tải xuống (Windows sẽ là `.exe`, còn macOS sẽ là `.pkg`). Sau đó tiến hành làm theo hướng dẫn để cài đặt Node.js.
+<ul>
+<li><p>Truy cập vào <a href="https://nodejs.org/en/download">trang tải xuống của Node.js</a>.</p>
+</li>
+<li><p>Ở mục <strong>Or get a prebuilt Node.js® for</strong>, hãy chọn hệ điều hành và loại hệ điều hành (x86, x64 hay ARM64) mà máy bạn đang sử dụng. Ví dụ như dưới đây sẽ là dành cho Windows 64-bit (x64):</p>
+</li>
+</ul>
+<p><img src="images/image-24.png" alt=""></p>
+<ul>
+<li>Nhấn đúp để chạy tệp tin vừa mới tải xuống (Windows sẽ là <code>.exe</code>, còn macOS sẽ là <code>.pkg</code>). Sau đó tiến hành làm theo hướng dẫn để cài đặt Node.js.</li>
+</ul>
 </details>
 
 <details>
 <summary>Linux</summary>
 
-* Đầu tiên là cài đặt `nvm` (Node Version Manager) cho Linux:
-
-```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-```
-
-{: .note }
-> Nếu sau này nvm có phiên bản mới hơn, bạn hãy thay đổi `0.40.3` thành phiên bản đó, hoặc bạn có thể đọc hướng dẫn trên [trang GitHub chính thức của nvm](https://github.com/nvm-sh/nvm).
-
-* Sau khi cài đặt thành công thì tiếp tục cài đặt Node.js:
-
-```sh
-nvm install node
-```
+<ul>
+<li>Đầu tiên là cài đặt <code>nvm</code> (Node Version Manager) cho Linux:</li>
+</ul>
+<pre><code class="lang-sh">curl -<span class="hljs-keyword">o</span>- http<span class="hljs-variable">s:</span>//raw.githubusercontent.<span class="hljs-keyword">com</span>/nvm-<span class="hljs-keyword">sh</span>/nvm/v0.<span class="hljs-number">40.3</span>/install.<span class="hljs-keyword">sh</span> | bash
+</code></pre>
+<p>{: .note }</p>
+<blockquote>
+<p>Nếu sau này nvm có phiên bản mới hơn, bạn hãy thay đổi <code>0.40.3</code> thành phiên bản đó, hoặc bạn có thể đọc hướng dẫn trên <a href="https://github.com/nvm-sh/nvm">trang GitHub chính thức của nvm</a>.</p>
+</blockquote>
+<ul>
+<li>Sau khi cài đặt thành công thì tiếp tục cài đặt Node.js:</li>
+</ul>
+<pre><code class="lang-sh">nvm install <span class="hljs-keyword">node</span><span class="hljs-title"></span>
+</code></pre>
 </details>
 
 #### Cài đặt Git
@@ -408,27 +418,28 @@ nvm install node
 <details>
 <summary>Windows</summary>
 
-* Truy cập vào [trang tải Git dành cho Windows](https://git-scm.com/downloads/win).
-
-* Chọn bản dành cho kiến trúc hệ điều hành của bạn (x64 hoặc ARM64) ở mục Standalone Installer. Ví dụ như nếu bạn đang dùng Windows 64-bit, hãy chọn **Git for Windows/x64 Setup**.
-
-* Sau khi tải xuống xong, nhấn đúp để chạy tệp tin `.exe` vừa tải xuống và làm theo hướng dẫn để hoàn tất cài đặt.
+<ul>
+<li><p>Truy cập vào <a href="https://git-scm.com/downloads/win">trang tải Git dành cho Windows</a>.</p>
+</li>
+<li><p>Chọn bản dành cho kiến trúc hệ điều hành của bạn (x64 hoặc ARM64) ở mục Standalone Installer. Ví dụ như nếu bạn đang dùng Windows 64-bit, hãy chọn <strong>Git for Windows/x64 Setup</strong>.</p>
+</li>
+<li><p>Sau khi tải xuống xong, nhấn đúp để chạy tệp tin <code>.exe</code> vừa tải xuống và làm theo hướng dẫn để hoàn tất cài đặt.</p>
+</li>
+</ul>
 </details>
 
 <details>
 <summary>macOS</summary>
 
-Nếu bạn đã cài Xcode thì nó đã kèm sẵn Git theo mặc định. Còn nếu bạn chưa có thì bạn có thể cài Git thông qua MacPorts:
-
-```sh
-sudo port install git
-```
+<p>Nếu bạn đã cài Xcode thì nó đã kèm sẵn Git theo mặc định. Còn nếu bạn chưa có thì bạn có thể cài Git thông qua MacPorts:</p>
+<pre><code class="lang-sh">sudo port <span class="hljs-keyword">install</span> git
+</code></pre>
 </details>
 
 <details>
 <summary>Linux</summary>
 
-Git có thể được cài đặt trên toàn bộ distro. Hãy cài đặt gói `git` theo câu lệnh cho Package Manager của bạn, ví dụ như Pacman ở trên Linux thì sẽ là `pacman -S git`.
+<p>Git có thể được cài đặt trên toàn bộ distro. Hãy cài đặt gói <code>git</code> theo câu lệnh cho Package Manager của bạn, ví dụ như Pacman ở trên Linux thì sẽ là <code>pacman -S git</code>.</p>
 </details>
 
 #### Cài đặt Cordova
@@ -552,21 +563,17 @@ Mặc định thì bản `.apk` sẽ không hỗ trợ bàn phím ảo, nên b�
 <details>
 <summary>Windows</summary>
 
-Mở **PowerShell** lên, dùng lệnh `cd` trỏ tới thư mục `www` của dự án và dùng lệnh sau:
-
-```powershell
-Get-ChildItem -Recurse -Filter *.ogg | ForEach-Object { ffmpeg -i $_.FullName -c:a aac -b:a 96k -ar 44100 -map_metadata 0 ($_.FullName -replace '\.ogg$', '.m4a'); if ($?) { Remove-Item $_.FullName } }
-```
+<p>Mở <strong>PowerShell</strong> lên, dùng lệnh <code>cd</code> trỏ tới thư mục <code>www</code> của dự án và dùng lệnh sau:</p>
+<pre><code class="lang-powershell"><span class="hljs-built_in">Get-ChildItem</span> -Recurse -Filter *.ogg | <span class="hljs-built_in">ForEach-Object</span> { ffmpeg -i <span class="hljs-variable">$_</span>.FullName -c:a aac -b:a <span class="hljs-number">96</span>k -ar <span class="hljs-number">44100</span> -map_metadata <span class="hljs-number">0</span> (<span class="hljs-variable">$_</span>.FullName <span class="hljs-nomarkup">-replace</span> <span class="hljs-string">'\.ogg$'</span>, <span class="hljs-string">'.m4a'</span>); <span class="hljs-keyword">if</span> ($?) { <span class="hljs-built_in">Remove-Item</span> <span class="hljs-variable">$_</span>.FullName } }
+</code></pre>
 </details>
 
 <details>
 <summary>macOS và Linux</summary>
 
-Mở **Terminal** lên, dùng lệnh `cd` trỏ tới thư mục `www` của dự án và dùng lệnh sau:
-
-```sh
-find . -type f -name "*.ogg" -exec sh -c 'ffmpeg -i "$0" -c:a aac -b:a 96k -ar 44100 -map_metadata 0 "${0%.ogg}.m4a" && rm "$0"' {} \;
-```
+<p>Mở <strong>Terminal</strong> lên, dùng lệnh <code>cd</code> trỏ tới thư mục <code>www</code> của dự án và dùng lệnh sau:</p>
+<pre><code class="lang-sh">find . -<span class="hljs-keyword">type</span> <span class="hljs-type">f </span>-name <span class="hljs-string">"*.ogg"</span> -exec sh -c <span class="hljs-symbol">'ffmpeg</span> -i <span class="hljs-string">"$0"</span> -c:a aac -b:a <span class="hljs-number">96</span>k -ar <span class="hljs-number">44100</span> -map_metadata <span class="hljs-number">0</span> <span class="hljs-string">"${0%.ogg}.m4a"</span> &amp;&amp; rm <span class="hljs-string">"$0"</span>' {} \;
+</code></pre>
 </details>
 
 Đợi cho đến khi quá trình chuyển đổi hoàn tất (không còn in thêm dòng nào nữa).

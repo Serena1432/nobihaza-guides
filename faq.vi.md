@@ -179,7 +179,7 @@ Nó sẽ đỡ mệt hơn RPG Maker XP/VX/VX Ace rất nhiều, vì các engine 
     <li>Đầu tiên và cũng là cái quan trọng nhất: iOS rất hạn chế việc cho phép cài ứng dụng bên thứ ba. Để có thể được phát hành chính thức trên iOS, bạn cần một chứng chỉ 99$/năm để đăng lên App Store (nhưng mình đảm bảo sẽ không có game Nobihaza nào có thể lên được đó), và 299$/năm để có thể phát hành ứng dụng qua web mà không thông qua App Store.<br>Và nếu bạn nghĩ tới việc sideload thì xin chia buồn, phiên bản iOS càng cao thì càng khó sideload, và đa phần đều yêu cầu có máy tính.</li>
     <li>Kể cả khi có sideload được thì chứng chỉ cũng sẽ bị thu hồi sau 7 ngày và bạn bắt buộc phải sideload lại.</li>
     <li>Apple yêu cầu một máy Mac để phát triển ứng dụng cho iOS. Thực ra có một số công cụ giúp phát triển ứng dụng iOS trên Windows, nhưng nó không thể dùng để phát triển game RPG Maker.<br>Và trong cả cộng đồng nhà phát triển game Nobihaza thì chỉ có <b>một mình mình</b> là có máy Mac, và thậm chí nó chỉ là Hackintosh chứ không phải máy Mac thật.</li>
-    <li>Sau khi đã có máy Mac thì bạn cần phải có một chiếc iPhone để có thể tạo chứng chỉ và xuất ứng dụng ra tệp `.ipa`.</li>
+    <li>Sau khi đã có máy Mac thì bạn cần phải có một chiếc iPhone để có thể tạo chứng chỉ và xuất ứng dụng ra tệp <code>.ipa</code>.</li>
     <li>iOS rất tù và không thể tùy ý cho các tệp tin vào trong dữ liệu của một ứng dụng.</li>
     <li>Riêng các game RPG Maker MV/MZ thì các nhà phát triển bắt buộc phải dùng WebKit của Safari và nó <b>cực kì lag</b> và cũ kĩ, và để nâng cấp phiên bản WebKit thì chúng ta phải làm gì? Nâng cấp cả cái iOS lên, vì phiên bản trình duyệt WebKit nó sẽ đi cùng với phiên bản iOS.</li>
 </ul><br>
