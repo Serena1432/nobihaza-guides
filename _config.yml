@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://guides.nbhzvn.one"
 twitter_username: Serena1432
 github_username: Serena1432
-logo: "/assets/images/logo.png"
+logo: "/images/logo.png"
 favicon_ico: "/images/logo.png"
 
 permalink: pretty
