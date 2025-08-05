@@ -208,6 +208,21 @@ Bạn bắt buộc phải liên hệ với nhà phát triển về lỗi này.
 
 Cách sửa sẽ giống với mục [Không thể lưu được tiến trình của game](#không-thể-lưu-được-tiến-trình-của-game).
 
+### Trang web hiện không khả dụng
+
+![](images/image-69.png)
+
+* Bạn có thể đã xóa nhầm tệp tin `index.html` của game trong thư mục game (hoặc thư mục `www` của game). Hãy thử giải nén lại game.
+    * Nếu bạn thấy tệp `index.html` trong thư mục game nhưng lại không thấy thư mục `www`, bạn cũng có thể tạo thư mục `www` mới và di chuyển thư mục `audio`, `fonts`, `icon`, `img`, `js`, `movies` và `index.html` vào trong thư mục `www` vừa tạo đó.
+* Nếu bạn đang bật VPN hoặc Private DNS, hãy thử tắt nó đi.
+* Bạn hãy thử [cập nhật Android System WebView](./prerequisities#android-system-webview).
+* Thử tắt tối ưu hóa pin của Android đối với JoiPlay.
+* Vào phần **Cài đặt** của điện thoại -> **Ứng dụng** -> **Quản lý ứng dụng** (một số máy sẽ có luôn danh sách ứng dụng) -> **JoiPlay**. Nhấn vào mục **Pin** hoặc **Sử dụng pin**, và chọn **Không hạn chế**. Làm tương tự với **RPG Maker Plugin for JoiPlay**.
+
+![](images/tempFileForShare_20250805-163518.png)
+
+* Vào cài đặt của JoiPlay -> **Cài đặt HTML** -> tắt tùy chọn **Sử dụng máy chủ HTTP**. Tuy nhiên nó có thể gây ra lỗi cho các game khác nên bạn hãy coi cách này như là ưu tiên cuối cùng.
+
 ### Your browser does not support WebGL
 
 ![](images/image-17.png)
