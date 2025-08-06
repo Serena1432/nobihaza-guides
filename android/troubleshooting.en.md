@@ -210,11 +210,6 @@ The fix is the same as for the [Cannot save game progress](#cannot-save-game-pro
     * If you see the `index.html` file in the game folder but do not see a `www` folder, you can also create a new `www` folder and move the `audio`, `fonts`, `icon`, `img`, `js`, `movies`, and `index.html` folders into the newly created `www` folder.
 * If you are using a VPN or Private DNS, try turning it off.
 * Try [updating Android System WebView](./prerequisities#android-system-webview).
-* Try turning off Android's battery optimization for JoiPlay.
-    * Go to your phone's **Settings** -> **Apps** -> **App management** (some devices will show the app list immediately) -> **JoiPlay**. Tap on the **Battery** or **Battery usage** section, and select **Unrestricted**. Do the same for **RPG Maker Plugin for JoiPlay**.
-
-    ![](images/tempFileForShare_20250806-080341.png)
-
 * Go to JoiPlay's settings -> **HTML Settings** -> turn off the **Use HTTP Server** option. However, this may cause errors in other games, so consider this as a last resort.
 
 ### Your browser does not support WebGL
@@ -267,7 +262,7 @@ Both EasyRPG and JoiPlay support changing the key layout.
 
 * Then save the settings.
 
-### Transfer games from phone to computer
+### Transfer games from computer to phone
 
 There are two ways to transfer: via MTP or via ADB.
 
