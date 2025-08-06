@@ -65,7 +65,7 @@ Có rất nhiều phương thức khác nhau, và bạn hãy chọn một trong 
 
 * Kéo xuống tin nhắn cuối cùng của kênh, và nhấn tải tệp tin `.zip` của chứng chỉ vẫn đang ở trạng thái Good màu xanh.
 
-{: .note }
+{: .important }
 > Nếu không còn chứng chỉ nào có trạng thái **Good** (tất cả đều là Revoked) thì bạn cần đợi cho đến khi có chứng chỉ mới, hoặc thử các cách cài đặt khác bên dưới.
 
 ![](images/image.png)

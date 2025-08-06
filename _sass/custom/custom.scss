@@ -51,7 +51,8 @@ code {
     border: 1px solid #555;
     border-radius: 6px;
     z-index: 100;
-    list-style: none;
+    list-style-type: none!important;
+    list-style: none!important;
     margin-top: 8px;
     padding: 4px 0;
     overflow: hidden;
@@ -77,6 +78,7 @@ code {
 }
 
 .main-content img {
-    max-width: 800px;
+    width: auto;
+    max-width: min(100%, 800px);
     height: auto;
 }

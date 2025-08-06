@@ -1,13 +1,13 @@
 ---
 layout: default
 permalink: /faq
-title: Frequently Asked Questions
+title: Frequently asked questions
 lang: en
 nav_order: 3
 toc: true
 ---
 
-# Frequently Asked Questions
+# Frequently asked questions
 {: .no_toc }
 
 Below are the frequently asked questions, and I will try to answer as many as possible, as a Nobihaza game developer and the current developer of the **nbhzvn.one** website.

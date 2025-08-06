@@ -182,7 +182,7 @@ See [Prerequisites#RPG Maker 2000/2003](./prerequisities#rpg-maker-20002003).
 
 ### Error related to `RPG_RT.lmt`
 
-If the path in the message contains question marks (`?`), then your game folder path contains special characters (including special). See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
+If the path in the message contains question marks (`?`), then your game folder path contains special characters. See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
 
 ## RPG Maker 2000/2003 (EasyRPG)
 
@@ -208,7 +208,7 @@ See [Prerequisites#RPG Maker XP/VX/VX Ace](./prerequisities#rpg-maker-xpvxvx-ace
 
 The title bar of the error message will show the path of the corrupted file.
 
-* If the path in the message contains question marks (`?`), then your game folder path contains special characters (including special). See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
+* If the path in the message contains question marks (`?`), then your game folder path contains special characters. See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
 
 * The file may also have been corrupted during the extraction process; try re-extracting the game's compressed file.
 
@@ -229,13 +229,15 @@ The title bar of the error message will show the path of the corrupted file.
 
 ### Script error
 
-There is no other way; you must contact the developer to fix this error.
+* If you are running the game through MKXP, it is highly likely that the game you are playing is not well-supported and is very prone to **Script error** issues. You should go back to playing with Wine and run the `Game.exe` file from the Windows version.
+
+* If you are certain this error occurs not only on macOS, you must contact the developer to fix this error.
 
 ### Failed to load script
 
 ![73](images/image-72.png)
 
-You have accidentally deleted the `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game from its compressed file and try again.
+You have accidentally deleted the `Game.rgssad` / `Game.rgss2a` / `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game from its compressed file and try again.
 
 ### Unable to find file / No such file or directory
 

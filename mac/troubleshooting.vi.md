@@ -273,13 +273,15 @@ Trong thanh tiêu đề của thông báo lỗi sẽ ghi đường dẫn tệp t
 
 ### Script error
 
-Không còn cách nào khác, bạn bắt buộc phải liên hệ với nhà phát triển để sửa lỗi này.
+* Nếu bạn đang chạy game thông qua MKXP thì khả năng cao là game bạn chơi sẽ không được hỗ trợ tốt và rất dễ xảy ra lỗi **Script error**. Bạn hãy quay lại chơi bằng Wine và chạy tệp `Game.exe` của bản Windows.
+
+* Nếu bạn chắc chắn lỗi này xảy ra không chỉ trên macOS, bạn bắt buộc phải liên hệ với nhà phát triển để sửa lỗi này.
 
 ### Failed to load script
 
 ![73](images/image-72.png)
 
-Bạn đã xoá nhầm tệp tin `Game.rgss3a` hoặc thư mục `Data` của game, hãy giải nén lại tệp tin nén của game và thử lại.
+Bạn đã xoá nhầm tệp tin `Game.rgssad` / `Game.rgss2a` / `Game.rgss3a` hoặc thư mục `Data` của game, hãy giải nén lại tệp tin nén của game và thử lại.
 
 ### Unable to find file / No such file or directory
 

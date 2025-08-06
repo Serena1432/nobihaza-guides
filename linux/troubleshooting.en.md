@@ -138,8 +138,8 @@ If the game still lags after trying all the above methods:
 * Check if there are any font files (ending in `.ttf`, `.otf`) in the game folder. If so, copy all those font files into the `~/.local/share/fonts` folder:
 
 ```sh
-# Replace ~/thumucgame with the path to your game folder
-find ~/thumucgame -type f \( -iname "*.ttf" -o -iname "*.otf" \) -exec cp {} ~/.local/share/fonts/ \;
+# Replace ~/gamefolder with the path to your game folder
+find ~/gamefolder -type f \( -iname "*.ttf" -o -iname "*.otf" \) -exec cp {} ~/.local/share/fonts/ \;
 fc-cache -f ~/.local/share/fonts
 ```
 
@@ -220,7 +220,7 @@ See [Prerequisites#RPG Maker 2000/2003](./prerequisities#rpg-maker-20002003).
 
 ![63](images/image-62.png)
 
-If the path in the message contains question marks (`?`), then your game folder path contains special characters (including special). See which folder(s) in the path contain the `?` and remove **all** special characters in that folder.
+If the path in the message contains question marks (`?`), then your game folder path contains special characters. See which folder(s) in the path contain the `?` and remove **all** special characters in that folder.
 
 ## RPG Maker 2000/2003 (EasyRPG)
 
@@ -246,7 +246,7 @@ See [Prerequisites#RPG Maker XP/VX/VX Ace](./prerequisities#rpg-maker-xpvxvx-ace
 
 The title bar of the error message will show the path of the corrupted file.
 
-* If the path in the message contains question marks (`?`), then your game folder path contains special characters (including special). See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
+* If the path in the message contains question marks (`?`), then your game folder path contains special characters. See which folder(s) in the path contain the `?` and remove **all** special characters from that folder.
 
 * The file may also have been corrupted during the extraction process; try re-extracting the game's compressed file.
 
@@ -262,19 +262,21 @@ The title bar of the error message will show the path of the corrupted file.
 
 ### Script error
 
-There is no other way; you must contact the developer to fix this error.
+* If you are running the game through MKXP, it is highly likely that the game you are playing is not well-supported and is very prone to **Script error** issues. You should go back to playing with Wine and run the `Game.exe` file from the Windows version.
+
+* If you are certain this error occurs not only on Linux, you must contact the developer to fix this error.
 
 ### Failed to load script
 
 ![58](images/image-57.png)
 
-You have accidentally deleted the `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game from its compressed file and try again.
+You have accidentally deleted the `Game.rgssad` / `Game.rgss2a` / `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game from its compressed file and try again.
 
 ### Unable to find file / No such file or directory
 
 ![59](images/image-58.png)
 
-The fix is the same as for the [`XXXX 乗り物 は開けません` (Cannot open file XXXX) / `???????????????????` (a bunch of question marks) of RPG Maker 2000/2003](#xxxx-乗り物-は開けません-cannot-open-file-xxxx--a-bunch-of-question-marks) section.
+The fix is the same as for the [`XXXX 乗り物 は開けません` (Cannot open file XXXX) / `???????????????????` (a bunch of question marks) of RPG Maker 2000/2003](#xxxx-乗り物-は開けません-cannot-open-file-xxxx---a-bunch-of-question-marks) section.
 
 ### Error creating context: Could not create GL context
 
@@ -378,7 +380,7 @@ There are many reasons why a game might crash during gameplay:
 
 If you are trying to play in a browser and encounter this error, there is no other way; you can only go back to playing with the `Game.exe` file.
 
-### NW.js screen displays when running the game
+### Game displays a NW.js screen when running the game
 
 When running the game, this screen appears instead of the game screen:
 

@@ -158,7 +158,7 @@ I am researching to develop an MKXP version for iOS, but I don't know when it wi
 
 > **It's possible to run them, but you need a MacBook, an iPhone/iPad, and an understanding of iOS app development.**
 
-The nature of these games is that they are made with JavaScript, so you can still port the game to iOS in the same way that [**Doraemon: Nobita's Resident Evil 2 (Vietnamese)**](https://nobi2.s1432.org) did, by putting the game into an embedded browser (which could be WKWebView or UIWebView). However, this method requires you to have a MacBook, an iPhone/iPad, and some understanding of iOS app development/JavaScript to be able to fix errors during the porting process.
+The nature of these games is that they are made with JavaScript, so you can still port the game to iOS in the same way that [**Doraemon: Nobita's Resident Evil 2 (Vietnamese Version)**](https://nobi2.s1432.org) did, by putting the game into an embedded browser (which could be WKWebView or UIWebView). However, this method requires you to have a MacBook, an iPhone/iPad, and some understanding of iOS app development/JavaScript to be able to fix errors during the porting process.
 
 I will not provide a guide for this. If you are curious, you can find guides on the Internet.
 

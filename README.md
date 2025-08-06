@@ -1,19 +1,41 @@
-## Nobihaza (RPG Maker) Games Setup Guide
+<div style="text-align: center">
+    <img src="images/banner.png" style="width: 100%; max-width: 600px; height: auto" />
+</div>
 
-This guide will be made in 2 languages: English and Vietnamese. You can translate this guide and create a Pull Request if you want to add your language to this guide.
+This is the website source code of Nobihaza Guides for the Nobihaza Vietnam Community, which is an ultimate and detailed guide to install, play and troubleshoot Nobihaza (or any RPG Maker games).
 
-## English
+The website supports both English and Vietnamese.
 
-This page is a guide for installing and fixing issues in Nobihaza games (made with RPG Maker), applicable to devices ranging from computers to phones (Windows, macOS, Linux, Android, iOS). This page will walk you through from basic to advanced topics, and there will also be some special guides for Developers later on.
+# 👉 [guides.nbhzvn.one](https://guides.nbhzvn.one)
 
-Although this guide mainly applies to Nobihaza games, you can use it for most other RPG Maker games as well.
+## Hosting website locally
 
-To continue, [go to the English guide section](English).
+The website uses Jekyll with RubyGems and Bundler. The basic guide below assumes that both are installed.
 
-## Tiếng Việt
+```sh
+git clone https://github.com/Serena1432/nobihaza-guides.git
+cd nobihaza-guides
 
-Đây là một trang hướng dẫn mọi người cách cài đặt và sửa lỗi trong các game Nobihaza (được làm bằng RPG Maker), áp dụng cho các thiết bị từ máy tính đến điện thoại (Windows, macOS, Linux, Android, iOS). Trang này sẽ hướng dẫn các bạn từ cơ bản đến nâng cao, và sẽ có cả một số hướng dẫn đặc thù dành cho các Nhà Phát Triển về sau này.
+bundler install
+bundle exec jekyll serve
+```
 
-Mặc dù hướng dẫn này áp dụng chủ yếu cho các game Nobihaza, nhưng bạn có thể áp dụng nó cho hầu hết các game RPG Maker khác.
+## Credits
 
-Để tiếp tục, [hãy vào phần hướng dẫn dành cho tiếng Việt](Vietnamese).
+Besides Serena1432, this website would not be possible without the contributions of:
+
+* **AskingMonkey430**<br>Contributed guides and did iOS testing
+* **pucci3953**, **justtpiee**<br>Contributed some bug information
+* **Other members of the Nobihaza Vietnam community**<br>I used some images containing bug reports from members of the **Nobihaza Vietnam Community** Facebook group and the **NobiRE Community** Discord server, but I don’t remember all of their names.
+
+Thank you all for contributing to this guide!
+
+## License
+
+This website and its content are licensed under the **Creative Commons Zero v1.0 Universal** license. See the [LICENSE](https://github.com/Serena1432/nobihaza-guides/blob/main/LICENSE) file of the source code for more information.
+
+## Contribute
+
+Nobihaza Guides is an open-source guide page, so you’re free to contribute and change the content of the website if you want!
+
+See more at the [Contribute](contribute) page.

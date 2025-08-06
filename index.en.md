@@ -32,6 +32,7 @@ toc: true
 * **[FAQ](faq)**<br>Frequently asked questions when playing Nobihaza.
 * **[Support status](status)**<br>Current support status of Nobihaza on each operating system.
 * **[Basic gameplay guide](basic)**<br>Basic Nobihaza gameplay guide for beginners.
+* **[Fixing other errors](miscellaneous)**<br>Fixing other errors that you can encounter, supporting all operating systems.
 
 ## Credits
 
@@ -43,8 +44,12 @@ Besides Serena1432, this website would not be possible without the contributions
 
 Thank you all for contributing to this guide!
 
+## License
+
+This website and its content are licensed under the **Creative Commons Zero v1.0 Universal** license. See the [LICENSE](https://github.com/Serena1432/nobihaza-guides/blob/main/LICENSE) file of the source code for more information.
+
 ## Contribute
 
 Nobihaza Guides is an open-source guide page, so you’re free to contribute and change the content of the website if you want!
 
-See more under the [Contribute](contribute) section.
+See more at the [Contribute](contribute) page.

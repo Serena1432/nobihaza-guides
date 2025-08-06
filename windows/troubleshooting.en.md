@@ -207,7 +207,7 @@ There is no other way; you must contact the developer to fix this error.
 
 ![44](images/image-43.png)
 
-You have accidentally deleted the `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game's compressed file and try again.
+You have accidentally deleted the `Game.rgssad` / `Game.rgss2a` / `Game.rgss3a` file or the `Data` folder of the game. Re-extract the game's compressed file and try again.
 
 ### Unable to find file / No such file or directory
 
@@ -424,7 +424,7 @@ Older games often have the error of using the integrated GPU instead of the disc
 
 * Select the **High performance** option and then click **Save**.
 
-![64](images/e-63.png)
+![64](images/image-63.png)
 
 ### Update your graphics card driver
 

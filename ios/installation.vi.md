@@ -41,7 +41,7 @@ Trọng khi đang xem một thông tin game, hãy kiểm tra xem game đó có g
 
 ![](images/image-18.png)
 
-* Nhấn vào ứng dụng **RetroArch** -> thư mục **RetroArch** -> thư mục **downloads**, rồi nhấn nút **Di chuyển** ở góc trên bên phải.
+* Nhấn vào **Trên iPhone này**, chọn ứng dụng **RetroArch** -> thư mục **RetroArch** -> thư mục **downloads**, rồi nhấn nút **Di chuyển** ở góc trên bên phải.
 
 ![](images/image-19.png)
 

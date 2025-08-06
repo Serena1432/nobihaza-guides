@@ -92,7 +92,11 @@ Bạn cũng có thể tự sửa các tệp tin `.po` đang bị lỗi, nhưng y
 
 ![](images/image-10.png)
 
-Nếu là game được dịch ra tiếng Việt, có thể là game đang sử dụng kiểu dịch cũ (thay đổi phông chữ và chạy trực tiếp bằng RPG_RT), nên nó sẽ không hỗ trợ chơi trên EasyRPG do khác phông chữ. Bạn cần chơi trực tiếp bằng tệp tin `RPG_RT.exe`.
+Lỗi này chỉ xảy ra với các bản dịch tiếng Việt.
+
+* Bạn cần tải xuống **EasyRPG bản tiếng Việt** đã sửa đổi để có thể hỗ trợ hiển thị chữ tiếng Việt. Xem lại phần **Điều kiện cơ bản** cho hệ điều hành của bạn để tải lại.
+
+* Nếu bạn đang dùng bản tiếng Việt nhưng vẫn gặp lỗi phông chữ, thì có thể game đang sử dụng kiểu dịch cũ (thay đổi phông chữ và chạy trực tiếp bằng RPG_RT), nên nó sẽ không hỗ trợ chơi trên EasyRPG do khác phông chữ. Bạn cần chơi trực tiếp bằng tệp tin `RPG_RT.exe`.
 
 ## Error loading `RPG_RT.ldb` / Game crash trong khi khởi động ở RetroArch
 
@@ -100,7 +104,7 @@ Nếu là game được dịch ra tiếng Việt, có thể là game đang sử 
 
 * Bạn đang chơi bằng tệp tin nén có đặt mật khẩu. Hãy giải nén game ra trước sau đó thử lại.
 
-* Đường dẫn thư mục game của bạn đang chứa kí tự đặc biệt (kể cả tiếng Việt có dấu). Xem dấu `?` nằm ở (các) thư mục nào trong đường dẫn, và xoá **tất cả** kí tự đặc biệt trong thư mục đó.
+* Đường dẫn thư mục game của bạn đang chứa kí tự đặc biệt (kể cả tiếng Việt có dấu). Xem (các) thư mục trong đường dẫn và xoá **tất cả** kí tự đặc biệt trong thư mục đó.
 
 ## Cài đặt soundfont tuỳ chỉnh để phát nhạc MIDI
 
@@ -116,7 +120,7 @@ Bạn hãy tìm một soundfont bất kì có định dạng là `.sf2`. Ví d�
 
 Khởi động lại game và bạn sẽ thấy chất âm của game khi phát nhạc MIDI thay đổi.
 
-### Game không phát nhạc MIDI hoặc chất lượng âm thanh kém
+### Cài đặt cho toàn bộ game
 
 {: .note }
 > RetroArch sẽ không sử dụng được cách này.

@@ -35,7 +35,7 @@ Chứng chỉ để ký ứng dụng bạn đang cài đặt không hợp lệ h
 Có rất nhiều lý do cho việc này:
 
 * Ứng dụng bạn tải xuống đã bị lỗi.
-* Bạn chưa ký ứng dụng (đúng cách).
+* Bạn chưa ký ứng dụng, hoặc chứng chỉ bạn dùng để ký ứng dụng đã bị thu hồi.
 * Bạn cài đặt bằng công cụ TrollStore, nhưng bạn cập nhật phiên bản mới của máy mà chưa cài đặt lại thông qua Persistent Helper.
 * Bạn cài đặt bằng AppSync sau khi đã Jailbreak máy, nhưng bạn đã khởi động lại máy mà quên chưa Jailbreak lại.
 
@@ -45,7 +45,8 @@ Bạn cần quay lại phần [Điều kiện cơ bản](./prerequisities) và c
 
 ### Failed to load content
 
-Bạn đang sử dụng tệp tin giải nén có chứa mật khẩu. Hãy giải nén game ra và sau đó thử lại.
+* Bạn đang sử dụng tệp tin giải nén có chứa mật khẩu. Hãy giải nén game ra và sau đó thử lại.
+* Nếu bạn đã giải nén nhưng vẫn gặp lỗi, hãy thử tải xuống và giải nén lại game một lần nữa.
 
 ### Các lỗi khác
 

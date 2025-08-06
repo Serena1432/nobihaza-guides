@@ -64,7 +64,7 @@ To download, you just need to go to the website and download the game version. I
 
 ![28](images/image-27.png)
 
-### Running with EasyRPG\
+### Running with EasyRPG
 
 * Re-open the extracted folder containing the `easyrpg-player` file that you worked with in the Prerequisites section.
 
