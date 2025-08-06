@@ -1,6 +1,7 @@
 <div style="text-align: center">
     <img src="images/banner.png" style="width: 100%; max-width: 600px; height: auto" />
 </div>
+
 This is the website source code of Nobihaza Guides for the Nobihaza Vietnam Community, which is an ultimate and detailed guide to install, play and troubleshoot Nobihaza (or any RPG Maker games).
 
 The website supports both English and Vietnamese.
@@ -31,10 +32,10 @@ Thank you all for contributing to this guide!
 
 ## License
 
-This website and its content are licensed under the **Creative Commons Zero v1.0 Universal** license. See the [LICENSE](https://github.com/Serena1432/nobihaza-guides/blob/main/LICENSE) file of the source code for more information.
+This website and its content are licensed under the **Creative Commons Zero v1.0 Universal** license. See the [LICENSE](LICENSE) file of the source code for more information.
 
 ## Contribute
 
 Nobihaza Guides is an open-source guide page, so you’re free to contribute and change the content of the website if you want!
 
-See more at the [Contribute](contribute) page.
+See more at the [Contribute](contribute.en.md) page.
