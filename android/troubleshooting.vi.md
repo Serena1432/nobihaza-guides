@@ -216,11 +216,6 @@ Cách sửa sẽ giống với mục [Không thể lưu được tiến trình c
     * Nếu bạn thấy tệp `index.html` trong thư mục game nhưng lại không thấy thư mục `www`, bạn cũng có thể tạo thư mục `www` mới và di chuyển thư mục `audio`, `fonts`, `icon`, `img`, `js`, `movies` và `index.html` vào trong thư mục `www` vừa tạo đó.
 * Nếu bạn đang bật VPN hoặc Private DNS, hãy thử tắt nó đi.
 * Bạn hãy thử [cập nhật Android System WebView](./prerequisities#android-system-webview).
-* Thử tắt tối ưu hóa pin của Android đối với JoiPlay.
-* Vào phần **Cài đặt** của điện thoại -> **Ứng dụng** -> **Quản lý ứng dụng** (một số máy sẽ có luôn danh sách ứng dụng) -> **JoiPlay**. Nhấn vào mục **Pin** hoặc **Sử dụng pin**, và chọn **Không hạn chế**. Làm tương tự với **RPG Maker Plugin for JoiPlay**.
-
-![](images/tempFileForShare_20250805-163518.png)
-
 * Vào cài đặt của JoiPlay -> **Cài đặt HTML** -> tắt tùy chọn **Sử dụng máy chủ HTTP**. Tuy nhiên nó có thể gây ra lỗi cho các game khác nên bạn hãy coi cách này như là ưu tiên cuối cùng.
 
 ### Your browser does not support WebGL
@@ -273,7 +268,7 @@ Cả EasyRPG và JoiPlay đều sẽ hỗ trợ thay đổi bố cục của cá
 
 * Sau đó lưu lại cài đặt.
 
-### Chuyển game từ điện thoại qua máy tính
+### Chuyển game từ máy tính qua điện thoại
 
 Có 2 cách chuyển: thông qua MTP hoặc thông qua ADB.
 
