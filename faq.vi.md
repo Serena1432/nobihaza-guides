@@ -130,6 +130,12 @@ Nói chung tất cả vấn đề đều là do macOS không được tối ưu 
 
 Nếu như game bạn muốn chơi có hỗ trợ nó.
 
+## Tại sao mình lại làm web mà không làm video?
+
+Hướng dẫn có thể thay đổi trong tương lai, và mình không thể tải đi tải lại video mỗi lần cập nhật được.
+
+Mặc dù hướng dẫn bằng web có thể sẽ chán hơn với một số người, nhưng nó rất dễ để cập nhật mà không bị rắc rối về sau này.
+
 ## Tại sao bạn lại làm cả hướng dẫn cho macOS và Linux?
 
 Hiện tại đã có nhiều người chuyển qua, hoặc có ý định chuyển qua dùng macOS với Linux, và hướng dẫn này có thể sẽ giúp những người đó chơi game Nobihaza mình yêu thích trên các hệ điều hành đó.
