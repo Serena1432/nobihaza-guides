@@ -37,7 +37,7 @@ Hiện tại hướng dẫn này chỉ hỗ trợ RPG Maker MV/MZ. Các engine k
 
 * Vào trang [hướng dẫn Cordova dành cho Android](https://cordova.apache.org/docs/en/12.x-2025.01/guide/platforms/android/index.html#android-api-level-support) để xem danh sách phiên bản `cordova-android`.
 
-* Hãy lựa chọn phiên bản `cordova-android` bạn muốn cài đặt. Mình khuyên dùng bản mới nhất (`13.0.x` tính đến ngày 1/8/2025) nếu bạn không quan tâm đến việc hỗ trợ bản Android thấp, hoặc bản `11.0.x` nếu bạn muốn game hỗ trợ cho cả Android 5.1.
+* Hãy lựa chọn phiên bản `cordova-android` bạn muốn cài đặt. Mình khuyên dùng bản mới nhất (`14.0.x` tính đến ngày 1/8/2025) nếu bạn không quan tâm đến việc hỗ trợ bản Android thấp, hoặc bản `11.0.x` nếu bạn muốn game hỗ trợ cho cả Android 5.1.
 
 * Sau khi đã chọn phiên bản Android, hãy chuyển qua cột **Library & Tooling Version**. Bạn sẽ thấy phiên bản JDK cần cài đặt cho phiên bản `cordova-android` bạn đã chọn.
 
@@ -402,7 +402,6 @@ Nếu có lỗi xảy ra khi chơi trên web, bạn cần phải tự sửa cho 
 </ul>
 <pre><code class="lang-sh">curl -<span class="hljs-keyword">o</span>- http<span class="hljs-variable">s:</span>//raw.githubusercontent.<span class="hljs-keyword">com</span>/nvm-<span class="hljs-keyword">sh</span>/nvm/v0.<span class="hljs-number">40.3</span>/install.<span class="hljs-keyword">sh</span> | bash
 </code></pre>
-<p>{: .note }</p>
 <blockquote>
 <p>Nếu sau này nvm có phiên bản mới hơn, bạn hãy thay đổi <code>0.40.3</code> thành phiên bản đó, hoặc bạn có thể đọc hướng dẫn trên <a href="https://github.com/nvm-sh/nvm">trang GitHub chính thức của nvm</a>.</p>
 </blockquote>

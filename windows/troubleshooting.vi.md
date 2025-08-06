@@ -207,7 +207,7 @@ Không còn cách nào khác, bạn bắt buộc phải liên hệ với nhà ph
 
 ![44](images/image-43.png)
 
-Bạn đã xoá nhầm tệp tin `Game.rgss3a` hoặc thư mục `Data` của game, hãy giải nén lại tệp tin nén của game và thử lại.
+Bạn đã xoá nhầm tệp tin `Game.rgssad` / `Game.rgss2a` / `Game.rgss3a` hoặc thư mục `Data` của game, hãy giải nén lại tệp tin nén của game và thử lại.
 
 ### Unable to find file / No such file or directory
 

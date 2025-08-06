@@ -7,9 +7,6 @@ nav_order: 0
 toc: true
 ---
 
-{: .note }
-> Website này vẫn chưa hoàn thiện.
-
 <div style="text-align: center">
     <img src="images/banner.png" style="width: 100%; max-width: 600px; height: auto" />
 </div>
@@ -35,6 +32,7 @@ toc: true
 * **[Câu hỏi thường gặp](faq)**<br>Các câu hỏi thường gặp khi chơi game Nobihaza.
 * **[Tình trạng hỗ trợ](status)**<br>Tình trạng hỗ trợ chơi game Nobihaza của từng hệ điều hành.
 * **[Hướng dẫn chơi cơ bản](basic)**<br>Hướng dẫn chơi game Nobihaza cơ bản cho người mới bắt đầu.
+* **[Sửa các lỗi khác](miscellaneous)**<br>Sửa một số lỗi khác có thể gặp, áp dụng cho mọi hệ điều hành.
 
 ## Những người thực hiện
 
@@ -45,6 +43,10 @@ Ngoài Serena1432 ra, thì website này sẽ không thể thực hiện nếu kh
 * **Một số thành viên khác trong Cộng đồng Nobihaza Việt Nam**<br>Mình có sử dụng một số ảnh chứa thông tin lỗi của một số thành viên trong nhóm Facebook **Cộng đồng Nobihaza Việt Nam** và Discord **NobiRE Community** nhưng mình không nhớ rõ tên.
 
 Cảm ơn các bạn vì đã đóng góp cho hướng dẫn này!
+
+## Giấy phép
+
+Website này và nội dung của nó sử dụng giấy phép **Creative Commons Zero v1.0 Universal**. Xem tệp tin [LICENSE](https://github.com/Serena1432/nobihaza-guides/blob/main/LICENSE) của mã nguồn để xem thêm thông tin.
 
 ## Đóng góp
 
