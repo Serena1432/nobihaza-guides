@@ -130,7 +130,7 @@ Unfortunately, only EasyRPG (which runs RPG Maker 2000/2003 games) can be played
 
 If the game you want to play supports it.
 
-## Why did I make a website instead of a video?
+## Why did you make a guide website instead of a video?
 
 Guides can change in the future, and I can't re-upload a video every time there's an update.
 
