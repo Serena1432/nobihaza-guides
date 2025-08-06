@@ -1,7 +1,6 @@
 <div style="text-align: center">
     <img src="images/banner.png" style="width: 100%; max-width: 600px; height: auto" />
 </div>
-
 This is the website source code of Nobihaza Guides for the Nobihaza Vietnam Community, which is an ultimate and detailed guide to install, play and troubleshoot Nobihaza (or any RPG Maker games).
 
 The website supports both English and Vietnamese.
