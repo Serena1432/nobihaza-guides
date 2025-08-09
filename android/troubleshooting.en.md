@@ -167,6 +167,8 @@ You need to [allow RPG Maker Plugin for JoiPlay to access to all files](#allow-a
 
 Some people say that this error often occurs on Xiaomi phones, but I don't yet know how to completely fix it.
 
+I don't really know. My Xiaomi phone with HyperOS 2.0.10 never gets this error. And it seems like this error is also rare.
+
 * Try downloading and extracting the game again.
 
 * Try downloading and installing the latest JoiPlay and RPG Maker Plugin for JoiPlay version.

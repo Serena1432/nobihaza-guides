@@ -173,6 +173,8 @@ Bạn cần [cho phép RPG Maker Plugin cho JoiPlay truy cập vào tất cả c
 
 Có một số người nói rằng lỗi này thường xảy ra ở các máy điện thoại Xiaomi, nhưng mình chưa biết sửa triệt để lỗi này như thế nào.
 
+Mình không biết. Máy Xiaomi của mình với HyperOS 2.0.10 không bị lỗi này. Và có vẻ như lỗi này cũng hiếm gặp.
+
 * Hãy thử giải nén lại game và thử lại.
 
 * Hãy thử tải phiên bản JoiPlay và RPG Maker Plugin for JoiPlay mới nhất.
