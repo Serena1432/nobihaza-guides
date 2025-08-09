@@ -136,6 +136,9 @@ Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
 
     ![](images/image-78.png)
 
+{: .note }
+> Với HyperOS, bạn cần nhấn vào mục **Quyền hạn khác** sau khi nhấn vào mục **Quyền hạn**.
+
 ### Không thể giải nén gói thời gian chạy
 
 ![](images/image-14.png)

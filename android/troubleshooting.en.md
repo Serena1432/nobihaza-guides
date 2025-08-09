@@ -134,7 +134,7 @@ See the [EasyRPG](../../miscellaneous/easyrpg) section.
 
     ![](images/image-78.png)
 
-> [!NOTE]
+{: .note }
 > With HyperOS, you need to also click **Other permissions** when going to the **Permissions** section.
 
 ### Cannot extract runtime package
