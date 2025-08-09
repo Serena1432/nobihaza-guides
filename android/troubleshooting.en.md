@@ -155,13 +155,21 @@ This is just a notification that the gaming experience might be slower due to li
 
 * If you saved the game to an SD card, check if your phone can still detect the SD card.
 
+### `Checking plugin configuration` error
+
+![](images/Screenshot_2025-08-09-12-17-30-658_com.lbe.security.miui.jpg)
+
+You need to [allow RPG Maker Plugin for JoiPlay to access to all files](#allow-all-files-access-permission), and make sure to grant it the photos and videos + music and audio access permissions.
+
 ### `解決?` / `解?`
 
 ![](images/image-12.png)
 
 Some people say that this error often occurs on Xiaomi phones, but I don't yet know how to completely fix it.
 
-Try re-extracting the game and trying again. If it still doesn't work, the game version you are playing may not be compatible with JoiPlay; please try a different game version.
+* Try downloading and extracting the game again.
+
+* Try downloading and installing the latest JoiPlay and RPG Maker Plugin for JoiPlay version.
 
 ### `No game scripts specified (missing Game.ini?)`
 

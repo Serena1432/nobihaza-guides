@@ -161,13 +161,21 @@ Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
 
 * Nếu bạn lưu game vào thẻ nhớ, hãy kiểm tra xem điện thoại của bạn còn nhận diện được thẻ nhớ không.
 
+### Lỗi `Đang kiểm tra cấu hình plugin`
+
+![](images/Screenshot_2025-08-09-12-16-37-424_cyou.joiplay.runtime.rpgmaker.jpg)
+
+Bạn cần [cho phép RPG Maker Plugin cho JoiPlay truy cập vào tất cả các tệp](#cho-phép-quyền-truy-cập-tất-cả-các-tệp), và đảm bảo ứng dụng đó cũng có quyền truy cập vào toàn bộ ảnh và video + nhạc và âm thanh.
+
 ### `解決?` / `解?`
 
 ![](images/image-12.png)
 
 Có một số người nói rằng lỗi này thường xảy ra ở các máy điện thoại Xiaomi, nhưng mình chưa biết sửa triệt để lỗi này như thế nào.
 
-Hãy thử giải nén lại game và thử lại. Nếu vẫn không được thì có thể bản game bạn đang chơi không tương thích với JoiPlay, hãy thử với một bản game khác.
+* Hãy thử giải nén lại game và thử lại.
+
+* Hãy thử tải phiên bản JoiPlay và RPG Maker Plugin for JoiPlay mới nhất.
 
 ### `No game scripts specified (missing Game.ini?)
 
