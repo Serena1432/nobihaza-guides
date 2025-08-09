@@ -122,10 +122,20 @@ See the [EasyRPG](../../miscellaneous/easyrpg) section.
 
 * Make sure that both JoiPlay and the RPG Maker Plugin are on the latest version.
 
-* Some devices (especially Xiaomi devices using MIUI/HyperOS) do not allow JoiPlay to read the list of applications on the phone, so it cannot find the installed RPG Maker Plugin.<br>Since I don't have a Xiaomi device at the moment, there won't be an illustrative image. I can only recall the steps.
+* Some devices (especially Xiaomi devices using MIUI/HyperOS) do not allow JoiPlay to read the list of applications on the phone, so it cannot find the installed RPG Maker Plugin.
     * Go to your phone's **Settings** and tap on the **Apps** section. Select the **JoiPlay** application from the list.
     * Tap on the **Permissions** section.
-    * Find the **Device app list** permission and change it to **Always allow**. Then restart JoiPlay.
+
+    ![](images/image-76.png)
+
+    * Find the **Access list of installed apps** permission and change it to **Always allow**. Then restart JoiPlay.
+
+    ![](images/image-77.png)
+
+    ![](images/image-78.png)
+
+> [!NOTE]
+> With HyperOS, you need to also click **Other permissions** when going to the **Permissions** section.
 
 ### Cannot extract runtime package
 

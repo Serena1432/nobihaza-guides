@@ -124,10 +124,17 @@ Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
 
 * Bạn hãy đảm bảo là cả JoiPlay và RPG Maker Plugin đều đang ở phiên bản mới nhất.
 
-* Có một số máy (đặc biệt là Xiaomi đang sử dụng MIUI/HyperOS) không cho phép JoiPlay đọc danh sách ứng dụng trên điện thoại, nên nó không thể tìm thấy được RPG Maker Plugin đã cài đặt.<br>Do hiện tại mình không có máy Xiaomi nào nên sẽ không có ảnh minh họa. Mình chỉ nhớ được thao tác của nó thôi.
+* Có một số máy (đặc biệt là Xiaomi đang sử dụng MIUI/HyperOS) không cho phép JoiPlay đọc danh sách ứng dụng trên điện thoại, nên nó không thể tìm thấy được RPG Maker Plugin đã cài đặt.
     * Vào **Cài đặt** của điện thoại và nhấn vào mục **Ứng dụng**. Chọn ứng dụng **JoiPlay** trong danh sách.
     * Nhấn vào mục **Quyền hạn**.
-    * Tìm mục **Hiển thị danh sách ứng dụng** và thay đổi thành **Luôn cho phép**. Sau đó khởi động lại JoiPlay.
+
+    ![](images/image-76.png)
+
+    * Tìm mục **Truy cập danh sách ứng dụng đã cài đặt** và thay đổi thành **Luôn cho phép**. Sau đó khởi động lại JoiPlay.
+
+    ![](images/image-77.png)
+
+    ![](images/image-78.png)
 
 ### Không thể giải nén gói thời gian chạy
 
