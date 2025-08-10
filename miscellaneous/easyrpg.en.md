@@ -128,3 +128,11 @@ Restart the game and you will notice the sound quality of the game changes when 
 ![](images/image-15.png)
 
 * Exit the settings interface and press the **Save settings** button, then restart the game.
+
+### The language selection menu displays the contents of the game folder instead of the desired language
+
+![](images/image-22.png)
+
+* Try renaming the `languages` folder in the game folder to `language` (or vice versa) and restart the game.
+
+* If the error still occurs, try re-extracting your game.

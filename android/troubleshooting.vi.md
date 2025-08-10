@@ -171,13 +171,13 @@ Bạn cần [cho phép RPG Maker Plugin cho JoiPlay truy cập vào tất cả c
 
 ![](images/image-12.png)
 
-Có một số người nói rằng lỗi này thường xảy ra ở các máy điện thoại Xiaomi, nhưng mình chưa biết sửa triệt để lỗi này như thế nào.
-
-Mình không biết. Máy Xiaomi của mình với HyperOS 2.0.10 không bị lỗi này. Và có vẻ như lỗi này cũng hiếm gặp.
+Lỗi này cũng khá giống với lỗi **Script error**, nhưng lỗi xảy ra từ chính JoiPlay chứ không phải MKXP - công cụ hỗ trợ chạy game RPG Maker - nên thông tin lỗi sẽ không được rõ ràng.
 
 * Hãy thử giải nén lại game và thử lại.
 
 * Hãy thử tải phiên bản JoiPlay và RPG Maker Plugin for JoiPlay mới nhất.
+
+Nếu không được, game có thể sẽ không tương thích hoàn toàn với JoiPlay, và nhà phát triển sẽ là lựa chọn cuối cùng của bạn.
 
 ### `No game scripts specified (missing Game.ini?)
 

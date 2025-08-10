@@ -138,3 +138,11 @@ Khởi động lại game và bạn sẽ thấy chất âm của game khi phát 
 ![](images/image-15.png)
 
 * Thoát giao diện cài đặt và nhấn nút **Lưu cài đặt**, sau đó khởi động lại game.
+
+### Bảng chọn ngôn ngữ hiển thị nội dung trong thư mục game thay vì ngôn ngữ tiếng Việt
+
+![](images/image-22.png)
+
+* Hãy đổi tên thư mục `languages` trong thư mục game thành `language` (hoặc ngược lại) và khởi động lại game.
+
+* Nếu lỗi vẫn còn xảy ra, hãy thử giải nén lại game của bạn.

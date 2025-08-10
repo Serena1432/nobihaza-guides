@@ -165,13 +165,13 @@ You need to [allow RPG Maker Plugin for JoiPlay to access to all files](#allow-a
 
 ![](images/image-12.png)
 
-Some people say that this error often occurs on Xiaomi phones, but I don't yet know how to completely fix it.
+This error is also quite similar to the **Script error**, but the error comes from JoiPlay itself and not from MKXP - the support tool for running RPG Maker games - so the error information will not be clear.
 
-I don't really know. My Xiaomi phone with HyperOS 2.0.10 never gets this error. And it seems like this error is also rare.
+* Try re-extracting the game and try again.
 
-* Try downloading and extracting the game again.
+* Try downloading the latest version of JoiPlay and the RPG Maker Plugin for JoiPlay.
 
-* Try downloading and installing the latest JoiPlay and RPG Maker Plugin for JoiPlay version.
+If that doesn't work, the game may not be fully compatible with JoiPlay, and the developer will be your last resort.
 
 ### `No game scripts specified (missing Game.ini?)`
 
