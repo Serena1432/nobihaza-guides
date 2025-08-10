@@ -139,7 +139,7 @@ Khởi động lại game và bạn sẽ thấy chất âm của game khi phát 
 
 * Thoát giao diện cài đặt và nhấn nút **Lưu cài đặt**, sau đó khởi động lại game.
 
-### Bảng chọn ngôn ngữ hiển thị nội dung trong thư mục game thay vì ngôn ngữ tiếng Việt
+## Bảng chọn ngôn ngữ hiển thị nội dung trong thư mục game thay vì ngôn ngữ tiếng Việt
 
 ![](images/image-22.png)
 

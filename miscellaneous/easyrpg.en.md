@@ -129,7 +129,7 @@ Restart the game and you will notice the sound quality of the game changes when 
 
 * Exit the settings interface and press the **Save settings** button, then restart the game.
 
-### The language selection menu displays the contents of the game folder instead of the desired language
+## The language selection menu displays the contents of the game folder instead of the desired language
 
 ![](images/image-22.png)
 
