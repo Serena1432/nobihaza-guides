@@ -126,15 +126,15 @@ Xem tại mục [EasyRPG](../../miscellaneous/easyrpg).
 
 * Có một số máy (đặc biệt là Xiaomi đang sử dụng MIUI/HyperOS) không cho phép JoiPlay đọc danh sách ứng dụng trên điện thoại, nên nó không thể tìm thấy được RPG Maker Plugin đã cài đặt.
     * Vào **Cài đặt** của điện thoại và nhấn vào mục **Ứng dụng**. Chọn ứng dụng **JoiPlay** trong danh sách.
-    * Nhấn vào mục **Quyền hạn**.
+    * Nhấn vào mục **Quyền**.
 
-    ![](images/image-76.png)
+    ![](images/image-79.png)
 
-    * Tìm mục **Truy cập danh sách ứng dụng đã cài đặt** và thay đổi thành **Luôn cho phép**. Sau đó khởi động lại JoiPlay.
+    * Tìm mục **Nhận thông tin về ứng dụng đã cài đặt** và thay đổi thành **Luôn cho phép**. Sau đó khởi động lại JoiPlay.
 
-    ![](images/image-77.png)
+    ![](images/image-80.png)
 
-    ![](images/image-78.png)
+    ![](images/Screenshot_2025-08-18-15-44-10-034-edit_com.miui.securitycenter.jpg)
 
 {: .note }
 > Với HyperOS, bạn cần nhấn vào mục **Quyền hạn khác** sau khi nhấn vào mục **Quyền hạn**.
