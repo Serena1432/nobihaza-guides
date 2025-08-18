@@ -179,7 +179,7 @@ Lỗi này cũng khá giống với lỗi **Script error**, nhưng lỗi xảy r
 
 Nếu không được, game có thể sẽ không tương thích hoàn toàn với JoiPlay, và nhà phát triển sẽ là lựa chọn cuối cùng của bạn.
 
-### `No game scripts specified (missing Game.ini?)
+### `No game scripts specified (missing Game.ini?)`
 
 ![](images/image-13.png)
 
